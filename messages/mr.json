@@ -1,0 +1,55 @@
+{
+    "common":  {
+                   "openFinder":  "Open complaint finder",
+                   "learn":  "Read procedure guides",
+                   "tagline":  "Find the Right Authority. Resolve with Confidence.",
+                   "start":  "Start complaint finder",
+                   "independent":  "Independent citizen assistance platform. Not affiliated with any government department.",
+                   "brand":  "CitizenDesk India"
+               },
+    "home":  {
+                 "categoriesTitle":  "Start with the right forum, not guesswork.",
+                 "heroTitle":  "Find the right authority before you file a complaint.",
+                 "faqTitle":  "Straight answers before you start.",
+                 "featuresTitle":  "Built for citizens who need clarity before action.",
+                 "eyebrow":  "Citizen assistance in मराठी",
+                 "heroText":  "CitizenDesk India helps you identify the right authority, understand the process, and prepare your next step with confidence.",
+                 "ctaTitle":  "Find the right complaint path before you file.",
+                 "trustedBy":  "Built for citizens across India who need clear grievance guidance.",
+                 "featuresText":  "Plain language, responsible escalation, and official-process awareness for better complaint readiness.",
+                 "howTitle":  "A calmer complaint process, step by step.",
+                 "ctaText":  "Start with the issue category and build from there: authority, procedure, draft structure, and escalation readiness.",
+                 "categoriesText":  "Common grievance paths grouped around real citizen problems and the authorities that usually handle them."
+             },
+    "footer":  {
+                   "company":  "Company",
+                   "legal":  "Legal",
+                   "resources":  "Resources",
+                   "rights":  "All rights reserved.",
+                   "built":  "Built for clarity, trust, and responsible citizen action.",
+                   "platform":  "Platform"
+               },
+    "pages":  {
+                  "privacyTitle":  "Privacy Policy",
+                  "contactText":  "Reach out for partnerships, corrections, feedback, or support queries about the platform.",
+                  "aboutTitle":  "About CitizenDesk India",
+                  "contactTitle":  "Contact CitizenDesk India",
+                  "finderText":  "Choose a category to understand the likely authority, first step, and escalation path. This version is rule-based and does not use AI yet.",
+                  "notFoundTitle":  "Page not found",
+                  "aboutText":  "We are building a citizen-first platform that makes grievance processes easier to understand.",
+                  "guidesTitle":  "Guides",
+                  "termsTitle":  "Terms and Conditions",
+                  "guidesText":  "Plain-language guides for Indian citizens navigating grievance systems, rights, and public procedures.",
+                  "finderTitle":  "Complaint Finder",
+                  "notFoundText":  "The page you are looking for may have moved or is not available yet."
+              },
+    "nav":  {
+                "about":  "About",
+                "contact":  "Contact",
+                "theme":  "Theme",
+                "findAuthority":  "Find authority",
+                "guides":  "Guides",
+                "language":  "मराठी",
+                "complaintFinder":  "Complaint Finder"
+            }
+}

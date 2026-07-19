@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "complaintFinder": "Complaint Finder",
+    "guides": "Guides",
+    "about": "About",
+    "contact": "Contact",
+    "findAuthority": "Find authority",
+    "theme": "Theme",
+    "language": "Language"
+  },
+  "common": {
+    "brand": "CitizenDesk India",
+    "tagline": "Find the Right Authority. Resolve with Confidence.",
+    "start": "Start complaint finder",
+    "learn": "Read procedure guides",
+    "openFinder": "Open complaint finder",
+    "independent": "Independent citizen assistance platform. Not affiliated with any government department."
+  },
+  "home": {
+    "eyebrow": "Independent citizen assistance for India",
+    "heroTitle": "Find the right authority before you file a complaint.",
+    "heroText": "Navigate complaint procedures with calm, evidence-backed guidance. CitizenDesk India helps you identify the right authority and prepare your next step with confidence.",
+    "trustedBy": "Built for citizens, students, professionals, families, and small businesses who need clear grievance guidance.",
+    "categoriesTitle": "Start with the right forum, not guesswork.",
+    "categoriesText": "Common grievance paths grouped around real citizen problems and the authorities that usually handle them.",
+    "howTitle": "A calmer complaint process, step by step.",
+    "featuresTitle": "Built for citizens who need clarity before action.",
+    "featuresText": "CitizenDesk India prioritizes plain language, responsible escalation, and official-process awareness so users can move with confidence instead of frustration.",
+    "faqTitle": "Straight answers before you start.",
+    "ctaTitle": "Find the right complaint path before you file.",
+    "ctaText": "Start with the issue category and build from there: authority, procedure, draft structure, and escalation readiness."
+  },
+  "pages": {
+    "aboutTitle": "About CitizenDesk India",
+    "aboutText": "We are building a citizen-first platform that makes grievance processes easier to understand without pretending to be a government department or legal adviser.",
+    "contactTitle": "Contact CitizenDesk India",
+    "contactText": "Reach out for partnerships, corrections, feedback, or support queries about the platform.",
+    "finderTitle": "Complaint Finder",
+    "finderText": "Choose a category to understand the likely authority, first step, and escalation path. This version is rule-based and does not use AI yet.",
+    "guidesTitle": "Guides",
+    "guidesText": "Plain-language guides for Indian citizens navigating grievance systems, rights, and public procedures.",
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms and Conditions",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for may have moved or is not available yet."
+  },
+  "footer": {
+    "platform": "Platform",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "rights": "All rights reserved.",
+    "built": "Built for clarity, trust, and responsible citizen action."
+  }
+}

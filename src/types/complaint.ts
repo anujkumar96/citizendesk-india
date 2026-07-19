@@ -24,4 +24,3 @@ export type PlatformStatistic = {
   value: string;
   label: string;
 };
-

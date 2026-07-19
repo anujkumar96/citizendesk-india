@@ -52,6 +52,7 @@
   --input: #cbd5e1;
   --ring: #2563eb;
   --font-sans: Arial, Helvetica, sans-serif;
+  color-scheme: light;
 }
 
 .dark {
@@ -73,22 +74,12 @@
   --border: rgb(255 255 255 / 0.12);
   --input: rgb(255 255 255 / 0.18);
   --ring: #60a5fa;
+  color-scheme: dark;
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-
-  html {
-    @apply font-sans;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-
-  ::selection {
-    @apply bg-blue-600 text-white;
-  }
+  * { @apply border-border outline-ring/50; }
+  html { @apply font-sans; }
+  body { @apply bg-background text-foreground; }
+  ::selection { @apply bg-blue-600 text-white; }
 }

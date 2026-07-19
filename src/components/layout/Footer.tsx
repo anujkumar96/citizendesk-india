@@ -1,36 +1,40 @@
-﻿import Link from "next/link";
+﻿import { ShieldCheck } from "lucide-react";
+import { useTranslations } from "next-intl";
 
-import { siteConfig } from "@/src/config/site";
 import { footerNavigation } from "@/src/constants/navigation";
+import { Link } from "@/src/i18n/navigation";
 
-const navigationGroups = [
-  ["Platform", footerNavigation.platform],
-  ["Company", footerNavigation.company],
-  ["Resources", footerNavigation.resources],
+const groups = [
+  ["platform", footerNavigation.platform],
+  ["company", footerNavigation.company],
+  ["legal", footerNavigation.legal],
 ] as const;
 
 export function Footer() {
+  const t = useTranslations("footer");
+  const common = useTranslations("common");
+
   return (
-    <footer className="border-t border-slate-200 bg-white" aria-labelledby="footer-heading">
+    <footer className="border-t border-slate-200 bg-white dark:border-white/10 dark:bg-slate-950" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">Footer</h2>
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.2fr_2fr] lg:px-8 lg:py-16">
         <div>
-          <Link href="/" className="inline-flex items-center gap-3 rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600" aria-label={`${siteConfig.name} home`}>
-            <span className="flex size-10 items-center justify-center rounded-lg bg-blue-600 text-sm font-bold text-white">CD</span>
-            <span className="font-semibold tracking-tight text-slate-950">{siteConfig.name}</span>
+          <Link href="/" className="inline-flex items-center gap-3 rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600" aria-label={`${common("brand")} home`}>
+            <span className="flex size-10 items-center justify-center rounded-lg bg-blue-600 text-white"><ShieldCheck className="size-5" aria-hidden="true" /></span>
+            <span className="font-semibold tracking-normal text-slate-950 dark:text-white">{common("brand")}</span>
           </Link>
-          <p className="mt-4 max-w-md text-sm leading-6 text-slate-600">{siteConfig.description}</p>
-          <p className="mt-4 text-xs leading-5 text-slate-500">Independent citizen assistance platform. Not affiliated with any government department.</p>
+          <p className="mt-4 max-w-md text-sm leading-6 text-slate-600 dark:text-slate-300">{common("tagline")}</p>
+          <p className="mt-4 text-xs leading-5 text-slate-500 dark:text-slate-400">{common("independent")}</p>
         </div>
 
         <div className="grid gap-8 sm:grid-cols-3">
-          {navigationGroups.map(([title, links]) => (
+          {groups.map(([title, links]) => (
             <div key={title}>
-              <h3 className="text-sm font-semibold text-slate-950">{title}</h3>
-              <ul className="mt-4 space-y-3" aria-label={`${title} links`}>
+              <h3 className="text-sm font-semibold text-slate-950 dark:text-white">{t(title)}</h3>
+              <ul className="mt-4 space-y-3" aria-label={`${t(title)} links`}>
                 {links.map((link) => (
                   <li key={link.href}>
-                    <Link href={link.href} className="text-sm text-slate-600 transition hover:text-blue-700 focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+                    <Link href={link.href} className="text-sm text-slate-600 transition hover:text-blue-700 focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 dark:text-slate-300 dark:hover:text-blue-300">
                       {link.label}
                     </Link>
                   </li>
@@ -40,13 +44,12 @@ export function Footer() {
           ))}
         </div>
       </div>
-      <div className="border-t border-slate-200">
-        <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-          <p>© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
-          <p>Built for clarity, trust, and responsible citizen action.</p>
+      <div className="border-t border-slate-200 dark:border-white/10">
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 py-6 text-xs text-slate-500 dark:text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+          <p>© {new Date().getFullYear()} {common("brand")}. {t("rights")}</p>
+          <p>{t("built")}</p>
         </div>
       </div>
     </footer>
   );
 }
-
