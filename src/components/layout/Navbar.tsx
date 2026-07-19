@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowRight, Search } from "lucide-react";
 
 import { siteConfig } from "@/src/config/site";
@@ -34,3 +34,4 @@ export function Navbar() {
     </header>
   );
 }
+

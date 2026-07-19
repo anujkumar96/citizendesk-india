@@ -1,4 +1,4 @@
-import { homepageFaq } from "@/src/data/faq";
+﻿import { homepageFaq } from "@/src/data/faq";
 
 export function FAQ() {
   return (
@@ -27,3 +27,4 @@ export function FAQ() {
     </section>
   );
 }
+

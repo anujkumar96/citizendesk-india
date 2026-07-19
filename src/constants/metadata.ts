@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 import { siteConfig } from "@/src/config/site";
 
@@ -94,3 +94,4 @@ export function createPageMetadata({
     },
   };
 }
+

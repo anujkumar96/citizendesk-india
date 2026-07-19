@@ -1,4 +1,4 @@
-export const siteConfig = {
+﻿export const siteConfig = {
   name: "CitizenDesk India",
   shortName: "CitizenDesk",
   tagline: "Find the Right Authority. Resolve with Confidence.",
@@ -16,3 +16,4 @@ export const siteConfig = {
 } as const;
 
 export type SiteConfig = typeof siteConfig;
+

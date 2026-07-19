@@ -1,4 +1,4 @@
-import {
+﻿import {
   Banknote,
   Building2,
   FileQuestion,
@@ -131,3 +131,4 @@ export const platformStatistics: PlatformStatistic[] = [
   { value: "95+", label: "target Lighthouse score" },
   { value: "24/7", label: "self-serve guidance" },
 ];
+

@@ -1,4 +1,4 @@
-export const mainNavigation = [
+﻿export const mainNavigation = [
   { label: "Complaint Finder", href: "/complaint-finder" },
   { label: "Guides", href: "/blog" },
   { label: "About", href: "/about" },
@@ -21,3 +21,4 @@ export const footerNavigation = {
     { label: "RTI Basics", href: "/blog/rti-application-guide" },
   ],
 } as const;
+

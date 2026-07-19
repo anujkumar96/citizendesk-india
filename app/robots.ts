@@ -1,4 +1,4 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 
 import { siteConfig } from "@/src/config/site";
 
@@ -12,3 +12,4 @@ export default function robots(): MetadataRoute.Robots {
     host: siteConfig.url,
   };
 }
+

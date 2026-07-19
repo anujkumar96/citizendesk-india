@@ -1,4 +1,4 @@
-import { siteConfig } from "@/src/config/site";
+﻿import { siteConfig } from "@/src/config/site";
 import { absoluteUrl } from "@/src/constants/metadata";
 import { homepageFaq } from "@/src/data/faq";
 
@@ -64,3 +64,4 @@ export const homepageBreadcrumbSchema = {
     },
   ],
 };
+

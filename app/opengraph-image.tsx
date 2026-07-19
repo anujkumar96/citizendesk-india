@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+﻿import { ImageResponse } from "next/og";
 
 import { siteConfig } from "@/src/config/site";
 
@@ -73,3 +73,4 @@ export default function Image() {
     size
   );
 }
+

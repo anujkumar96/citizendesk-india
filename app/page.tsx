@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 import { CTA } from "@/src/components/home/CTA";
 import { CategoryGrid } from "@/src/components/home/CategoryGrid";
@@ -33,3 +33,4 @@ export default function Home() {
     </>
   );
 }
+

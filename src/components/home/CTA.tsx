@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export function CTA() {
@@ -19,3 +19,4 @@ export function CTA() {
     </section>
   );
 }
+

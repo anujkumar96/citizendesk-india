@@ -1,4 +1,4 @@
-export const homepageFaq = [
+﻿export const homepageFaq = [
   {
     question: "What does CitizenDesk India help me do?",
     answer:
@@ -25,3 +25,4 @@ export const homepageFaq = [
       "Privacy is a core product principle. The public website does not require personal complaint details, and future assisted workflows should collect only what is necessary for the user's task.",
   },
 ] as const;
+

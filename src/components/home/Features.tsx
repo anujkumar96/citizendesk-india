@@ -1,4 +1,4 @@
-import { platformFeatures, platformStatistics } from "@/src/data/complaints";
+﻿import { platformFeatures, platformStatistics } from "@/src/data/complaints";
 
 export function Features() {
   return (
@@ -35,3 +35,4 @@ export function Features() {
     </section>
   );
 }
+

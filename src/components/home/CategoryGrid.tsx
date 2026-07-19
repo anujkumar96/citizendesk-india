@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { complaintCategories } from "@/src/data/complaints";
@@ -35,3 +35,4 @@ export function CategoryGrid() {
     </section>
   );
 }
+

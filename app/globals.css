@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -51,6 +51,7 @@
   --border: #e2e8f0;
   --input: #cbd5e1;
   --ring: #2563eb;
+  --font-sans: Arial, Helvetica, sans-serif;
 }
 
 .dark {

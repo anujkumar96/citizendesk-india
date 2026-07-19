@@ -1,4 +1,4 @@
-export type BlogPost = {
+﻿export type BlogPost = {
   slug: string;
   title: string;
   description: string;
@@ -7,3 +7,4 @@ export type BlogPost = {
   category: string;
   readingTime: string;
 };
+

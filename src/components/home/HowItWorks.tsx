@@ -1,4 +1,4 @@
-import { processSteps } from "@/src/data/complaints";
+﻿import { processSteps } from "@/src/data/complaints";
 
 export function HowItWorks() {
   return (
@@ -21,3 +21,4 @@ export function HowItWorks() {
     </section>
   );
 }
+
