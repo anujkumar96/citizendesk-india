@@ -2,4 +2,5 @@
 
 import { routing } from "@/src/i18n/routing";
 
-export const { Link, redirect, usePathname, useRouter, getPathname } = createNavigation(routing);
+export const { Link, redirect, usePathname, useRouter, getPathname } =
+  createNavigation(routing);

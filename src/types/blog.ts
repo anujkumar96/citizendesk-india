@@ -7,4 +7,3 @@
   category: string;
   readingTime: string;
 };
-
