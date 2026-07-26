@@ -35,7 +35,7 @@ export function Features() {
             {platformStatistics.map((value, index) => (
               <PremiumCard key={value} className="p-5">
                 <dt className="text-sm text-slate-600 dark:text-slate-300">
-                  {stats(`items.${index}`)}
+                  {stats(`items.${index}.title`)}
                 </dt>
                 <dd className="mt-2 bg-gradient-to-r from-blue-700 to-cyan-500 bg-clip-text text-3xl font-semibold text-transparent dark:from-blue-300 dark:to-cyan-200">
                   {value}

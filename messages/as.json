@@ -1,55 +1,237 @@
 {
-  "common": {
-    "openFinder": "Open complaint finder",
-    "learn": "Read procedure guides",
-    "tagline": "Find the Right Authority. Resolve with Confidence.",
-    "start": "Start complaint finder",
-    "independent": "Independent citizen assistance platform. Not affiliated with any government department.",
-    "brand": "CitizenDesk India"
-  },
-  "home": {
-    "categoriesTitle": "Start with the right forum, not guesswork.",
-    "heroTitle": "Find the right authority before you file a complaint.",
-    "faqTitle": "Straight answers before you start.",
-    "featuresTitle": "Built for citizens who need clarity before action.",
-    "eyebrow": "Citizen assistance in অসমীয়া",
-    "heroText": "CitizenDesk India helps you identify the right authority, understand the process, and prepare your next step with confidence.",
-    "ctaTitle": "Find the right complaint path before you file.",
-    "trustedBy": "Built for citizens across India who need clear grievance guidance.",
-    "featuresText": "Plain language, responsible escalation, and official-process awareness for better complaint readiness.",
-    "howTitle": "A calmer complaint process, step by step.",
-    "ctaText": "Start with the issue category and build from there: authority, procedure, draft structure, and escalation readiness.",
-    "categoriesText": "Common grievance paths grouped around real citizen problems and the authorities that usually handle them."
-  },
-  "footer": {
-    "company": "Company",
-    "legal": "Legal",
-    "resources": "Resources",
-    "rights": "All rights reserved.",
-    "built": "Built for clarity, trust, and responsible citizen action.",
-    "platform": "Platform"
-  },
-  "pages": {
-    "privacyTitle": "Privacy Policy",
-    "contactText": "Reach out for partnerships, corrections, feedback, or support queries about the platform.",
-    "aboutTitle": "About CitizenDesk India",
-    "contactTitle": "Contact CitizenDesk India",
-    "finderText": "Choose a category to understand the likely authority, first step, and escalation path. This version is rule-based and does not use AI yet.",
-    "notFoundTitle": "Page not found",
-    "aboutText": "We are building a citizen-first platform that makes grievance processes easier to understand.",
-    "guidesTitle": "Guides",
-    "termsTitle": "Terms and Conditions",
-    "guidesText": "Plain-language guides for Indian citizens navigating grievance systems, rights, and public procedures.",
-    "finderTitle": "Complaint Finder",
-    "notFoundText": "The page you are looking for may have moved or is not available yet."
-  },
   "nav": {
+    "complaintFinder": "Complaint Finder",
+    "guides": "Guides",
     "about": "About",
     "contact": "Contact",
+    "findAuthority": "Find Authority",
     "theme": "Theme",
-    "findAuthority": "Find authority",
-    "guides": "Guides",
-    "language": "অসমীয়া",
-    "complaintFinder": "Complaint Finder"
+    "language": "Language"
+  },
+
+  "common": {
+    "brand": "CitizenDesk India",
+    "tagline": "Find the Right Authority. Resolve with Confidence.",
+    "start": "Start Complaint Finder",
+    "learn": "Read Procedure Guides",
+    "openFinder": "Open Complaint Finder",
+    "independent": "Independent citizen assistance platform. Not affiliated with any government department."
+  },
+
+  "home": {
+    "eyebrow": "Independent citizen assistance for India",
+    "heroTitle": "Find the right authority before you file a complaint.",
+    "heroText": "Navigate complaint procedures with calm, evidence-backed guidance. CitizenDesk India helps you identify the right authority and prepare your next step with confidence.",
+    "trustedBy": "Built for citizens, students, professionals, families and small businesses.",
+
+    "categoriesEyebrow": "Supported Authorities",
+    "categoriesTitle": "Start with the right forum, not guesswork.",
+    "categoriesText": "Common grievance paths grouped around real citizen problems and the authorities that usually handle them.",
+
+    "howEyebrow": "How it works",
+    "howTitle": "A calmer complaint process, step by step.",
+
+    "featuresEyebrow": "Why CitizenDesk India",
+    "featuresTitle": "Built for citizens who need clarity before action.",
+    "featuresText": "CitizenDesk India simplifies complex grievance procedures into understandable steps.",
+
+    "faqTitle": "Frequently Asked Questions",
+    "faqText": "Common questions about authorities, complaints and grievance procedures.",
+
+    "ctaTitle": "Find the right complaint path before you file.",
+    "ctaText": "Start with the issue category and build from there."
+  },
+
+  "process": {
+    "describe": {
+      "title": "Describe your issue",
+      "description": "Choose the complaint category that best matches your problem."
+    },
+    "authority": {
+      "title": "Find the correct authority",
+      "description": "We identify the government department or authority responsible for resolving your complaint."
+    },
+    "prepare": {
+      "title": "Prepare your complaint",
+      "description": "Know what documents and information are required before filing."
+    },
+    "track": {
+      "title": "Track and escalate",
+      "description": "Learn how to monitor your complaint and escalate it if necessary."
+    }
+  },
+
+  "categories": {
+    "consumer": {
+      "title": "Consumer Complaint",
+      "description": "Consumer goods and service disputes.",
+      "authority": "District Consumer Commission",
+      "timeframe": "30–90 Days"
+    },
+
+    "cpgrams": {
+      "title": "CPGRAMS",
+      "description": "Central Government grievance portal.",
+      "authority": "Concerned Government Department",
+      "timeframe": "30 Days"
+    },
+
+    "ingram": {
+      "title": "INGRAM",
+      "description": "National Consumer Helpline grievance system.",
+      "authority": "Department of Consumer Affairs",
+      "timeframe": "30 Days"
+    },
+
+    "rti": {
+      "title": "RTI",
+      "description": "Right to Information guidance.",
+      "authority": "Public Information Officer",
+      "timeframe": "30 Days"
+    },
+
+    "banking": {
+      "title": "Banking",
+      "description": "Banking and RBI Ombudsman complaints.",
+      "authority": "RBI Integrated Ombudsman",
+      "timeframe": "30 Days"
+    },
+
+    "insurance": {
+      "title": "Insurance",
+      "description": "Insurance policy and claim disputes.",
+      "authority": "Insurance Ombudsman",
+      "timeframe": "30-60 Days"
+    },
+
+    "railways": {
+      "title": "Railways",
+      "description": "Railway passenger complaints.",
+      "authority": "Rail Madad",
+      "timeframe": "7-30 Days"
+    },
+
+    "passport": {
+      "title": "Passport",
+      "description": "Passport services and document issues.",
+      "authority": "Passport Seva Kendra",
+      "timeframe": "30 Days"
+    },
+
+    "electricity": {
+      "title": "Electricity",
+      "description": "Power supply and billing complaints.",
+      "authority": "Electricity Distribution Company",
+      "timeframe": "15-30 Days"
+    },
+
+    "pension": {
+      "title": "Pension",
+      "description": "Pension and retirement benefit issues.",
+      "authority": "CPENGRAMS / Pension Department",
+      "timeframe": "30-60 Days"
+    },
+    "cta": "Explore",
+    "authority": "Authority",
+    "timeline": "Expected Timeline",
+    "learnMore": "Learn More"
+  },
+
+  "features": {
+    "mapping": {
+      "title": "Authority Mapping",
+      "description": "Know exactly which authority handles your grievance."
+    },
+    "procedure": {
+      "title": "Procedure Guidance",
+      "description": "Step-by-step guidance before filing your complaint."
+    },
+    "draft": {
+      "title": "Complaint Drafting",
+      "description": "Prepare better complaint drafts with structured guidance."
+    },
+    "learning": {
+      "title": "Knowledge Base",
+      "description": "Access guides, FAQs and official resources."
+    }
+  },
+
+  "stats": {
+    "items": {
+      "0": {
+        "title": "Complaint Categories",
+        "description": "Major grievance types"
+      },
+      "1": {
+        "title": "Authority Guides",
+        "description": "Official guidance documents"
+      },
+      "2": {
+        "title": "Indian Languages",
+        "description": "Multi-language support"
+      },
+      "3": {
+        "title": "Always Available",
+        "description": "24×7 access"
+      }
+    }
+  },
+
+  "faq": {
+    "help": {
+      "question": "Can CitizenDesk India help me choose the correct authority?",
+      "answer": "Yes. CitizenDesk India helps identify the authority most likely to resolve your complaint."
+    },
+    "government": {
+      "question": "Is CitizenDesk India a government website?",
+      "answer": "No. CitizenDesk India is an independent citizen guidance platform."
+    },
+    "file": {
+      "question": "Will CitizenDesk India file complaints for me?",
+      "answer": "No. We guide you through the official complaint process."
+    },
+    "categories": {
+      "question": "Which complaint categories are supported?",
+      "answer": "Consumer, Banking, Insurance, Passport, RTI, CPGRAMS, Railways, Electricity, Pension and more."
+    },
+    "privacy": {
+      "question": "Is my personal information stored?",
+      "answer": "No personal complaint information is stored unless you explicitly choose to save it."
+    }
+  },
+
+    "pages": {
+    "finderEyebrow": "Complaint Finder",
+    "finderTitle": "Complaint Finder",
+    "finderText": "Choose a complaint category to discover the right authority, filing process and escalation path.",
+
+    "guidesEyebrow": "Knowledge Base",
+    "guidesTitle": "Guides",
+    "guidesText": "Plain-language guides for Indian citizens navigating grievance systems.",
+    "readGuide": "Read Guide",
+
+    "aboutTitle": "About CitizenDesk India",
+    "aboutText": "CitizenDesk India simplifies complaint procedures by helping citizens identify the right authority and understand the official process.",
+
+    "contactTitle": "Contact CitizenDesk India",
+    "contactText": "Reach out for suggestions, partnerships or corrections.",
+
+    "privacyTitle": "Privacy Policy",
+    "privacyText": "Your privacy matters. We do not store complaint data unless explicitly requested.",
+
+    "termsTitle": "Terms & Conditions",
+    "termsText": "Read the terms governing the use of CitizenDesk India.",
+
+    "notFoundTitle": "Page Not Found",
+    "notFoundText": "The page you're looking for doesn't exist or has been moved."
+  },
+
+  "footer": {
+    "platform": "Platform",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "rights": "All Rights Reserved.",
+    "built": "Built for clarity, trust and responsible citizen action."
   }
 }

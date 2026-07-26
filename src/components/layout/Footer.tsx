@@ -13,6 +13,7 @@ const groups = [
 export function Footer() {
   const t = useTranslations("footer");
   const common = useTranslations("common");
+  const nav = useTranslations("nav");
 
   return (
     <footer
@@ -57,7 +58,7 @@ export function Footer() {
                       href={link.href}
                       className="text-sm text-slate-600 transition hover:text-blue-700 focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 dark:text-slate-300 dark:hover:text-blue-300"
                     >
-                      {link.label}
+                      {nav(link.label)}
                     </Link>
                   </li>
                 ))}

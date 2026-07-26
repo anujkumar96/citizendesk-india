@@ -1,55 +1,242 @@
-{
+{ "nav": {
+  "complaintFinder": "शिकायत खोजें",
+  "guides": "मार्गदर्शिकाएँ",
+  "about": "हमारे बारे में",
+  "contact": "संपर्क करें",
+  "findAuthority": "संबंधित प्राधिकरण खोजें",
+  "theme": "थीम",
+  "language": "भाषा",
+  "supportedAuthorities": "समर्थित प्राधिकरण",
+  "privacyTitle": "गोपनीयता नीति",
+  "termsTitle": "नियम एवं शर्तें",
+  "categoriesEyebrow": "समर्थित प्राधिकरण"
+
+},
+
   "common": {
-    "openFinder": "Open complaint finder",
-    "learn": "Read procedure guides",
-    "tagline": "Find the Right Authority. Resolve with Confidence.",
-    "start": "Start complaint finder",
-    "independent": "Independent citizen assistance platform. Not affiliated with any government department.",
-    "brand": "CitizenDesk India"
+    "brand": "CitizenDesk India",
+    "tagline": "सही प्राधिकरण चुनें। आत्मविश्वास के साथ शिकायत दर्ज करें।",
+    "start": "शिकायत खोज प्रारंभ करें",
+    "learn": "प्रक्रिया मार्गदर्शिका पढ़ें",
+    "openFinder": "शिकायत खोजें",
+    "independent": "यह एक स्वतंत्र नागरिक सहायता मंच है। इसका किसी भी सरकारी विभाग से प्रत्यक्ष संबंध नहीं है।"
   },
+
   "home": {
-    "categoriesTitle": "Start with the right forum, not guesswork.",
-    "heroTitle": "Find the right authority before you file a complaint.",
-    "faqTitle": "Straight answers before you start.",
-    "featuresTitle": "Built for citizens who need clarity before action.",
-    "eyebrow": "Citizen assistance in हिन्दी",
-    "heroText": "CitizenDesk India helps you identify the right authority, understand the process, and prepare your next step with confidence.",
-    "ctaTitle": "Find the right complaint path before you file.",
-    "trustedBy": "Built for citizens across India who need clear grievance guidance.",
-    "featuresText": "Plain language, responsible escalation, and official-process awareness for better complaint readiness.",
-    "howTitle": "A calmer complaint process, step by step.",
-    "ctaText": "Start with the issue category and build from there: authority, procedure, draft structure, and escalation readiness.",
-    "categoriesText": "Common grievance paths grouped around real citizen problems and the authorities that usually handle them."
+    "eyebrow": "भारत के नागरिकों के लिए स्वतंत्र शिकायत सहायता मंच",
+    "heroTitle": "शिकायत दर्ज करने से पहले सही प्राधिकरण चुनें।",
+    "heroText": "स्पष्ट और विश्वसनीय मार्गदर्शन के साथ सही शिकायत प्रक्रिया को समझें। CitizenDesk India आपकी समस्या के लिए उचित प्राधिकरण पहचानने और अगला कदम तय करने में सहायता करता है।",
+    "trustedBy": "नागरिकों, छात्रों, पेशेवरों, परिवारों और छोटे व्यवसायों के लिए उपयोगी।",
+
+    "categoriesEyebrow": "समर्थित प्राधिकरण",
+    "categoriesTitle": "अनुमान नहीं, सही मंच से शुरुआत करें।",
+    "categoriesText": "सामान्य शिकायत श्रेणियाँ तथा उनसे संबंधित उपयुक्त प्राधिकरण।",
+
+    "howEyebrow": "यह कैसे कार्य करता है",
+    "howTitle": "शिकायत प्रक्रिया को आसान बनाएं।",
+
+    "featuresEyebrow": "CitizenDesk India क्यों चुनें",
+    "featuresTitle": "स्पष्ट और भरोसेमंद शिकायत मार्गदर्शन",
+    "featuresText": "जटिल शिकायत प्रक्रियाओं को सरल और समझने योग्य चरणों में प्रस्तुत किया गया है।",
+
+    "faqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "faqText": "शिकायत, प्राधिकरण और शिकायत निवारण प्रक्रिया से जुड़े सामान्य प्रश्न।",
+
+    "ctaTitle": "शिकायत दर्ज करने से पहले सही मार्ग चुनें।",
+    "ctaText": "अपनी समस्या की श्रेणी चुनें और आगे की प्रक्रिया समझें।"
   },
-  "footer": {
-    "company": "Company",
-    "legal": "Legal",
-    "resources": "Resources",
-    "rights": "All rights reserved.",
-    "built": "Built for clarity, trust, and responsible citizen action.",
-    "platform": "Platform"
+
+  "process": {
+    "describe": {
+      "title": "अपनी समस्या बताइए",
+      "description": "अपनी शिकायत से संबंधित उपयुक्त श्रेणी चुनें।"
+    },
+    "authority": {
+      "title": "सही प्राधिकरण खोजें",
+      "description": "हम बताएंगे कि आपकी शिकायत के लिए कौन-सा विभाग या प्राधिकरण उपयुक्त है।"
+    },
+    "prepare": {
+      "title": "शिकायत तैयार करें",
+      "description": "शिकायत दर्ज करने से पहले आवश्यक दस्तावेज़ और जानकारी तैयार रखें।"
+    },
+    "track": {
+      "title": "स्थिति देखें और आवश्यक होने पर आगे बढ़ाएँ",
+      "description": "जानें कि शिकायत की स्थिति कैसे देखें और समाधान न मिलने पर आगे क्या करें।"
+    }
   },
+
+  "categories": {
+    "consumer": {
+      "title": "उपभोक्ता शिकायत",
+      "description": "उत्पाद एवं सेवाओं से संबंधित शिकायतें।",
+      "authority": "जिला उपभोक्ता आयोग",
+      "timeframe": "30–90 दिन"
+    },
+
+    "cpgrams": {
+      "title": "CPGRAMS",
+      "description": "केंद्रीय सरकार का शिकायत पोर्टल।",
+      "authority": "संबंधित सरकारी विभाग",
+      "timeframe": "30 दिन"
+    },
+
+    "ingram": {
+      "title": "INGRAM",
+      "description": "राष्ट्रीय उपभोक्ता हेल्पलाइन शिकायत प्रणाली।",
+      "authority": "उपभोक्ता मामले विभाग",
+      "timeframe": "30 दिन"
+    },
+
+    "rti": {
+      "title": "सूचना का अधिकार (RTI)",
+      "description": "सूचना प्राप्त करने से संबंधित मार्गदर्शन।",
+      "authority": "लोक सूचना अधिकारी",
+      "timeframe": "30 दिन"
+    },
+
+    "banking": {
+      "title": "बैंकिंग",
+      "description": "बैंकिंग एवं RBI लोकपाल से संबंधित शिकायतें।",
+      "authority": "RBI एकीकृत लोकपाल",
+      "timeframe": "30 दिन"
+    },
+
+    "insurance": {
+      "title": "बीमा",
+      "description": "बीमा पॉलिसी एवं दावा संबंधी शिकायतें।",
+      "authority": "बीमा लोकपाल",
+      "timeframe": "30–60 दिन"
+    },
+
+    "railways": {
+      "title": "रेलवे",
+      "description": "रेल यात्रियों की शिकायतें।",
+      "authority": "रेल मदद (Rail Madad)",
+      "timeframe": "7–30 दिन"
+    },
+
+    "passport": {
+      "title": "पासपोर्ट",
+      "description": "पासपोर्ट सेवा एवं दस्तावेज़ संबंधी समस्याएँ।",
+      "authority": "पासपोर्ट सेवा केंद्र",
+      "timeframe": "30 दिन"
+    },
+
+    "electricity": {
+      "title": "बिजली",
+      "description": "बिजली आपूर्ति एवं बिल संबंधी शिकायतें।",
+      "authority": "विद्युत वितरण कंपनी",
+      "timeframe": "15–30 दिन"
+    },
+
+    "pension": {
+      "title": "पेंशन",
+      "description": "पेंशन एवं सेवानिवृत्ति लाभ संबंधी शिकायतें।",
+      "authority": "CPENGRAMS / पेंशन विभाग",
+      "timeframe": "30–60 दिन"
+    },
+
+    "cta": "विस्तार से देखें",
+    "authority": "संबंधित प्राधिकरण",
+    "timeline": "अनुमानित समय",
+    "learnMore": "और जानें"
+  },
+
+  "features": {
+    "mapping": {
+      "title": "सही प्राधिकरण की पहचान",
+      "description": "जानें कि आपकी शिकायत किस विभाग द्वारा देखी जाएगी।"
+    },
+    "procedure": {
+      "title": "प्रक्रिया मार्गदर्शन",
+      "description": "शिकायत दर्ज करने की पूरी प्रक्रिया चरणबद्ध समझें।"
+    },
+    "draft": {
+      "title": "शिकायत प्रारूप",
+      "description": "सुसंगठित शिकायत तैयार करने में सहायता।"
+    },
+    "learning": {
+      "title": "ज्ञान केंद्र",
+      "description": "मार्गदर्शिकाएँ, FAQ और आधिकारिक जानकारी प्राप्त करें।"
+    }
+  },
+
+  "stats": {
+    "items": {
+      "0": {
+        "title": "शिकायत श्रेणियाँ",
+        "description": "मुख्य शिकायत क्षेत्र"
+      },
+      "1": {
+        "title": "मार्गदर्शिकाएँ",
+        "description": "आधिकारिक प्रक्रिया विवरण"
+      },
+      "2": {
+        "title": "भारतीय भाषाएँ",
+        "description": "बहुभाषीय सहायता"
+      },
+      "3": {
+        "title": "24×7 उपलब्ध",
+        "description": "कभी भी उपयोग करें"
+      }
+    }
+  },
+
+  "faq": {
+    "help": {
+      "question": "क्या CitizenDesk India सही प्राधिकरण चुनने में सहायता करता है?",
+      "answer": "हाँ। यह आपकी समस्या के अनुसार उपयुक्त प्राधिकरण की जानकारी देता है।"
+    },
+    "government": {
+      "question": "क्या CitizenDesk India सरकारी वेबसाइट है?",
+      "answer": "नहीं। यह एक स्वतंत्र नागरिक सहायता मंच है।"
+    },
+    "file": {
+      "question": "क्या CitizenDesk India मेरी ओर से शिकायत दर्ज करेगा?",
+      "answer": "नहीं। हम केवल आधिकारिक प्रक्रिया समझाने में सहायता करते हैं।"
+    },
+    "categories": {
+      "question": "कौन-कौन सी शिकायत श्रेणियाँ उपलब्ध हैं?",
+      "answer": "उपभोक्ता, बैंकिंग, बीमा, पासपोर्ट, RTI, CPGRAMS, रेलवे, बिजली, पेंशन आदि।"
+    },
+    "privacy": {
+      "question": "क्या मेरी व्यक्तिगत जानकारी सुरक्षित रहेगी?",
+      "answer": "हाँ। जब तक आप स्वयं न चाहें, आपकी व्यक्तिगत शिकायत जानकारी संग्रहीत नहीं की जाती।"
+    }
+  },
+
   "pages": {
-    "privacyTitle": "Privacy Policy",
-    "contactText": "Reach out for partnerships, corrections, feedback, or support queries about the platform.",
-    "aboutTitle": "About CitizenDesk India",
-    "contactTitle": "Contact CitizenDesk India",
-    "finderText": "Choose a category to understand the likely authority, first step, and escalation path. This version is rule-based and does not use AI yet.",
-    "notFoundTitle": "Page not found",
-    "aboutText": "We are building a citizen-first platform that makes grievance processes easier to understand.",
-    "guidesTitle": "Guides",
-    "termsTitle": "Terms and Conditions",
-    "guidesText": "Plain-language guides for Indian citizens navigating grievance systems, rights, and public procedures.",
-    "finderTitle": "Complaint Finder",
-    "notFoundText": "The page you are looking for may have moved or is not available yet."
+    "finderEyebrow": "शिकायत खोजें",
+    "finderTitle": "शिकायत खोजें",
+    "finderText": "अपनी शिकायत की श्रेणी चुनें और संबंधित प्राधिकरण, प्रक्रिया तथा आगे की कार्यवाही जानें।",
+
+    "guidesEyebrow": "मार्गदर्शिकाएँ",
+    "guidesTitle": "मार्गदर्शिकाएँ",
+    "guidesText": "भारतीय नागरिकों के लिए सरल भाषा में शिकायत प्रक्रिया संबंधी मार्गदर्शिकाएँ।",
+    "readGuide": "मार्गदर्शिका पढ़ें",
+
+    "aboutTitle": "CitizenDesk India के बारे में",
+    "aboutText": "CitizenDesk India नागरिकों को सही प्राधिकरण पहचानने और शिकायत प्रक्रिया समझने में सहायता प्रदान करता है।",
+
+    "contactTitle": "संपर्क करें",
+    "contactText": "सुझाव, सहयोग या सुधार के लिए हमसे संपर्क करें।",
+
+    "privacyTitle": "गोपनीयता नीति",
+    "privacyText": "आपकी गोपनीयता हमारे लिए महत्वपूर्ण है। आपकी अनुमति के बिना कोई व्यक्तिगत जानकारी संग्रहीत नहीं की जाती।",
+
+    "termsTitle": "नियम एवं शर्तें",
+    "termsText": "CitizenDesk India के उपयोग से संबंधित नियम एवं शर्तें पढ़ें।",
+
+    "notFoundTitle": "पृष्ठ उपलब्ध नहीं है",
+    "notFoundText": "जिस पृष्ठ की आप तलाश कर रहे हैं, वह उपलब्ध नहीं है या स्थानांतरित किया जा चुका है।"
   },
-  "nav": {
-    "about": "About",
-    "contact": "Contact",
-    "theme": "Theme",
-    "findAuthority": "Find authority",
-    "guides": "Guides",
-    "language": "हिन्दी",
-    "complaintFinder": "Complaint Finder"
+
+  "footer": {
+    "platform": "प्लेटफ़ॉर्म",
+    "company": "कंपनी",
+    "resources": "संसाधन",
+    "legal": "कानूनी",
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "built": "स्पष्ट, विश्वसनीय और जिम्मेदार नागरिक सहायता के लिए निर्मित।"
   }
 }
