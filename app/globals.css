@@ -33,27 +33,35 @@
 }
 
 :root {
+  --brand: #2563eb;
+  --brand-soft: #dbeafe;
+  --brand-strong: #1d4ed8;
   --background: #f8fafc;
   --foreground: #0f172a;
   --card: #ffffff;
   --card-foreground: #0f172a;
   --popover: #ffffff;
   --popover-foreground: #0f172a;
-  --primary: #2563eb;
+  --primary: var(--brand);
   --primary-foreground: #ffffff;
   --secondary: #e2e8f0;
   --secondary-foreground: #0f172a;
   --muted: #f1f5f9;
   --muted-foreground: #475569;
-  --accent: #dbeafe;
-  --accent-foreground: #1d4ed8;
+  --accent: var(--brand-soft);
+  --accent-foreground: var(--brand-strong);
   --destructive: #ef4444;
   --border: #e2e8f0;
   --input: #cbd5e1;
-  --ring: #2563eb;
+  --ring: var(--brand);
   --font-sans: Arial, Helvetica, sans-serif;
   color-scheme: light;
 }
+
+:root[data-accent="emerald"] { --brand: #059669; --brand-soft: #d1fae5; --brand-strong: #047857; }
+:root[data-accent="violet"] { --brand: #7c3aed; --brand-soft: #ede9fe; --brand-strong: #6d28d9; }
+:root[data-accent="rose"] { --brand: #e11d48; --brand-soft: #ffe4e6; --brand-strong: #be123c; }
+:root[data-accent="amber"] { --brand: #d97706; --brand-soft: #fef3c7; --brand-strong: #b45309; }
 
 .dark {
   --background: #0f172a;
@@ -62,18 +70,18 @@
   --card-foreground: #f8fafc;
   --popover: #111827;
   --popover-foreground: #f8fafc;
-  --primary: #60a5fa;
-  --primary-foreground: #0f172a;
+  --primary: var(--brand);
+  --primary-foreground: #ffffff;
   --secondary: #1e293b;
   --secondary-foreground: #f8fafc;
   --muted: #1e293b;
   --muted-foreground: #cbd5e1;
-  --accent: #1e3a8a;
+  --accent: color-mix(in srgb, var(--brand) 22%, #0f172a);
   --accent-foreground: #dbeafe;
   --destructive: #f87171;
   --border: rgb(255 255 255 / 0.12);
   --input: rgb(255 255 255 / 0.18);
-  --ring: #60a5fa;
+  --ring: var(--brand);
   color-scheme: dark;
 }
 
@@ -81,5 +89,5 @@
   * { @apply border-border outline-ring/50; }
   html { @apply font-sans; }
   body { @apply bg-background text-foreground; }
-  ::selection { @apply bg-blue-600 text-white; }
+  ::selection { background: var(--brand); color: white; }
 }

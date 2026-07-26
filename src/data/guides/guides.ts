@@ -1,26 +1,12 @@
 ﻿export const guides = [
-  {
-    slug: "consumer-complaint-guide",
-    title: "How to file a consumer complaint in India",
-    description:
-      "Understand when to approach a seller, grievance officer, consumer helpline, or consumer commission.",
-    category: "Consumer",
-    readingTime: "6 min read",
-  },
-  {
-    slug: "banking-ombudsman-guide",
-    title: "Banking Ombudsman complaint guide",
-    description:
-      "Learn how to escalate unresolved banking, card, UPI, and loan service issues responsibly.",
-    category: "Banking",
-    readingTime: "7 min read",
-  },
-  {
-    slug: "rti-application-guide",
-    title: "RTI application basics",
-    description:
-      "A practical guide to identifying the public authority and writing a clear RTI request.",
-    category: "RTI",
-    readingTime: "5 min read",
-  },
+  { slug: "consumer-complaint-guide", category: "Consumer", officialName: "National Consumer Helpline", officialUrl: "https://consumerhelpline.gov.in/" },
+  { slug: "cpgrams-guide", category: "Public Grievance", officialName: "CPGRAMS", officialUrl: "https://pgportal.gov.in/" },
+  { slug: "rti-application-guide", category: "RTI", officialName: "RTI Online", officialUrl: "https://rtionline.gov.in/" },
+  { slug: "banking-ombudsman-guide", category: "Banking", officialName: "RBI CMS", officialUrl: "https://cms.rbi.org.in/" },
+  { slug: "rail-madad-guide", category: "Railways", officialName: "Rail Madad", officialUrl: "https://railmadad.indianrailways.gov.in/" },
+  { slug: "passport-seva-guide", category: "Passport", officialName: "Passport Seva", officialUrl: "https://www.passportindia.gov.in/" },
+  { slug: "cyber-crime-guide", category: "Cyber Crime", officialName: "National Cyber Crime Portal", officialUrl: "https://cybercrime.gov.in/" },
+  { slug: "uidai-guide", category: "Identity", officialName: "UIDAI", officialUrl: "https://uidai.gov.in/" },
 ] as const;
+
+export type GuideSlug = (typeof guides)[number]["slug"];

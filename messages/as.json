@@ -4,234 +4,269 @@
     "guides": "Guides",
     "about": "About",
     "contact": "Contact",
-    "findAuthority": "Find Authority",
+    "findAuthority": "Find authority",
     "theme": "Theme",
-    "language": "Language"
+    "language": "অসমীয়া",
+    "supportedAuthorities": "Supported Authorities",
+    "categoriesEyebrow": "Supported Authorities",
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms and Conditions"
   },
-
   "common": {
     "brand": "CitizenDesk India",
     "tagline": "Find the Right Authority. Resolve with Confidence.",
-    "start": "Start Complaint Finder",
-    "learn": "Read Procedure Guides",
-    "openFinder": "Open Complaint Finder",
-    "independent": "Independent citizen assistance platform. Not affiliated with any government department."
+    "start": "Start complaint finder",
+    "learn": "Read procedure guides",
+    "openFinder": "Open complaint finder",
+    "independent": "Independent citizen assistance platform. Not affiliated with any government department.",
+    "explore": "Explore",
+    "officialResource": "Official resource"
   },
-
   "home": {
-    "eyebrow": "Independent citizen assistance for India",
+    "eyebrow": "অসমীয়াত নাগৰিক সহায়",
     "heroTitle": "Find the right authority before you file a complaint.",
-    "heroText": "Navigate complaint procedures with calm, evidence-backed guidance. CitizenDesk India helps you identify the right authority and prepare your next step with confidence.",
-    "trustedBy": "Built for citizens, students, professionals, families and small businesses.",
-
-    "categoriesEyebrow": "Supported Authorities",
+    "heroText": "Navigate complaint procedures with calm, evidence-backed guidance. CitizenDesk India helps you identify the right authority, understand what to prepare, and move with confidence.",
+    "trustedBy": "Built for citizens, students, professionals, families, small businesses, and public-service learners across India.",
+    "categoriesEyebrow": "Supported authorities",
     "categoriesTitle": "Start with the right forum, not guesswork.",
-    "categoriesText": "Common grievance paths grouped around real citizen problems and the authorities that usually handle them.",
-
+    "categoriesText": "Explore common grievance paths with the authority, expected timeline, and the next practical step.",
     "howEyebrow": "How it works",
     "howTitle": "A calmer complaint process, step by step.",
-
     "featuresEyebrow": "Why CitizenDesk India",
     "featuresTitle": "Built for citizens who need clarity before action.",
-    "featuresText": "CitizenDesk India simplifies complex grievance procedures into understandable steps.",
-
-    "faqTitle": "Frequently Asked Questions",
-    "faqText": "Common questions about authorities, complaints and grievance procedures.",
-
+    "featuresText": "The platform turns confusing grievance systems into clear, practical, responsible next steps.",
+    "faqTitle": "Frequently asked questions",
+    "faqText": "Clear expectations before you start filing or escalating.",
     "ctaTitle": "Find the right complaint path before you file.",
-    "ctaText": "Start with the issue category and build from there."
+    "ctaText": "Choose the category, understand the authority, collect documents, and prepare a stronger complaint.",
+    "trustAuthority": "Authority discovery",
+    "trustProcedure": "Procedure guidance",
+    "trustDraft": "Draft preparation",
+    "verifiedProcess": "Verified process",
+    "authorityMapped": "Authority mapped",
+    "complaintReadiness": "Complaint readiness",
+    "issueLabel": "Issue type",
+    "issueValue": "Banking transaction dispute",
+    "authorityLabel": "Likely authority",
+    "authorityValue": "RBI Integrated Ombudsman",
+    "nextStepLabel": "Next step",
+    "nextStepValue": "Check response and prepare escalation",
+    "clearTitle": "Clear",
+    "clearText": "Know where to go first.",
+    "preparedTitle": "Prepared",
+    "preparedText": "File with better context."
   },
-
   "process": {
     "describe": {
       "title": "Describe your issue",
-      "description": "Choose the complaint category that best matches your problem."
+      "description": "Select the category that best matches the problem and identify the key facts."
     },
     "authority": {
       "title": "Find the correct authority",
-      "description": "We identify the government department or authority responsible for resolving your complaint."
+      "description": "Understand whether the matter belongs to a company, regulator, ombudsman, portal, or department."
     },
     "prepare": {
-      "title": "Prepare your complaint",
-      "description": "Know what documents and information are required before filing."
+      "title": "Prepare documents",
+      "description": "Collect dates, receipts, IDs, screenshots, reference numbers, and previous replies."
     },
     "track": {
       "title": "Track and escalate",
-      "description": "Learn how to monitor your complaint and escalate it if necessary."
+      "description": "Follow the expected timeline and escalate only when the process allows it."
     }
   },
-
   "categories": {
+    "cta": "Explore path",
+    "authority": "Authority",
+    "timeline": "Expected timeline",
+    "learnMore": "Open guide",
     "consumer": {
       "title": "Consumer Complaint",
-      "description": "Consumer goods and service disputes.",
-      "authority": "District Consumer Commission",
-      "timeframe": "30–90 Days"
+      "description": "Products, services, refunds, defective goods, misleading ads, and unfair trade practices.",
+      "authority": "Consumer Commission / National Consumer Helpline",
+      "timeframe": "Usually 30-90 days"
     },
-
     "cpgrams": {
       "title": "CPGRAMS",
-      "description": "Central Government grievance portal.",
-      "authority": "Concerned Government Department",
-      "timeframe": "30 Days"
+      "description": "Central Government department grievances and public service delays.",
+      "authority": "Concerned Central Government Department",
+      "timeframe": "Usually around 30 days"
     },
-
     "ingram": {
       "title": "INGRAM",
-      "description": "National Consumer Helpline grievance system.",
+      "description": "Consumer helpline route for product and service grievances before formal escalation.",
       "authority": "Department of Consumer Affairs",
-      "timeframe": "30 Days"
+      "timeframe": "Varies by company response"
     },
-
     "rti": {
       "title": "RTI",
-      "description": "Right to Information guidance.",
+      "description": "Right to Information requests, first appeals, and public authority discovery.",
       "authority": "Public Information Officer",
-      "timeframe": "30 Days"
+      "timeframe": "30 days in most cases"
     },
-
     "banking": {
       "title": "Banking",
-      "description": "Banking and RBI Ombudsman complaints.",
+      "description": "Failed transactions, UPI issues, loan disputes, cards, and bank service complaints.",
       "authority": "RBI Integrated Ombudsman",
-      "timeframe": "30 Days"
+      "timeframe": "After bank response window"
     },
-
     "insurance": {
       "title": "Insurance",
-      "description": "Insurance policy and claim disputes.",
+      "description": "Claim delay, rejection, mis-selling, policy servicing, and premium disputes.",
       "authority": "Insurance Ombudsman",
-      "timeframe": "30-60 Days"
+      "timeframe": "After insurer grievance process"
     },
-
     "railways": {
       "title": "Railways",
-      "description": "Railway passenger complaints.",
+      "description": "Train travel, refund, cleanliness, staff, ticketing, and onboard service complaints.",
       "authority": "Rail Madad",
-      "timeframe": "7-30 Days"
+      "timeframe": "Varies by complaint type"
     },
-
     "passport": {
       "title": "Passport",
-      "description": "Passport services and document issues.",
-      "authority": "Passport Seva Kendra",
-      "timeframe": "30 Days"
+      "description": "Passport application, police verification, appointment, and document issues.",
+      "authority": "Passport Seva",
+      "timeframe": "Depends on file status"
     },
-
     "electricity": {
       "title": "Electricity",
-      "description": "Power supply and billing complaints.",
-      "authority": "Electricity Distribution Company",
-      "timeframe": "15-30 Days"
+      "description": "Billing, meter, outage, connection, and distribution company service issues.",
+      "authority": "Electricity distribution company / regulator",
+      "timeframe": "State-specific service charter"
     },
-
     "pension": {
       "title": "Pension",
-      "description": "Pension and retirement benefit issues.",
-      "authority": "CPENGRAMS / Pension Department",
-      "timeframe": "30-60 Days"
-    },
-    "cta": "Explore",
-    "authority": "Authority",
-    "timeline": "Expected Timeline",
-    "learnMore": "Learn More"
+      "description": "Pension payment, arrears, life certificate, retirement benefit, and EPFO issues.",
+      "authority": "Pension department / EPFO / CPENGRAMS",
+      "timeframe": "Usually 30-60 days"
+    }
   },
-
   "features": {
     "mapping": {
-      "title": "Authority Mapping",
-      "description": "Know exactly which authority handles your grievance."
+      "title": "Authority mapping",
+      "description": "Match issue types with the body most likely to handle them."
     },
     "procedure": {
-      "title": "Procedure Guidance",
-      "description": "Step-by-step guidance before filing your complaint."
+      "title": "Procedure guidance",
+      "description": "Know the first step, escalation order, and common waiting periods."
     },
     "draft": {
-      "title": "Complaint Drafting",
-      "description": "Prepare better complaint drafts with structured guidance."
+      "title": "Complaint readiness",
+      "description": "Organize facts, evidence, and relief requested before filing."
     },
     "learning": {
-      "title": "Knowledge Base",
-      "description": "Access guides, FAQs and official resources."
+      "title": "Citizen knowledge base",
+      "description": "Read practical guides with official links and plain-language explanations."
     }
   },
-
   "stats": {
-    "items": {
-      "0": {
-        "title": "Complaint Categories",
-        "description": "Major grievance types"
-      },
-      "1": {
-        "title": "Authority Guides",
-        "description": "Official guidance documents"
-      },
-      "2": {
-        "title": "Indian Languages",
-        "description": "Multi-language support"
-      },
-      "3": {
-        "title": "Always Available",
-        "description": "24×7 access"
-      }
-    }
+    "items": [
+      "Priority complaint categories",
+      "Authority types planned",
+      "Indian languages supported",
+      "Self-serve guidance"
+    ]
   },
-
   "faq": {
     "help": {
       "question": "Can CitizenDesk India help me choose the correct authority?",
-      "answer": "Yes. CitizenDesk India helps identify the authority most likely to resolve your complaint."
+      "answer": "Yes. It helps you understand the authority that usually handles your issue and what to prepare before filing."
     },
     "government": {
       "question": "Is CitizenDesk India a government website?",
-      "answer": "No. CitizenDesk India is an independent citizen guidance platform."
+      "answer": "No. It is an independent guidance platform and links users to official resources."
     },
     "file": {
       "question": "Will CitizenDesk India file complaints for me?",
-      "answer": "No. We guide you through the official complaint process."
+      "answer": "No. It provides guidance only. Users must submit complaints through official portals or authorities."
     },
     "categories": {
       "question": "Which complaint categories are supported?",
-      "answer": "Consumer, Banking, Insurance, Passport, RTI, CPGRAMS, Railways, Electricity, Pension and more."
+      "answer": "Consumer, CPGRAMS, INGRAM, RTI, Banking, Insurance, Railways, Passport, Electricity, Pension and more."
     },
     "privacy": {
       "question": "Is my personal information stored?",
-      "answer": "No personal complaint information is stored unless you explicitly choose to save it."
+      "answer": "The public site does not require complaint details. Future assisted workflows should collect only what is necessary."
     }
   },
-
-    "pages": {
-    "finderEyebrow": "Complaint Finder",
-    "finderTitle": "Complaint Finder",
-    "finderText": "Choose a complaint category to discover the right authority, filing process and escalation path.",
-
-    "guidesEyebrow": "Knowledge Base",
-    "guidesTitle": "Guides",
-    "guidesText": "Plain-language guides for Indian citizens navigating grievance systems.",
-    "readGuide": "Read Guide",
-
+  "pages": {
+    "finderEyebrow": "Rule-based complaint finder",
+    "finderTitle": "অভিযোগ সন্ধানী",
+    "finderText": "Choose a complaint category to discover the right authority, likely documents, expected timeline, and escalation path.",
+    "guidesEyebrow": "Knowledge center",
+    "guidesTitle": "নিৰ্দেশিকা",
+    "guidesText": "Plain-language citizen guides for grievance systems, rights, documents, and official complaint routes.",
+    "readGuide": "Read guide",
     "aboutTitle": "About CitizenDesk India",
-    "aboutText": "CitizenDesk India simplifies complaint procedures by helping citizens identify the right authority and understand the official process.",
-
+    "aboutText": "CitizenDesk India exists to make grievance procedures easier to understand, without pretending to be a government portal or legal adviser.",
     "contactTitle": "Contact CitizenDesk India",
-    "contactText": "Reach out for suggestions, partnerships or corrections.",
-
+    "contactText": "Send corrections, suggestions, partnership ideas, and platform feedback.",
     "privacyTitle": "Privacy Policy",
-    "privacyText": "Your privacy matters. We do not store complaint data unless explicitly requested.",
-
-    "termsTitle": "Terms & Conditions",
-    "termsText": "Read the terms governing the use of CitizenDesk India.",
-
-    "notFoundTitle": "Page Not Found",
-    "notFoundText": "The page you're looking for doesn't exist or has been moved."
+    "privacyText": "Your privacy matters. CitizenDesk India is designed to minimize data collection and guide users responsibly.",
+    "termsTitle": "Terms and Conditions",
+    "termsText": "These terms explain acceptable use, disclaimers, external links, and platform limitations.",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for may have moved or is not available yet.",
+    "formName": "Your name",
+    "formEmail": "Email address",
+    "formMessage": "How can we help?",
+    "formSubmit": "Submit inquiry",
+    "guideCovers": "What this guide covers",
+    "guidePointAuthority": "Identify the correct first-level authority before escalation.",
+    "guidePointDocuments": "Prepare facts, dates, evidence, and reference numbers clearly.",
+    "guidePointEscalation": "Understand when to wait, follow up, or escalate responsibly.",
+    "contactEyebrow": "Contact",
+    "formTitle": "Send a message",
+    "formLocation": "India-first, remote platform",
+    "messageLabel": "Message"
   },
-
   "footer": {
     "platform": "Platform",
     "company": "Company",
     "resources": "Resources",
     "legal": "Legal",
-    "rights": "All Rights Reserved.",
-    "built": "Built for clarity, trust and responsible citizen action."
+    "rights": "All rights reserved.",
+    "built": "Built for clarity, trust, and responsible citizen action."
+  },
+  "guides": {
+    "consumer-complaint-guide": {
+      "title": "Consumer complaint guide",
+      "description": "Learn when to use the National Consumer Helpline, when to approach a Consumer Commission, and what evidence to prepare.",
+      "overview": "Use this guide when a product or service dispute is unresolved after contacting the seller or service provider."
+    },
+    "cpgrams-guide": {
+      "title": "CPGRAMS public grievance guide",
+      "description": "Understand how central government grievances are routed, tracked, and escalated through CPGRAMS.",
+      "overview": "Use this guide for central government department service delays, unresolved requests, and administrative grievances."
+    },
+    "rti-application-guide": {
+      "title": "RTI application guide",
+      "description": "Identify the public authority, write a precise RTI request, and understand first appeal basics.",
+      "overview": "Use this guide when you need information from a public authority under the Right to Information Act."
+    },
+    "banking-ombudsman-guide": {
+      "title": "RBI Ombudsman complaint guide",
+      "description": "Escalate unresolved banking, card, UPI, loan, and digital payment issues through the RBI framework.",
+      "overview": "Use this guide after first complaining to your bank or regulated entity and waiting for the required response window."
+    },
+    "rail-madad-guide": {
+      "title": "Rail Madad complaint guide",
+      "description": "Raise railway travel, refund, cleanliness, catering, ticketing, and onboard service complaints.",
+      "overview": "Use this guide for Indian Railways passenger service issues and follow-up tracking."
+    },
+    "passport-seva-guide": {
+      "title": "Passport Seva issue guide",
+      "description": "Understand passport application, appointment, police verification, and document correction routes.",
+      "overview": "Use this guide when a passport application is delayed, stuck, or needs correction."
+    },
+    "cyber-crime-guide": {
+      "title": "Cyber crime complaint guide",
+      "description": "Know the urgent route for online fraud, phishing, impersonation, harassment, and suspicious financial activity.",
+      "overview": "Use this guide for cyber incidents, especially when fast reporting can reduce financial or personal harm."
+    },
+    "uidai-guide": {
+      "title": "Aadhaar and UIDAI service guide",
+      "description": "Understand Aadhaar update, authentication, enrolment, and service complaint options.",
+      "overview": "Use this guide for Aadhaar-related service, update, authentication, or enrolment problems."
+    }
   }
 }
