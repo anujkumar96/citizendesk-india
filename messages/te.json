@@ -196,6 +196,25 @@
     "guidesTitle": "మార్గదర్శకాలు",
     "guidesText": "Plain-language citizen guides for grievance systems, rights, documents, and official complaint routes.",
     "readGuide": "Read guide",
+        "aboutEyebrow": "About CitizenDesk India",
+    "aboutValues": [
+      {
+        "title": "Clarity before action",
+        "body": "Understand the right authority, process, and next step before filing or escalating a grievance."
+      },
+      {
+        "title": "Respect for official process",
+        "body": "Use the appropriate grievance channel and follow the published procedure before escalating."
+      },
+      {
+        "title": "Privacy by design",
+        "body": "Share only the information necessary for your grievance and avoid exposing sensitive personal details."
+      },
+      {
+        "title": "Plain-language civic education",
+        "body": "Turn complicated grievance systems into practical guidance that ordinary citizens can understand and use."
+      }
+    ],
     "aboutTitle": "About CitizenDesk India",
     "aboutText": "CitizenDesk India exists to make grievance procedures easier to understand, without pretending to be a government portal or legal adviser.",
     "contactTitle": "Contact CitizenDesk India",
