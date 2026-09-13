@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { Footer } from "@/src/components/layout/Footer";
 import { Navbar } from "@/src/components/layout/Navbar";
+import { CitizenAssistant } from "@/src/components/assistant/CitizenAssistant";
 import { ThemeProvider } from "@/src/components/providers/ThemeProvider";
 import { locales, routing } from "@/src/i18n/routing";
 
@@ -28,6 +29,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
+          <CitizenAssistant />
         </div>
       </ThemeProvider>
     </NextIntlClientProvider>

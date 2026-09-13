@@ -26,7 +26,7 @@ function GuideDetail({ guide }: { guide: (typeof guides)[number] }) {
   return (
     <Section className="bg-white dark:bg-slate-950">
       <Container className="max-w-4xl">
-        <p className="text-sm font-semibold text-[var(--brand)]">{guide.category}</p>
+        <p className="text-sm font-semibold text-[var(--brand)]">{guideText(`categories.${guide.categoryKey}`)}</p>
         <h1 className="mt-3 text-4xl font-semibold text-slate-950 dark:text-white sm:text-5xl">{guideText(`${guide.slug}.title`)}</h1>
         <p className="mt-5 text-lg leading-8 text-slate-600 dark:text-slate-300">{guideText(`${guide.slug}.overview`)}</p>
         <a href={guide.officialUrl} target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 rounded-md bg-[var(--brand)] px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-blue-500/20" aria-label={`${common("officialResource")}: ${guide.officialName}`}>

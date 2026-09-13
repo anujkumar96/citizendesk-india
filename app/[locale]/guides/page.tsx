@@ -23,7 +23,7 @@ export default function GuidesPage() {
         <div className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {guides.map((guide) => (
             <PremiumCard key={guide.slug} className="flex h-full flex-col p-6">
-              <p className="text-sm font-semibold text-[var(--brand)]">{guide.category}</p>
+              <p className="text-sm font-semibold text-[var(--brand)]">{guideText(`categories.${guide.categoryKey}`)}</p>
               <h2 className="mt-3 text-xl font-semibold text-slate-950 dark:text-white">{guideText(`${guide.slug}.title`)}</h2>
               <p className="mt-3 flex-1 text-sm leading-6 text-slate-600 dark:text-slate-300">{guideText(`${guide.slug}.description`)}</p>
               <div className="mt-5 flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400"><Clock className="size-4" />6-8 min</div>

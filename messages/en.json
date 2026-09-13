@@ -196,6 +196,25 @@
     "guidesTitle": "Guides",
     "guidesText": "Plain-language citizen guides for grievance systems, rights, documents, and official complaint routes.",
     "readGuide": "Read guide",
+    "aboutEyebrow": "About CitizenDesk India",
+"aboutValues": [
+  {
+    "title": "Clarity before action",
+    "body": "Understand the right authority, process, and next step before filing or escalating a grievance."
+  },
+  {
+    "title": "Respect for official process",
+    "body": "Use the appropriate grievance channel and follow the published procedure before escalating."
+  },
+  {
+    "title": "Privacy by design",
+    "body": "Share only the information necessary for your grievance and avoid exposing sensitive personal details."
+  },
+  {
+    "title": "Plain-language civic education",
+    "body": "Turn complicated grievance systems into practical guidance that ordinary citizens can understand and use."
+  }
+],
     "aboutTitle": "About CitizenDesk India",
     "aboutText": "CitizenDesk India exists to make grievance procedures easier to understand, without pretending to be a government portal or legal adviser.",
     "contactTitle": "Contact CitizenDesk India",
@@ -228,6 +247,16 @@
     "built": "Built for clarity, trust, and responsible citizen action."
   },
   "guides": {
+    "categories": {
+      "consumer": "Consumer",
+      "publicGrievance": "Public grievance",
+      "rti": "RTI",
+      "banking": "Banking",
+      "railways": "Railways",
+      "passport": "Passport",
+      "cyberCrime": "Cyber crime",
+      "identity": "Identity"
+    },
     "consumer-complaint-guide": {
       "title": "Consumer complaint guide",
       "description": "Learn when to use the National Consumer Helpline, when to approach a Consumer Commission, and what evidence to prepare.",
@@ -268,5 +297,93 @@
       "description": "Understand Aadhaar update, authentication, enrolment, and service complaint options.",
       "overview": "Use this guide for Aadhaar-related service, update, authentication, or enrolment problems."
     }
+  },
+  "finder": {
+    "startTitle": "Start with your problem",
+    "startText": "Describe the issue or choose a category. The finder will suggest the likely path.",
+    "issueLabel": "What happened?",
+    "issuePlaceholder": "Example: My pension stopped after I submitted my life certificate.",
+    "categoryLabel": "Complaint category",
+    "categoryAuto": "Detect from my description",
+    "validation": "Add a short description or choose a category to continue.",
+    "find": "Find authority",
+    "reset": "Reset",
+    "likelyAuthority": "Likely authority path",
+    "procedure": "Procedure",
+    "timeline": "Timeline",
+    "evidence": "Evidence to keep",
+    "escalation": "Escalation path",
+    "prepareDraft": "Prepare complaint draft",
+    "viewProcedure": "View procedure guide",
+    "emptyTitle": "Your result will appear here",
+    "emptyText": "A well-documented complaint sent to the right authority gives you a stronger path forward.",
+    "back": "Back to result",
+    "draftTitle": "Complaint draft starter",
+    "draftGreeting": "To the Grievance Officer,",
+    "draftIntro": "I am submitting this complaint regarding",
+    "draftFacts": "Key facts",
+    "draftPlaceholder": "Describe the issue with dates, reference numbers, and earlier replies.",
+    "draftEvidence": "Documents/evidence attached",
+    "draftRelief": "Requested action",
+    "draftClose": "Please examine the matter and provide a written response through the appropriate grievance process.",
+    "copyDraft": "Copy draft",
+    "copied": "Copied"
+  },
+  "assistant": {
+    "open": "Open citizen assistant",
+    "close": "Close assistant",
+    "title": "Citizen Assistant",
+    "subtitle": "Guidance, not official legal advice",
+    "language": "Assistant language",
+    "welcome": "Tell me the grievance in simple words. I can suggest the likely authority, documents to keep, escalation path, and a draft structure.",
+    "placeholder": "Ask about a complaint path...",
+    "send": "Send",
+    "clear": "Clear conversation",
+    "typing": "Preparing guidance...",
+    "copy": "Copy",
+    "suggestPension": "My pension has stopped. What should I do?",
+    "suggestBank": "My bank is not resolving my complaint.",
+    "suggestDraft": "Help me draft a complaint.",
+    "likelyPath": "Likely path:",
+    "firstStep": "First step:",
+    "keepEvidence": "Keep evidence such as:",
+    "escalate": "Escalation:",
+    "disclaimer": "CitizenDesk India is an independent guidance platform, not a government department. Verify details on official sources and avoid sharing unnecessary sensitive personal information."
+  },
+  "confidence": {
+    "eyebrow": "Your complaint can make a difference",
+    "title": "People who don't give up",
+    "text": "These illustrative scenarios show how a documented complaint, sent through the right channel, can create a clearer path forward. They are not promises of outcome.",
+    "illustrative": "Illustrative scenario",
+    "pension": {
+      "title": "Pension payment restored after documented follow-up",
+      "body": "A retired citizen keeps the pension reference, bank entries, life certificate proof, and earlier replies before escalating to the appropriate pension grievance route.",
+      "lesson": "Lesson: keep reference numbers and show the full timeline."
+    },
+    "banking": {
+      "title": "Failed transaction dispute moved beyond branch visits",
+      "body": "A customer first files with the bank in writing, waits for the response window, then prepares an escalation with transaction references and the bank complaint number.",
+      "lesson": "Lesson: regulators usually expect the bank process first."
+    },
+    "consumer": {
+      "title": "Defective product complaint becomes clearer with evidence",
+      "body": "A buyer records invoice details, warranty promises, photos, and seller messages before using the consumer grievance path.",
+      "lesson": "Lesson: evidence makes the request specific and easier to examine."
+    },
+    "rights": {
+      "evidence": {
+        "title": "What should I keep as evidence?",
+        "text": "Dates, receipts, application numbers, screenshots, photos, letters, and names of offices contacted."
+      },
+      "noResponse": {
+        "title": "What if there is no response?",
+        "text": "Follow the stated timeline, keep proof of submission, then escalate through the published grievance route."
+      },
+      "escalate": {
+        "title": "When should I escalate?",
+        "text": "Escalate after the first authority has had a fair chance to respond, or when the official process allows appeal."
+      }
+    },
+    "trust": "CitizenDesk India is not a government department and does not guarantee any decision. AI and rule-based guidance can contain errors, so verify official links and do not share passwords, OTPs, full identity numbers, or unnecessary sensitive details."
   }
 }

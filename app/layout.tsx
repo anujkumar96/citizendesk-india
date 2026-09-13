@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 
+import { RouteRefreshRecovery } from "@/src/components/providers/RouteRefreshRecovery";
 import { defaultMetadata } from "@/src/constants/metadata";
 
 import "./globals.css";
@@ -16,8 +17,9 @@ const accentScript = `
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en-IN" suppressHydrationWarning className="h-full scroll-smooth">
-      <body className="min-h-full bg-slate-50 font-sans text-slate-950 antialiased dark:bg-slate-950 dark:text-slate-50">
+      <body className="min-h-full bg-background font-sans text-foreground antialiased">
         <script dangerouslySetInnerHTML={{ __html: accentScript }} />
+        <RouteRefreshRecovery />
         {children}
       </body>
     </html>

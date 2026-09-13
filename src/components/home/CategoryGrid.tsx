@@ -30,7 +30,7 @@ export function CategoryGrid() {
             return (
               <Link
                 key={category.key}
-                href={category.href}
+                href={{ pathname: "/complaint-finder", query: { category: category.key } }}
                 className="group rounded-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 <PremiumCard className="h-full overflow-hidden p-0">

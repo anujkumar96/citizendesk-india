@@ -8,6 +8,7 @@ import { FAQ } from "@/src/components/home/FAQ";
 import { Features } from "@/src/components/home/Features";
 import { Hero } from "@/src/components/home/Hero";
 import { HowItWorks } from "@/src/components/home/HowItWorks";
+import { CitizenConfidence } from "@/src/components/home/CitizenConfidence";
 import { JsonLd } from "@/src/components/seo/JsonLd";
 import { createPageMetadata } from "@/src/constants/metadata";
 import { homepageBreadcrumbSchema, homepageFaqSchema, organizationSchema, websiteSchema } from "@/src/constants/schema";
@@ -45,6 +46,7 @@ function HomeSections() {
       <CategoryGrid />
       <HowItWorks />
       <Features />
+      <CitizenConfidence />
       <FAQ />
       <CTA />
     </>
