@@ -3,6 +3,13 @@ import type { NextConfig } from "next";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  output: "export",
+  trailingSlash: true,
+  basePath: "/citizendesk-india",
+  images: {
+    unoptimized: true,
+  },
+};
 
 export default withNextIntl(nextConfig);
