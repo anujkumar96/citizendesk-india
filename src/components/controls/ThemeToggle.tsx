@@ -1,8 +1,9 @@
 ﻿"use client";
 
 import { Monitor, Moon, Palette, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
 import { useSyncExternalStore } from "react";
+
+import { useTheme } from "@/src/components/providers/ThemeProvider";
 
 const modes = [
   { value: "light", label: "Light", icon: Sun },
@@ -37,18 +38,24 @@ function getAccentSnapshot(): Accent {
 function setAccent(accent: Accent) {
   document.documentElement.dataset.accent = accent;
   window.localStorage.setItem("citizendesk-accent", accent);
+  document.cookie = `citizendesk-accent=${accent}; path=/; max-age=31536000; samesite=lax`;
   window.dispatchEvent(new Event("citizendesk-accent"));
+}
+
+function subscribeMount() {
+  return () => {};
 }
 
 export function ThemeToggle({ label = "Theme" }: { label?: string }) {
   const { theme, setTheme } = useTheme();
   const accent = useSyncExternalStore(subscribeAccent, getAccentSnapshot, () => "blue");
+  const mounted = useSyncExternalStore(subscribeMount, () => true, () => false);
 
   return (
     <div className="flex items-center gap-1 rounded-md border border-slate-200 bg-white/75 p-1 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5" aria-label={label}>
       {modes.map((option) => {
         const Icon = option.icon;
-        const active = theme === option.value;
+        const active = mounted && theme === option.value;
         return (
           <button key={option.value} type="button" onClick={() => setTheme(option.value)} className={`flex size-8 items-center justify-center rounded-sm transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${active ? "bg-slate-950 text-white dark:bg-white dark:text-slate-950" : "text-slate-500 hover:bg-slate-100 hover:text-slate-950 dark:text-slate-300 dark:hover:bg-white/10 dark:hover:text-white"}`} aria-label={option.label} aria-pressed={active}>
             <Icon className="size-4" aria-hidden="true" />

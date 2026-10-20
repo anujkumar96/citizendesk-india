@@ -30,7 +30,7 @@ export function Footer() {
             className="inline-flex items-center gap-3 rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
             aria-label={`${common("brand")} home`}
           >
-            <span className="flex size-10 items-center justify-center rounded-lg bg-blue-600 text-white">
+            <span className="flex size-10 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-white shadow-lg shadow-blue-600/20 ring-1 ring-white/20">
               <ShieldCheck className="size-5" aria-hidden="true" />
             </span>
             <span className="font-semibold tracking-normal text-slate-950 dark:text-white">

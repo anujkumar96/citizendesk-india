@@ -1,389 +1,620 @@
 {
   "nav": {
-    "complaintFinder": "Complaint Finder",
-    "guides": "Guides",
-    "about": "About",
-    "contact": "Contact",
-    "findAuthority": "Find authority",
-    "theme": "Theme",
-    "language": "मराठी",
-    "supportedAuthorities": "Supported Authorities",
-    "categoriesEyebrow": "Supported Authorities",
-    "privacyTitle": "Privacy Policy",
-    "termsTitle": "Terms and Conditions"
+    "complaintFinder": "तक्रार शोधक",
+    "guides": "मार्गदर्शक",
+    "successStories": "यशोगाथा",
+    "about": "बद्दल",
+    "contact": "संपर्क करा",
+    "findAuthority": "अधिकार शोधा",
+    "theme": "थीम",
+    "language": "भाषा",
+    "supportedAuthorities": "समर्थीत अधिकारी",
+    "categoriesEyebrow": "समर्थीत अधिकारी",
+    "privacyTitle": "गोपनीयता धोरण",
+    "termsTitle": "नियम आणि अटी"
   },
   "common": {
-    "brand": "CitizenDesk India",
-    "tagline": "Find the Right Authority. Resolve with Confidence.",
-    "start": "Start complaint finder",
-    "learn": "Read procedure guides",
-    "openFinder": "Open complaint finder",
-    "independent": "Independent citizen assistance platform. Not affiliated with any government department.",
-    "explore": "Explore",
-    "officialResource": "Official resource"
+    "brand": "सिटीझनडेस्क इंडिया",
+    "home": "घर",
+    "tagline": "योग्य अधिकारी शोधा. आत्मविश्वासाने सोडवा.",
+    "start": "तक्रार शोधक सुरू करा",
+    "learn": "प्रक्रिया मार्गदर्शक वाचा",
+    "openFinder": "तक्रार शोधक उघडा",
+    "successStories": "यशोगाथा एक्सप्लोर करा",
+    "independent": "स्वतंत्र नागरिक सहाय्य मंच. कोणत्याही सरकारी खात्याशी संलग्न नाही.",
+    "explore": "एक्सप्लोर करा",
+    "officialResource": "अधिकृत संसाधन"
   },
   "home": {
-    "eyebrow": "मराठीत नागरिक सहाय्य",
-    "heroTitle": "Find the right authority before you file a complaint.",
-    "heroText": "Navigate complaint procedures with calm, evidence-backed guidance. CitizenDesk India helps you identify the right authority, understand what to prepare, and move with confidence.",
-    "trustedBy": "Built for citizens, students, professionals, families, small businesses, and public-service learners across India.",
-    "categoriesEyebrow": "Supported authorities",
-    "categoriesTitle": "Start with the right forum, not guesswork.",
-    "categoriesText": "Explore common grievance paths with the authority, expected timeline, and the next practical step.",
-    "howEyebrow": "How it works",
-    "howTitle": "A calmer complaint process, step by step.",
-    "featuresEyebrow": "Why CitizenDesk India",
-    "featuresTitle": "Built for citizens who need clarity before action.",
-    "featuresText": "The platform turns confusing grievance systems into clear, practical, responsible next steps.",
-    "faqTitle": "Frequently asked questions",
-    "faqText": "Clear expectations before you start filing or escalating.",
-    "ctaTitle": "Find the right complaint path before you file.",
-    "ctaText": "Choose the category, understand the authority, collect documents, and prepare a stronger complaint.",
-    "trustAuthority": "Authority discovery",
-    "trustProcedure": "Procedure guidance",
-    "trustDraft": "Draft preparation",
-    "verifiedProcess": "Verified process",
-    "authorityMapped": "Authority mapped",
-    "complaintReadiness": "Complaint readiness",
-    "issueLabel": "Issue type",
-    "issueValue": "Banking transaction dispute",
-    "authorityLabel": "Likely authority",
-    "authorityValue": "RBI Integrated Ombudsman",
-    "nextStepLabel": "Next step",
-    "nextStepValue": "Check response and prepare escalation",
-    "clearTitle": "Clear",
-    "clearText": "Know where to go first.",
-    "preparedTitle": "Prepared",
-    "preparedText": "File with better context."
+    "eyebrow": "भारतासाठी स्वतंत्र नागरिक सहाय्य",
+    "heroTitle": "तुम्ही तक्रार दाखल करण्यापूर्वी योग्य अधिकारी शोधा.",
+    "heroText": "शांत, पुरावा-समर्थित मार्गदर्शनासह तक्रार प्रक्रिया नेव्हिगेट करा. CitizenDesk India तुम्हाला योग्य अधिकार ओळखण्यात, काय तयारी करावी हे समजून घेण्यास आणि आत्मविश्वासाने पुढे जाण्यास मदत करते.",
+    "trustedBy": "संपूर्ण भारतातील नागरिक, विद्यार्थी, व्यावसायिक, कुटुंबे, छोटे व्यवसाय आणि सार्वजनिक-सेवा शिकणाऱ्यांसाठी तयार केलेले.",
+    "categoriesEyebrow": "समर्थित अधिकारी",
+    "categoriesTitle": "योग्य फोरमसह प्रारंभ करा, अंदाज लावू नका.",
+    "categoriesText": "प्राधिकरणासह सामान्य तक्रार मार्ग, अपेक्षित टाइमलाइन आणि पुढील व्यावहारिक पायरी एक्सप्लोर करा.",
+    "howEyebrow": "ते कसे कार्य करते",
+    "howTitle": "एक शांत तक्रार प्रक्रिया, चरण-दर-चरण.",
+    "featuresEyebrow": "सिटीझनडेस्क इंडिया का",
+    "featuresTitle": "कारवाईपूर्वी स्पष्टता आवश्यक असलेल्या नागरिकांसाठी तयार केली आहे.",
+    "featuresText": "प्लॅटफॉर्म गोंधळात टाकणाऱ्या तक्रार प्रणालीला स्पष्ट, व्यावहारिक, जबाबदार पुढील पायऱ्यांमध्ये बदलते.",
+    "faqTitle": "वारंवार विचारले जाणारे प्रश्न",
+    "faqText": "तुम्ही फाइल करणे किंवा वाढवणे सुरू करण्यापूर्वी अपेक्षा साफ करा.",
+    "ctaTitle": "तुम्ही दाखल करण्यापूर्वी योग्य तक्रार मार्ग शोधा.",
+    "ctaText": "श्रेणी निवडा, अधिकार समजून घ्या, कागदपत्रे गोळा करा आणि एक मजबूत तक्रार तयार करा.",
+    "trustAuthority": "प्राधिकरणाचा शोध",
+    "trustProcedure": "कार्यपद्धती मार्गदर्शन",
+    "trustDraft": "मसुदा तयार करणे",
+    "verifiedProcess": "सत्यापित प्रक्रिया",
+    "authorityMapped": "प्राधिकरण मॅप केले",
+    "complaintReadiness": "तक्रारीची तयारी",
+    "issueLabel": "समस्या प्रकार",
+    "issueValue": "बँकिंग व्यवहार वाद",
+    "authorityLabel": "बहुधा अधिकार",
+    "authorityValue": "RBI एकात्मिक लोकपाल",
+    "nextStepLabel": "पुढची पायरी",
+    "nextStepValue": "प्रतिसाद तपासा आणि वाढीची तयारी करा",
+    "clearTitle": "साफ",
+    "clearText": "प्रथम कुठे जायचे ते जाणून घ्या.",
+    "preparedTitle": "तयार",
+    "preparedText": "चांगल्या संदर्भासह फाइल."
   },
   "process": {
     "describe": {
-      "title": "Describe your issue",
-      "description": "Select the category that best matches the problem and identify the key facts."
+      "title": "तुमच्या समस्येचे वर्णन करा",
+      "description": "समस्येशी सर्वोत्तम जुळणारी श्रेणी निवडा आणि मुख्य तथ्ये ओळखा."
     },
     "authority": {
-      "title": "Find the correct authority",
-      "description": "Understand whether the matter belongs to a company, regulator, ombudsman, portal, or department."
+      "title": "योग्य अधिकारी शोधा",
+      "description": "प्रकरण कंपनी, नियामक, लोकपाल, पोर्टल किंवा विभागाचे आहे की नाही हे समजून घ्या."
     },
     "prepare": {
-      "title": "Prepare documents",
-      "description": "Collect dates, receipts, IDs, screenshots, reference numbers, and previous replies."
+      "title": "कागदपत्रे तयार करा",
+      "description": "तारखा, पावत्या, आयडी, स्क्रीनशॉट, संदर्भ क्रमांक आणि मागील उत्तरे गोळा करा."
     },
     "track": {
-      "title": "Track and escalate",
-      "description": "Follow the expected timeline and escalate only when the process allows it."
+      "title": "मागोवा घ्या आणि वाढवा",
+      "description": "अपेक्षित टाइमलाइन फॉलो करा आणि प्रक्रिया परवानगी देते तेव्हाच वाढवा."
     }
   },
   "categories": {
-    "cta": "Explore path",
-    "authority": "Authority",
-    "timeline": "Expected timeline",
-    "learnMore": "Open guide",
+    "cta": "मार्ग एक्सप्लोर करा",
+    "authority": "प्राधिकरण",
+    "timeline": "अपेक्षित टाइमलाइन",
+    "learnMore": "मार्गदर्शक उघडा",
     "consumer": {
-      "title": "Consumer Complaint",
-      "description": "Products, services, refunds, defective goods, misleading ads, and unfair trade practices.",
-      "authority": "Consumer Commission / National Consumer Helpline",
-      "timeframe": "Usually 30-90 days"
+      "title": "ग्राहकांची तक्रार",
+      "description": "उत्पादने, सेवा, परतावा, सदोष वस्तू, दिशाभूल करणाऱ्या जाहिराती आणि अनुचित व्यापार पद्धती.",
+      "authority": "ग्राहक आयोग / राष्ट्रीय ग्राहक हेल्पलाइन",
+      "timeframe": "सहसा 30-90 दिवस"
     },
     "cpgrams": {
       "title": "CPGRAMS",
-      "description": "Central Government department grievances and public service delays.",
-      "authority": "Concerned Central Government Department",
-      "timeframe": "Usually around 30 days"
+      "description": "केंद्र सरकार विभागाच्या तक्रारी आणि सार्वजनिक सेवा विलंब.",
+      "authority": "केंद्र सरकारच्या संबंधित विभाग",
+      "timeframe": "सहसा सुमारे 30 दिवस"
     },
     "ingram": {
       "title": "INGRAM",
-      "description": "Consumer helpline route for product and service grievances before formal escalation.",
-      "authority": "Department of Consumer Affairs",
-      "timeframe": "Varies by company response"
+      "description": "औपचारिक वाढ होण्यापूर्वी उत्पादन आणि सेवा तक्रारींसाठी ग्राहक हेल्पलाइन मार्ग.",
+      "authority": "ग्राहक व्यवहार विभाग",
+      "timeframe": "कंपनीच्या प्रतिसादानुसार बदलते"
     },
     "rti": {
       "title": "RTI",
-      "description": "Right to Information requests, first appeals, and public authority discovery.",
-      "authority": "Public Information Officer",
-      "timeframe": "30 days in most cases"
+      "description": "माहिती अधिकार विनंत्या, प्रथम अपील आणि सार्वजनिक प्राधिकरण शोध.",
+      "authority": "जन माहिती अधिकारी",
+      "timeframe": "बहुतेक प्रकरणांमध्ये 30 दिवस"
     },
     "banking": {
-      "title": "Banking",
-      "description": "Failed transactions, UPI issues, loan disputes, cards, and bank service complaints.",
-      "authority": "RBI Integrated Ombudsman",
-      "timeframe": "After bank response window"
+      "title": "बँकिंग",
+      "description": "अयशस्वी व्यवहार, UPI समस्या, कर्ज विवाद, कार्ड आणि बँक सेवा तक्रारी.",
+      "authority": "RBI एकात्मिक लोकपाल",
+      "timeframe": "बँक प्रतिसाद विंडो नंतर"
     },
     "insurance": {
-      "title": "Insurance",
-      "description": "Claim delay, rejection, mis-selling, policy servicing, and premium disputes.",
-      "authority": "Insurance Ombudsman",
-      "timeframe": "After insurer grievance process"
+      "title": "विमा",
+      "description": "दावा विलंब, नकार, चुकीची विक्री, पॉलिसी सर्व्हिसिंग आणि प्रीमियम विवाद.",
+      "authority": "विमा लोकपाल",
+      "timeframe": "विमाधारक तक्रार प्रक्रियेनंतर"
     },
     "railways": {
-      "title": "Railways",
-      "description": "Train travel, refund, cleanliness, staff, ticketing, and onboard service complaints.",
-      "authority": "Rail Madad",
-      "timeframe": "Varies by complaint type"
+      "title": "रेल्वे",
+      "description": "ट्रेन प्रवास, परतावा, स्वच्छता, कर्मचारी, तिकीट आणि ऑनबोर्ड सेवा तक्रारी.",
+      "authority": "रेल मदाड",
+      "timeframe": "तक्रारीच्या प्रकारानुसार बदलते"
     },
     "passport": {
-      "title": "Passport",
-      "description": "Passport application, police verification, appointment, and document issues.",
-      "authority": "Passport Seva",
-      "timeframe": "Depends on file status"
+      "title": "पासपोर्ट",
+      "description": "पासपोर्ट अर्ज, पोलीस पडताळणी, अपॉइंटमेंट आणि कागदपत्रांच्या समस्या.",
+      "authority": "पासपोर्ट सेवा",
+      "timeframe": "फाइल स्थितीवर अवलंबून आहे"
     },
     "electricity": {
-      "title": "Electricity",
-      "description": "Billing, meter, outage, connection, and distribution company service issues.",
-      "authority": "Electricity distribution company / regulator",
-      "timeframe": "State-specific service charter"
+      "title": "वीज",
+      "description": "बिलिंग, मीटर, आउटेज, कनेक्शन आणि वितरण कंपनी सेवा समस्या.",
+      "authority": "वीज वितरण कंपनी / नियामक",
+      "timeframe": "राज्य-विशिष्ट सेवा चार्टर"
     },
     "pension": {
-      "title": "Pension",
-      "description": "Pension payment, arrears, life certificate, retirement benefit, and EPFO issues.",
-      "authority": "Pension department / EPFO / CPENGRAMS",
-      "timeframe": "Usually 30-60 days"
+      "title": "पेन्शन",
+      "description": "पेन्शन पेमेंट, थकबाकी, जीवन प्रमाणपत्र, निवृत्ती लाभ आणि EPFO समस्या.",
+      "authority": "पेन्शन विभाग / EPFO / CPENGRAMS",
+      "timeframe": "सहसा 30-60 दिवस"
     }
   },
   "features": {
     "mapping": {
-      "title": "Authority mapping",
-      "description": "Match issue types with the body most likely to handle them."
+      "title": "प्राधिकरण मॅपिंग",
+      "description": "समस्यांचे प्रकार हाताळण्याची शक्यता असलेल्या शरीराशी जुळवा."
     },
     "procedure": {
-      "title": "Procedure guidance",
-      "description": "Know the first step, escalation order, and common waiting periods."
+      "title": "कार्यपद्धती मार्गदर्शन",
+      "description": "पहिली पायरी, वाढीचा क्रम आणि सामान्य प्रतीक्षा कालावधी जाणून घ्या."
     },
     "draft": {
-      "title": "Complaint readiness",
-      "description": "Organize facts, evidence, and relief requested before filing."
+      "title": "तक्रारीची तयारी",
+      "description": "दाखल करण्यापूर्वी विनंती केलेले तथ्य, पुरावे आणि मदत व्यवस्थित करा."
     },
     "learning": {
-      "title": "Citizen knowledge base",
-      "description": "Read practical guides with official links and plain-language explanations."
+      "title": "नागरिकांच्या ज्ञानाचा आधार",
+      "description": "अधिकृत दुवे आणि साध्या-भाषेतील स्पष्टीकरणांसह व्यावहारिक मार्गदर्शक वाचा."
     }
   },
   "stats": {
     "items": [
-      "Priority complaint categories",
-      "Authority types planned",
-      "Indian languages supported",
-      "Self-serve guidance"
+      "प्राधान्य तक्रार श्रेणी",
+      "प्राधिकरण प्रकार नियोजित",
+      "भारतीय भाषा समर्थित",
+      "स्वयंसेवा मार्गदर्शन"
     ]
   },
   "faq": {
     "help": {
-      "question": "Can CitizenDesk India help me choose the correct authority?",
-      "answer": "Yes. It helps you understand the authority that usually handles your issue and what to prepare before filing."
+      "question": "सिटीझनडेस्क इंडिया मला योग्य अधिकार निवडण्यात मदत करू शकेल का?",
+      "answer": "होय. हे सहसा तुमची समस्या हाताळणारे प्राधिकरण आणि फाइल करण्यापूर्वी काय तयारी करावी हे समजून घेण्यास मदत करते."
     },
     "government": {
-      "question": "Is CitizenDesk India a government website?",
-      "answer": "No. It is an independent guidance platform and links users to official resources."
+      "question": "सिटीझनडेस्क इंडिया ही सरकारी वेबसाइट आहे का?",
+      "answer": "नाही. हे एक स्वतंत्र मार्गदर्शन मंच आहे आणि वापरकर्त्यांना अधिकृत संसाधनांशी जोडते."
     },
     "file": {
-      "question": "Will CitizenDesk India file complaints for me?",
-      "answer": "No. It provides guidance only. Users must submit complaints through official portals or authorities."
+      "question": "सिटीझनडेस्क इंडिया माझ्यासाठी तक्रारी दाखल करेल का?",
+      "answer": "नाही. हे फक्त मार्गदर्शन प्रदान करते. वापरकर्त्यांनी अधिकृत पोर्टल किंवा प्राधिकरणांद्वारे तक्रारी सादर करणे आवश्यक आहे."
     },
     "categories": {
-      "question": "Which complaint categories are supported?",
-      "answer": "Consumer, CPGRAMS, INGRAM, RTI, Banking, Insurance, Railways, Passport, Electricity, Pension and more."
+      "question": "कोणत्या तक्रारी श्रेणी समर्थित आहेत?",
+      "answer": "ग्राहक, CPGRAMS, INGRAM, RTI, बँकिंग, विमा, रेल्वे, पासपोर्ट, वीज, पेन्शन आणि बरेच काही."
     },
     "privacy": {
-      "question": "Is my personal information stored?",
-      "answer": "The public site does not require complaint details. Future assisted workflows should collect only what is necessary."
+      "question": "माझी वैयक्तिक माहिती संग्रहित आहे का?",
+      "answer": "सार्वजनिक साइटला तक्रारीच्या तपशीलांची आवश्यकता नाही. भविष्यातील सहाय्यक कार्यप्रवाहांनी आवश्यक तेच गोळा केले पाहिजे."
     }
   },
   "pages": {
-    "finderEyebrow": "Rule-based complaint finder",
+    "finderEyebrow": "नियम-आधारित तक्रार शोधक",
     "finderTitle": "तक्रार शोधक",
-    "finderText": "Choose a complaint category to discover the right authority, likely documents, expected timeline, and escalation path.",
-    "guidesEyebrow": "Knowledge center",
-    "guidesTitle": "मार्गदर्शिका",
-    "guidesText": "Plain-language citizen guides for grievance systems, rights, documents, and official complaint routes.",
-    "readGuide": "Read guide",
-        "aboutEyebrow": "About CitizenDesk India",
+    "finderText": "योग्य अधिकार, संभाव्य दस्तऐवज, अपेक्षित टाइमलाइन आणि वाढीचा मार्ग शोधण्यासाठी तक्रार श्रेणी निवडा.",
+    "guidesEyebrow": "ज्ञान केंद्र",
+    "guidesTitle": "मार्गदर्शक",
+    "guidesText": "तक्रार प्रणाली, अधिकार, दस्तऐवज आणि अधिकृत तक्रार मार्ग यासाठी सोप्या भाषेतील नागरिक मार्गदर्शन करतात.",
+    "readGuide": "मार्गदर्शक वाचा",
+    "successStoriesTitle": "उदाहरणात्मक तक्रार मार्गावरून शिका",
+    "successStoriesText": "तयारी, योग्य अधिकार आणि दस्तऐवजीकरण पाठपुरावा तक्रारीचा मार्ग कसा स्पष्ट करू शकतो ते पहा.",
+    "successStoriesLink": "यशोगाथा एक्सप्लोर करा",
+    "aboutEyebrow": "सिटीझनडेस्क इंडिया बद्दल",
     "aboutValues": [
       {
-        "title": "Clarity before action",
-        "body": "Understand the right authority, process, and next step before filing or escalating a grievance."
+        "title": "कारवाईपूर्वी स्पष्टता",
+        "body": "तक्रार दाखल करण्यापूर्वी किंवा वाढवण्यापूर्वी योग्य अधिकार, प्रक्रिया आणि पुढील पायरी समजून घ्या."
       },
       {
-        "title": "Respect for official process",
-        "body": "Use the appropriate grievance channel and follow the published procedure before escalating."
+        "title": "अधिकृत प्रक्रियेचा आदर",
+        "body": "योग्य तक्रार चॅनेल वापरा आणि वाढवण्यापूर्वी प्रकाशित प्रक्रियेचे अनुसरण करा."
       },
       {
-        "title": "Privacy by design",
-        "body": "Share only the information necessary for your grievance and avoid exposing sensitive personal details."
+        "title": "डिझाइननुसार गोपनीयता",
+        "body": "तुमच्या तक्रारीसाठी आवश्यक असलेली माहितीच शेअर करा आणि संवेदनशील वैयक्तिक तपशील उघड करणे टाळा."
       },
       {
-        "title": "Plain-language civic education",
-        "body": "Turn complicated grievance systems into practical guidance that ordinary citizens can understand and use."
+        "title": "साध्या भाषेतील नागरी शिक्षण",
+        "body": "सामान्य नागरिक समजू शकतील आणि वापरू शकतील अशा क्लिष्ट तक्रार प्रणालीला व्यावहारिक मार्गदर्शनात बदला."
       }
     ],
-    "aboutTitle": "About CitizenDesk India",
-    "aboutText": "CitizenDesk India exists to make grievance procedures easier to understand, without pretending to be a government portal or legal adviser.",
-    "contactTitle": "Contact CitizenDesk India",
-    "contactText": "Send corrections, suggestions, partnership ideas, and platform feedback.",
-    "privacyTitle": "Privacy Policy",
-    "privacyText": "Your privacy matters. CitizenDesk India is designed to minimize data collection and guide users responsibly.",
-    "termsTitle": "Terms and Conditions",
-    "termsText": "These terms explain acceptable use, disclaimers, external links, and platform limitations.",
-    "notFoundTitle": "Page not found",
-    "notFoundText": "The page you are looking for may have moved or is not available yet.",
-    "formName": "Your name",
-    "formEmail": "Email address",
-    "formMessage": "How can we help?",
-    "formSubmit": "Submit inquiry",
-    "guideCovers": "What this guide covers",
-    "guidePointAuthority": "Identify the correct first-level authority before escalation.",
-    "guidePointDocuments": "Prepare facts, dates, evidence, and reference numbers clearly.",
-    "guidePointEscalation": "Understand when to wait, follow up, or escalate responsibly.",
-    "contactEyebrow": "Contact",
-    "formTitle": "Send a message",
-    "formLocation": "India-first, remote platform",
-    "messageLabel": "Message"
+    "aboutTitle": "सिटीझनडेस्क इंडिया बद्दल",
+    "aboutText": "CitizenDesk India हे सरकारी पोर्टल किंवा कायदेशीर सल्लागार असल्याची बतावणी न करता तक्रार प्रक्रिया समजून घेणे सोपे करण्यासाठी अस्तित्वात आहे.",
+    "contactTitle": "सिटीझनडेस्क इंडियाशी संपर्क साधा",
+    "contactText": "दुरुस्त्या, सूचना, भागीदारी कल्पना आणि प्लॅटफॉर्म फीडबॅक पाठवा.",
+    "privacyTitle": "गोपनीयता धोरण",
+    "privacyText": "तुमची गोपनीयता महत्त्वाची आहे. CitizenDesk India डेटा संकलन कमी करण्यासाठी आणि वापरकर्त्यांना जबाबदारीने मार्गदर्शन करण्यासाठी डिझाइन केले आहे.",
+    "privacySections": [
+      {
+        "title": "तुम्ही शेअर केलेली माहिती",
+        "body": "तुमची तक्रार समजून घेण्यासाठी आवश्यक असलेली माहितीच वापरा. पासवर्ड, OTP, पूर्ण ओळख क्रमांक किंवा इतर अनावश्यक संवेदनशील तपशील शेअर करू नका."
+      },
+      {
+        "title": "हे व्यासपीठ कसे वापरले जाते",
+        "body": "CitizenDesk India सामान्य मार्गदर्शन आणि अधिकृत संसाधनांचे दुवे प्रदान करते. हा सरकारी विभाग किंवा कायदेशीर सल्लागार नाही."
+      },
+      {
+        "title": "बाह्य सेवा",
+        "body": "अधिकृत दुवे त्यांच्या स्वतःच्या गोपनीयता पद्धतींसह सेवांकडे नेऊ शकतात. माहिती सबमिट करण्यापूर्वी त्या सूचनांचे पुनरावलोकन करा."
+      }
+    ],
+    "termsTitle": "नियम आणि अटी",
+    "termsText": "या अटी स्वीकार्य वापर, अस्वीकरण, बाह्य दुवे आणि प्लॅटफॉर्म मर्यादा स्पष्ट करतात.",
+    "termsSections": [
+      {
+        "title": "फक्त मार्गदर्शन",
+        "body": "CitizenDesk India सामान्य माहिती प्रदान करते, कायदेशीर सल्ला, अधिकृत निर्णय किंवा कोणत्याही तक्रारीच्या निकालाची हमी देत नाही."
+      },
+      {
+        "title": "अधिकृत चॅनेल वापरा",
+        "body": "संबंधित प्राधिकरणासह कार्यपद्धती सत्यापित करा आणि आवश्यक असेल तेव्हा अधिकृत चॅनेलद्वारे तक्रारी सबमिट करा."
+      },
+      {
+        "title": "जबाबदार वापर",
+        "body": "अनावश्यक संवेदनशील डेटा सबमिट करू नका किंवा आपत्कालीन, कायदेशीर किंवा अधिकृत सहाय्यासाठी पर्याय म्हणून या प्लॅटफॉर्मवर अवलंबून राहू नका."
+      }
+    ],
+    "notFoundTitle": "पृष्ठ आढळले नाही",
+    "notFoundText": "आपण शोधत असलेले पृष्ठ कदाचित हलविले आहे किंवा अद्याप उपलब्ध नाही.",
+    "formName": "तुमचे नाव",
+    "formEmail": "ईमेल पत्ता",
+    "formMessage": "आम्ही कशी मदत करू शकतो?",
+    "formSubmit": "चौकशी सादर करा",
+    "guideCovers": "या मार्गदर्शकामध्ये काय समाविष्ट आहे",
+    "guidePointAuthority": "वाढ करण्यापूर्वी योग्य प्रथम-स्तरीय प्राधिकरण ओळखा.",
+    "guidePointDocuments": "तथ्ये, तारखा, पुरावे आणि संदर्भ क्रमांक स्पष्टपणे तयार करा.",
+    "guidePointEscalation": "केव्हा प्रतीक्षा करावी, पाठपुरावा करावा किंवा जबाबदारीने पुढे जावे हे समजून घ्या.",
+    "contactEyebrow": "संपर्क करा",
+    "formTitle": "एक संदेश पाठवा",
+    "formLocation": "भारत-प्रथम, रिमोट प्लॅटफॉर्म",
+    "messageLabel": "संदेश"
   },
   "footer": {
-    "platform": "Platform",
-    "company": "Company",
-    "resources": "Resources",
-    "legal": "Legal",
-    "rights": "All rights reserved.",
-    "built": "Built for clarity, trust, and responsible citizen action."
+    "platform": "प्लॅटफॉर्म",
+    "company": "कंपनी",
+    "resources": "संसाधने",
+    "legal": "कायदेशीर",
+    "rights": "सर्व हक्क राखीव.",
+    "built": "स्पष्टता, विश्वास आणि जबाबदार नागरिकांच्या कृतीसाठी तयार केलेले."
   },
   "guides": {
     "categories": {
-      "consumer": "Consumer",
-      "publicGrievance": "Public grievance",
+      "consumer": "ग्राहक",
+      "publicGrievance": "जनतेची तक्रार",
       "rti": "RTI",
-      "banking": "Banking",
-      "railways": "Railways",
-      "passport": "Passport",
-      "cyberCrime": "Cyber crime",
-      "identity": "Identity"
+      "banking": "बँकिंग",
+      "railways": "रेल्वे",
+      "passport": "पासपोर्ट",
+      "cyberCrime": "सायबर गुन्हे",
+      "identity": "ओळख"
     },
     "consumer-complaint-guide": {
-      "title": "Consumer complaint guide",
-      "description": "Learn when to use the National Consumer Helpline, when to approach a Consumer Commission, and what evidence to prepare.",
-      "overview": "Use this guide when a product or service dispute is unresolved after contacting the seller or service provider."
+      "title": "ग्राहक तक्रार मार्गदर्शक",
+      "description": "नॅशनल कन्झ्युमर हेल्पलाइन कधी वापरायची, ग्राहक आयोगाशी कधी संपर्क साधायचा आणि कोणते पुरावे तयार करायचे ते जाणून घ्या.",
+      "overview": "विक्रेत्याशी किंवा सेवा प्रदात्याशी संपर्क साधल्यानंतर उत्पादन किंवा सेवा विवादाचे निराकरण न झाल्यास हे मार्गदर्शक वापरा."
     },
     "cpgrams-guide": {
-      "title": "CPGRAMS public grievance guide",
-      "description": "Understand how central government grievances are routed, tracked, and escalated through CPGRAMS.",
-      "overview": "Use this guide for central government department service delays, unresolved requests, and administrative grievances."
+      "title": "CPGRAMS सार्वजनिक तक्रार मार्गदर्शक",
+      "description": "CPGRAMS द्वारे केंद्र सरकारच्या तक्रारी कशा मार्गी लावल्या जातात, ट्रॅक केल्या जातात आणि वाढवल्या जातात हे समजून घ्या.",
+      "overview": "केंद्र सरकारच्या विभागातील सेवा विलंब, निराकरण न झालेल्या विनंत्या आणि प्रशासकीय तक्रारींसाठी या मार्गदर्शकाचा वापर करा."
     },
     "rti-application-guide": {
-      "title": "RTI application guide",
-      "description": "Identify the public authority, write a precise RTI request, and understand first appeal basics.",
-      "overview": "Use this guide when you need information from a public authority under the Right to Information Act."
+      "title": "आरटीआय अर्ज मार्गदर्शक",
+      "description": "सार्वजनिक प्राधिकरण ओळखा, अचूक RTI विनंती लिहा आणि प्रथम अपील मूलभूत गोष्टी समजून घ्या.",
+      "overview": "माहिती अधिकार कायद्यांतर्गत सार्वजनिक प्राधिकरणाकडून माहिती हवी असेल तेव्हा या मार्गदर्शकाचा वापर करा."
     },
     "banking-ombudsman-guide": {
-      "title": "RBI Ombudsman complaint guide",
-      "description": "Escalate unresolved banking, card, UPI, loan, and digital payment issues through the RBI framework.",
-      "overview": "Use this guide after first complaining to your bank or regulated entity and waiting for the required response window."
+      "title": "RBI लोकपाल तक्रार मार्गदर्शक",
+      "description": "RBI फ्रेमवर्कद्वारे निराकरण न झालेल्या बँकिंग, कार्ड, UPI, कर्ज आणि डिजिटल पेमेंट समस्या वाढवा.",
+      "overview": "प्रथम तुमच्या बँकेकडे किंवा नियमन केलेल्या संस्थेकडे तक्रार केल्यानंतर आणि आवश्यक प्रतिसाद विंडोची प्रतीक्षा केल्यानंतर या मार्गदर्शकाचा वापर करा."
     },
     "rail-madad-guide": {
-      "title": "Rail Madad complaint guide",
-      "description": "Raise railway travel, refund, cleanliness, catering, ticketing, and onboard service complaints.",
-      "overview": "Use this guide for Indian Railways passenger service issues and follow-up tracking."
+      "title": "रेल मदाद तक्रार मार्गदर्शक",
+      "description": "रेल्वे प्रवास, परतावा, स्वच्छता, केटरिंग, तिकीट आणि ऑनबोर्ड सेवा तक्रारी वाढवा.",
+      "overview": "भारतीय रेल्वे प्रवासी सेवा समस्या आणि फॉलो-अप ट्रॅकिंगसाठी या मार्गदर्शकाचा वापर करा."
     },
     "passport-seva-guide": {
-      "title": "Passport Seva issue guide",
-      "description": "Understand passport application, appointment, police verification, and document correction routes.",
-      "overview": "Use this guide when a passport application is delayed, stuck, or needs correction."
+      "title": "पासपोर्ट सेवा समस्या मार्गदर्शक",
+      "description": "पासपोर्ट अर्ज, अपॉइंटमेंट, पोलीस पडताळणी आणि दस्तऐवज दुरुस्तीचे मार्ग समजून घ्या.",
+      "overview": "पासपोर्ट अर्ज उशीरा, अडकला किंवा दुरुस्त करणे आवश्यक असताना या मार्गदर्शकाचा वापर करा."
     },
     "cyber-crime-guide": {
-      "title": "Cyber crime complaint guide",
-      "description": "Know the urgent route for online fraud, phishing, impersonation, harassment, and suspicious financial activity.",
-      "overview": "Use this guide for cyber incidents, especially when fast reporting can reduce financial or personal harm."
+      "title": "सायबर गुन्हे तक्रार मार्गदर्शक",
+      "description": "ऑनलाइन फसवणूक, फिशिंग, तोतयागिरी, छळ आणि संशयास्पद आर्थिक क्रियाकलाप यासाठी तातडीचा मार्ग जाणून घ्या.",
+      "overview": "सायबर घटनांसाठी या मार्गदर्शकाचा वापर करा, विशेषत: जेव्हा जलद अहवाल देणे आर्थिक किंवा वैयक्तिक नुकसान कमी करू शकते."
     },
     "uidai-guide": {
-      "title": "Aadhaar and UIDAI service guide",
-      "description": "Understand Aadhaar update, authentication, enrolment, and service complaint options.",
-      "overview": "Use this guide for Aadhaar-related service, update, authentication, or enrolment problems."
+      "title": "आधार आणि UIDAI सेवा मार्गदर्शक",
+      "description": "आधार अपडेट, प्रमाणीकरण, नावनोंदणी आणि सेवा तक्रार पर्याय समजून घ्या.",
+      "overview": "आधार-संबंधित सेवा, अपडेट, प्रमाणीकरण किंवा नावनोंदणी समस्यांसाठी या मार्गदर्शकाचा वापर करा."
     }
   },
   "finder": {
-    "startTitle": "Start with your problem",
-    "startText": "Describe the issue or choose a category. The finder will suggest the likely path.",
-    "issueLabel": "What happened?",
-    "issuePlaceholder": "Example: My pension stopped after I submitted my life certificate.",
-    "categoryLabel": "Complaint category",
-    "categoryAuto": "Detect from my description",
-    "validation": "Add a short description or choose a category to continue.",
-    "find": "Find authority",
-    "reset": "Reset",
-    "likelyAuthority": "Likely authority path",
-    "procedure": "Procedure",
-    "timeline": "Timeline",
-    "evidence": "Evidence to keep",
-    "escalation": "Escalation path",
-    "prepareDraft": "Prepare complaint draft",
-    "viewProcedure": "View procedure guide",
-    "emptyTitle": "Your result will appear here",
-    "emptyText": "A well-documented complaint sent to the right authority gives you a stronger path forward.",
-    "back": "Back to result",
-    "draftTitle": "Complaint draft starter",
-    "draftGreeting": "To the Grievance Officer,",
-    "draftIntro": "I am submitting this complaint regarding",
-    "draftFacts": "Key facts",
-    "draftPlaceholder": "Describe the issue with dates, reference numbers, and earlier replies.",
-    "draftEvidence": "Documents/evidence attached",
-    "draftRelief": "Requested action",
-    "draftClose": "Please examine the matter and provide a written response through the appropriate grievance process.",
-    "copyDraft": "Copy draft",
-    "copied": "Copied"
+    "startTitle": "तुमच्या समस्येपासून सुरुवात करा",
+    "startText": "समस्येचे वर्णन करा किंवा श्रेणी निवडा. शोधक संभाव्य मार्ग सुचवेल.",
+    "issueLabel": "काय झालं?",
+    "issuePlaceholder": "उदाहरण: मी माझे जीवन प्रमाणपत्र सादर केल्यानंतर माझे पेन्शन थांबले.",
+    "categoryLabel": "तक्रार श्रेणी",
+    "categoryAuto": "माझ्या वर्णनावरून शोधा",
+    "validation": "एक लहान वर्णन जोडा किंवा सुरू ठेवण्यासाठी श्रेणी निवडा.",
+    "find": "अधिकार शोधा",
+    "reset": "रीसेट करा",
+    "likelyAuthority": "संभाव्य अधिकार मार्ग",
+    "procedure": "कार्यपद्धती",
+    "timeline": "टाइमलाइन",
+    "evidence": "पुरावा ठेवावा",
+    "escalation": "वाढीचा मार्ग",
+    "prepareDraft": "तक्रारीचा मसुदा तयार करा",
+    "viewProcedure": "प्रक्रिया मार्गदर्शक पहा",
+    "emptyTitle": "तुमचा निकाल येथे दिसेल",
+    "emptyText": "योग्य अधिकाऱ्याकडे पाठवलेली चांगली दस्तऐवजीकरण केलेली तक्रार तुम्हाला पुढे जाण्याचा एक मजबूत मार्ग देते.",
+    "back": "परिणामाकडे परत",
+    "draftTitle": "तक्रार मसुदा स्टार्टर",
+    "draftGreeting": "तक्रार अधिकारी यांना,",
+    "draftIntro": "याबाबत मी ही तक्रार करत आहे",
+    "draftFacts": "मुख्य तथ्ये",
+    "draftPlaceholder": "तारखा, संदर्भ क्रमांक आणि पूर्वीच्या उत्तरांसह समस्येचे वर्णन करा.",
+    "draftEvidence": "कागदपत्रे / पुरावे जोडले आहेत",
+    "draftRelief": "कारवाईची मागणी केली",
+    "draftClose": "कृपया प्रकरणाचे परीक्षण करा आणि योग्य तक्रार प्रक्रियेद्वारे लेखी प्रतिसाद द्या.",
+    "copyDraft": "मसुदा कॉपी करा",
+    "copied": "कॉपी केले"
   },
   "assistant": {
-    "open": "Open citizen assistant",
-    "close": "Close assistant",
-    "title": "Citizen Assistant",
-    "subtitle": "Guidance, not official legal advice",
-    "language": "Assistant language",
-    "welcome": "Tell me the grievance in simple words. I can suggest the likely authority, documents to keep, escalation path, and a draft structure.",
-    "placeholder": "Ask about a complaint path...",
-    "send": "Send",
-    "clear": "Clear conversation",
-    "typing": "Preparing guidance...",
-    "copy": "Copy",
-    "suggestPension": "My pension has stopped. What should I do?",
-    "suggestBank": "My bank is not resolving my complaint.",
-    "suggestDraft": "Help me draft a complaint.",
-    "likelyPath": "Likely path:",
-    "firstStep": "First step:",
-    "keepEvidence": "Keep evidence such as:",
-    "escalate": "Escalation:",
-    "disclaimer": "CitizenDesk India is an independent guidance platform, not a government department. Verify details on official sources and avoid sharing unnecessary sensitive personal information."
+    "open": "खुले नागरिक सहाय्यक",
+    "close": "सहाय्यक बंद करा",
+    "title": "नागरिक सहाय्यक",
+    "subtitle": "मार्गदर्शन, अधिकृत कायदेशीर सल्ला नाही",
+    "language": "सहाय्यक भाषा",
+    "welcome": "मला तक्रारी सोप्या शब्दात सांगा. मी संभाव्य प्राधिकरण, ठेवण्यासाठी कागदपत्रे, वाढीचा मार्ग आणि मसुदा रचना सुचवू शकतो.",
+    "placeholder": "तक्रार मार्गाबद्दल विचारा...",
+    "send": "पाठवा",
+    "clear": "संभाषण साफ करा",
+    "typing": "मार्गदर्शन तयार करत आहे...",
+    "copy": "कॉपी करा",
+    "suggestPension": "माझी पेन्शन थांबली आहे. मी काय करावे?",
+    "suggestBank": "माझी बँक माझ्या तक्रारीचे निराकरण करत नाही.",
+    "suggestDraft": "तक्रार मसुदा तयार करण्यात मला मदत करा.",
+    "likelyPath": "संभाव्य मार्ग:",
+    "firstStep": "पहिली पायरी:",
+    "keepEvidence": "पुरावे ठेवा जसे की:",
+    "escalate": "वाढ:",
+    "disclaimer": "CitizenDesk India हे स्वतंत्र मार्गदर्शन व्यासपीठ आहे, सरकारी विभाग नाही. अधिकृत स्त्रोतांवरील तपशील सत्यापित करा आणि अनावश्यक संवेदनशील वैयक्तिक माहिती सामायिक करणे टाळा."
   },
   "confidence": {
-    "eyebrow": "Your complaint can make a difference",
-    "title": "People who don't give up",
-    "text": "These illustrative scenarios show how a documented complaint, sent through the right channel, can create a clearer path forward. They are not promises of outcome.",
-    "illustrative": "Illustrative scenario",
+    "eyebrow": "तुमच्या तक्रारीमुळे फरक पडू शकतो",
+    "title": "जे लोक हार मानत नाहीत",
+    "text": "योग्य चॅनेलद्वारे पाठवलेली दस्तऐवजीकरण तक्रार, पुढे जाण्याचा मार्ग कसा तयार करू शकते हे या उदाहरणात्मक परिस्थिती दाखवतात. ते निकालाची आश्वासने नाहीत.",
+    "illustrative": "उदाहरणात्मक परिस्थिती",
     "pension": {
-      "title": "Pension payment restored after documented follow-up",
-      "body": "A retired citizen keeps the pension reference, bank entries, life certificate proof, and earlier replies before escalating to the appropriate pension grievance route.",
-      "lesson": "Lesson: keep reference numbers and show the full timeline."
+      "title": "दस्तऐवजीकरण पाठपुरावा केल्यानंतर पेन्शन पेमेंट पुनर्संचयित",
+      "body": "निवृत्त नागरिक पेन्शन संदर्भ, बँक नोंदी, जीवन प्रमाणपत्र पुरावा आणि योग्य पेन्शन तक्रार मार्गावर जाण्यापूर्वी पूर्वीची उत्तरे ठेवतो.",
+      "lesson": "धडा: संदर्भ क्रमांक ठेवा आणि पूर्ण टाइमलाइन दाखवा."
     },
     "banking": {
-      "title": "Failed transaction dispute moved beyond branch visits",
-      "body": "A customer first files with the bank in writing, waits for the response window, then prepares an escalation with transaction references and the bank complaint number.",
-      "lesson": "Lesson: regulators usually expect the bank process first."
+      "title": "अयशस्वी व्यवहार विवाद शाखा भेटींच्या पलीकडे गेला",
+      "body": "ग्राहक प्रथम बँकेकडे लिखित स्वरूपात फाइल करतो, प्रतिसाद विंडोची वाट पाहतो, नंतर व्यवहार संदर्भ आणि बँक तक्रार क्रमांकासह एक वाढ तयार करतो.",
+      "lesson": "धडा: नियामक सामान्यतः प्रथम बँक प्रक्रियेची अपेक्षा करतात."
     },
     "consumer": {
-      "title": "Defective product complaint becomes clearer with evidence",
-      "body": "A buyer records invoice details, warranty promises, photos, and seller messages before using the consumer grievance path.",
-      "lesson": "Lesson: evidence makes the request specific and easier to examine."
+      "title": "दोषपूर्ण उत्पादनाची तक्रार पुराव्यासह स्पष्ट होते",
+      "body": "ग्राहक तक्रार मार्ग वापरण्यापूर्वी खरेदीदार बीजक तपशील, वॉरंटी आश्वासने, फोटो आणि विक्रेता संदेश रेकॉर्ड करतो.",
+      "lesson": "धडा: पुराव्यामुळे विनंती विशिष्ट आणि तपासणे सोपे होते."
     },
     "rights": {
       "evidence": {
-        "title": "What should I keep as evidence?",
-        "text": "Dates, receipts, application numbers, screenshots, photos, letters, and names of offices contacted."
+        "title": "पुरावा म्हणून मी काय ठेवावे?",
+        "text": "तारखा, पावत्या, अर्ज क्रमांक, स्क्रीनशॉट, फोटो, पत्रे आणि संपर्क कार्यालयांची नावे."
       },
       "noResponse": {
-        "title": "What if there is no response?",
-        "text": "Follow the stated timeline, keep proof of submission, then escalate through the published grievance route."
+        "title": "प्रतिसाद नसेल तर?",
+        "text": "नमूद केलेल्या टाइमलाइनचे अनुसरण करा, सबमिशनचा पुरावा ठेवा, नंतर प्रकाशित तक्रार मार्गाने पुढे जा."
       },
       "escalate": {
-        "title": "When should I escalate?",
-        "text": "Escalate after the first authority has had a fair chance to respond, or when the official process allows appeal."
+        "title": "मी कधी वाढवायचे?",
+        "text": "प्रथम अधिकाऱ्यांना प्रतिसाद देण्याची वाजवी संधी मिळाल्यानंतर किंवा अधिकृत प्रक्रिया अपीलला अनुमती देते तेव्हा वाढवा."
       }
     },
-    "trust": "CitizenDesk India is not a government department and does not guarantee any decision. AI and rule-based guidance can contain errors, so verify official links and do not share passwords, OTPs, full identity numbers, or unnecessary sensitive details."
+    "trust": "CitizenDesk India हा सरकारी विभाग नाही आणि कोणत्याही निर्णयाची हमी देत नाही. AI आणि नियम-आधारित मार्गदर्शनामध्ये त्रुटी असू शकतात, त्यामुळे अधिकृत लिंक्सची पडताळणी करा आणि पासवर्ड, OTP, पूर्ण ओळख क्रमांक किंवा अनावश्यक संवेदनशील तपशील शेअर करू नका."
+  },
+  "guidance": {
+    "consumer": {
+      "firstStep": "विक्रेत्याला किंवा सेवा प्रदात्याला समस्या आणि तुम्हाला हवे असलेले उपाय लिहा.",
+      "evidence": [
+        "चलन",
+        "हमी अटी",
+        "फोटो किंवा व्हिडिओ",
+        "विक्रेता संदेश"
+      ],
+      "escalation": "लेखी प्रतिसादाने समस्येचे निराकरण होत नसल्यास योग्य ग्राहक तक्रार मार्ग वापरा.",
+      "draftFocus": "सदोष उत्पादन किंवा सेवा आणि विनंती केलेला विशिष्ट उपाय."
+    },
+    "cpgrams": {
+      "firstStep": "मूळ संदर्भ क्रमांकासह संक्षिप्त तक्रार संबंधित विभागाकडे सादर करा.",
+      "evidence": [
+        "अर्ज संदर्भ",
+        "पावत्या",
+        "मागील प्रत्युत्तरे",
+        "टाइमलाइन"
+      ],
+      "escalation": "पावतीचा मागोवा घ्या आणि प्रतिसाद अपुरा असल्यास प्रकाशित वाढीव यंत्रणा वापरा.",
+      "draftFocus": "विलंबित सार्वजनिक सेवा आणि विनंती केलेली कारवाई किंवा स्पष्टीकरण."
+    },
+    "ingram": {
+      "firstStep": "कंपनीच्या प्रकाशित ग्राहक समर्थन चॅनेलद्वारे समस्या रेकॉर्ड करा.",
+      "evidence": [
+        "तक्रार क्रमांक",
+        "उत्पादन किंवा सेवा तपशील",
+        "संदेश",
+        "पेमेंट रेकॉर्ड"
+      ],
+      "escalation": "वाजवी प्रतिसाद कालावधीची अनुमती दिल्यानंतर लागू ग्राहक वाढीचा मार्ग वापरा.",
+      "draftFocus": "ग्राहकांची न सुटलेली समस्या आणि त्यावर उपाय मागितला आहे."
+    },
+    "rti": {
+      "firstStep": "योग्य सार्वजनिक प्राधिकरण किंवा सार्वजनिक माहिती अधिकाऱ्यांना फोकस केलेला आरटीआय अर्ज पाठवा.",
+      "evidence": [
+        "अर्जाची प्रत",
+        "फी पावती",
+        "वितरण पुरावा",
+        "पूर्वीचा पत्रव्यवहार"
+      ],
+      "escalation": "प्रतिसाद न मिळाल्यास किंवा अपूर्ण असताना प्रथम अपील प्रक्रिया वापरा.",
+      "draftFocus": "सार्वजनिक प्राधिकरणाकडून विनंती केलेली विशिष्ट माहिती."
+    },
+    "banking": {
+      "firstStep": "बँकेच्या अधिकृत तक्रार चॅनेलद्वारे लेखी तक्रार दाखल करा.",
+      "evidence": [
+        "व्यवहार संदर्भ",
+        "खाते विवरण",
+        "तक्रारीची पावती",
+        "बँक उत्तरे"
+      ],
+      "escalation": "बँक प्रक्रिया आणि पात्रता आवश्यकता पूर्ण झाल्यानंतरच RBI एकात्मिक लोकपाल योजनेचा विचार करा.",
+      "draftFocus": "विवादित बँकिंग समस्या आणि सुधारणा किंवा स्पष्टीकरण विनंती."
+    },
+    "insurance": {
+      "firstStep": "पॉलिसी आणि दावा तपशिलांसह चिंता विमाकर्त्याच्या तक्रार चॅनेलवर सबमिट करा.",
+      "evidence": [
+        "पॉलिसी दस्तऐवज",
+        "दावा संदर्भ",
+        "वैद्यकीय किंवा मूल्यांकन नोंदी",
+        "विमाकर्ता उत्तर देतो"
+      ],
+      "escalation": "विमा कंपनीने प्रकाशित केलेल्या वाढीच्या मार्गाचा अवलंब करा आणि योग्य लोकपाल प्रक्रिया तपासा.",
+      "draftFocus": "निराकरण न झालेला विमा दावा किंवा सेवा समस्या आणि विनंती केलेली कारवाई."
+    },
+    "railways": {
+      "firstStep": "संबंधित रेल्वे प्रवासी समर्थन चॅनेलद्वारे प्रवासाशी संबंधित समस्येचा अहवाल द्या.",
+      "evidence": [
+        "तिकीट किंवा पीएनआर",
+        "ट्रेन आणि कोच तपशील",
+        "वेळ आणि स्थान",
+        "योग्य तेथे फोटो"
+      ],
+      "escalation": "पोचपावती ठेवा आणि प्रकाशित प्रवासी तक्रार मार्गाचे अनुसरण करा.",
+      "draftFocus": "प्रवास-विशिष्ट सेवा समस्या आणि विनंती केलेली कृती."
+    },
+    "passport": {
+      "firstStep": "पासपोर्ट सेवा अर्जाची स्थिती तपासा आणि अधिकृत समर्थन मार्गाद्वारे समस्या मांडा.",
+      "evidence": [
+        "अर्ज क्रमांक",
+        "भेटीचे तपशील",
+        "दस्तऐवज पावत्या",
+        "स्थिती स्क्रीनशॉट"
+      ],
+      "escalation": "समस्येचे निराकरण न झाल्यास प्रकाशित पासपोर्ट सेवा तक्रार किंवा एस्केलेशन चॅनेल वापरा.",
+      "draftFocus": "पासपोर्ट अर्ज समस्या आणि स्पष्टीकरण किंवा विनंती केलेली कारवाई."
+    },
+    "electricity": {
+      "firstStep": "स्थानिक वीज वितरण कंपनीकडे लेखी तक्रार करा.",
+      "evidence": [
+        "ग्राहक संख्या",
+        "बिले",
+        "मीटर फोटो",
+        "मागील तक्रारी संदर्भ"
+      ],
+      "escalation": "आवश्यक असल्यास वितरण कंपनीचा प्रकाशित वाढीचा मार्ग आणि लागू नियामक प्रक्रिया वापरा.",
+      "draftFocus": "वीज सेवा किंवा बिलिंग समस्या आणि दुरुस्तीची विनंती केली."
+    },
+    "pension": {
+      "firstStep": "तुमच्या पेन्शन संदर्भासह संबंधित पेन्शन कार्यालय किंवा सेवा चॅनेलकडे लेखी तक्रार सबमिट करा.",
+      "evidence": [
+        "पेन्शन संदर्भ",
+        "बँक नोंदी",
+        "जीवन प्रमाणपत्र पुरावा",
+        "पूर्वीची उत्तरे"
+      ],
+      "escalation": "प्रत्येक सबमिशनचा पुरावा जतन केल्यानंतर संबंधित पेन्शन तक्रार वाढीचा मार्ग वापरा.",
+      "draftFocus": "पेन्शन पेमेंट किंवा सेवा समस्या आणि विनंती केलेली कारवाई."
+    }
+  },
+  "successStories": {
+    "realMetaTitle": "दस्तऐवजीकरण सार्वजनिक ग्राहक प्रकरणे | सिटीझनडेस्क इंडिया",
+    "realMetaDescription": "मूळ अहवाल किंवा प्रकाशित ऑर्डरच्या लिंकसह स्वतंत्रपणे भारतीय ग्राहक प्रकरणे नोंदवली गेली.",
+    "realEyebrow": "दस्तऐवजीकरण सार्वजनिक प्रकरणे",
+    "realTitle": "वास्तविक ग्राहक-निवारण प्रकरणे",
+    "realIntro": "हे सारांश स्वतंत्रपणे नोंदवलेले सार्वजनिक प्रकरणे आणि प्रकाशित आदेशांवर आधारित आहेत. ते CitizenDesk India बाबी, कायदेशीर सल्ला किंवा तत्सम निकालाचे वचन नाहीत.",
+    "independentNotice": "परिणाम तथ्ये, पुरावे, लागू कायदा आणि कोणतेही पुनरावलोकन किंवा अपील यावर अवलंबून असतात. सारांशावर अवलंबून राहण्यापूर्वी मूळ स्त्रोत वाचा.",
+    "readOriginal": "मूळ अहवाल वाचा",
+    "metaTitle": "यशस्वी नागरिक कथा | सिटीझनडेस्क इंडिया",
+    "metaDescription": "पुरावे, योग्य अधिकार आणि जबाबदार पाठपुरावा पुढील पायरी स्पष्ट करण्यात कशी मदत करू शकतात हे दाखवणारे उदाहरणात्मक नागरिक तक्रारीचे मार्ग.",
+    "eyebrow": "उदाहरणात्मक तक्रार मार्ग",
+    "title": "यशस्वी नागरिक कथा",
+    "intro": "ही निनावी उदाहरणे सामान्य तक्रार मार्गांवर आधारित आहेत. स्पष्ट रेकॉर्ड, योग्य अधिकार आणि मोजलेले फॉलोअप नागरिकांना पुढे जाण्यास कशी मदत करू शकतात हे ते दर्शवतात. ते कोणत्याही परिणामाची आश्वासने नाहीत.",
+    "illustrativeNotice": "खाली दिलेली प्रत्येक कथा हे एक स्पष्ट उदाहरण आहे, सत्यापित केस रेकॉर्ड नाही.",
+    "illustrativeLabel": "स्पष्ट उदाहरण",
+    "rightAuthority": {
+      "title": "योग्य अधिकाराने सुरुवात करा",
+      "text": "प्रकाशित प्रथम-स्तरीय चॅनेलमध्ये तक्रार सुरू झाल्यावर तिचे परीक्षण करणे सोपे होते."
+    },
+    "documented": {
+      "title": "रेकॉर्ड एकत्र ठेवा",
+      "text": "तारखा, संदर्भ, पावत्या, संदेश आणि प्रतिसाद स्पष्ट ट्रेल तयार करतात."
+    },
+    "followUp": {
+      "title": "नमूद केलेल्या प्रक्रियेचे अनुसरण करा",
+      "text": "पुढे जाण्यापूर्वी प्रकाशित प्रतिसाद विंडो आणि वाढीचा मार्ग वापरा."
+    },
+    "labels": {
+      "problem": "काय चूक झाली",
+      "authority": "योग्य अधिकारी",
+      "action": "नागरिकाने काय केले",
+      "evidence": "मुख्य कागदपत्रे किंवा पुरावे",
+      "process": "अंदाजे प्रक्रिया",
+      "outcome": "उदाहरणात्मक परिणाम",
+      "lesson": "मुख्य धडा"
+    },
+    "ctaTitle": "तुमच्या तक्रारीसाठी योग्य मार्ग शोधा",
+    "ctaText": "संभाव्य प्राधिकारी, ठेवण्यासाठी दस्तऐवज आणि एक योग्य पुढील पायरी ओळखण्यासाठी तक्रार शोधक सह प्रारंभ करा.",
+    "stories": [
+      {
+        "category": "ग्राहकांची तक्रार",
+        "title": "सदोष उपकरणाची तक्रार विशिष्ट होते",
+        "problem": "खरेदी केलेले उपकरण त्याच्या वॉरंटी कालावधीत वारंवार अयशस्वी झाले आणि विक्रेत्याने केवळ तोंडी आश्वासने दिली.",
+        "authority": "प्रथम विक्रेता किंवा सेवा प्रदाता, त्यानंतर आवश्यक असल्यास योग्य ग्राहक तक्रार मार्ग.",
+        "action": "खरेदीदाराने दोष आणि मागितलेल्या उपायांचे वर्णन करणारी दिनांकित लेखी विनंती पाठवली, त्यानंतर सबमिशन संदर्भ ठेवला.",
+        "evidence": "बीजक, वॉरंटी अटी, दोषाचे फोटो किंवा व्हिडिओ, सेवा रेकॉर्ड आणि विक्रेता संदेश.",
+        "process": "लिखित प्रथम-स्तरीय तक्रार, वाजवी प्रतिसाद विंडो, नंतर निराकरण न झाल्यास संबंधित ग्राहक मार्ग.",
+        "outcome": "तक्रारीच्या नोंदीने खरेदीदाराला पुढील अधिकृत पायरीसाठी अधिक स्पष्ट, पुराव्याच्या नेतृत्वाखाली आधार दिला.",
+        "lesson": "विशिष्ट उपायासाठी विचारा आणि प्रत्येक संपर्काचा पुरावा जतन करा."
+      },
+      {
+        "category": "बँकिंग तक्रार",
+        "title": "व्यवहार विवाद शाखा भेटींच्या पलीकडे जातो",
+        "problem": "एका ग्राहकाचा विवादित व्यवहार होता परंतु शाखा भेटीदरम्यान त्याला केवळ अनौपचारिक प्रतिसाद मिळाले.",
+        "authority": "प्रथम बँकेचे तक्रार चॅनल, नंतर RBI एकात्मिक लोकपाल योजना जेथे पात्रता आणि टाइमलाइन परवानगी देतात.",
+        "action": "ग्राहकाने बँकेकडे लेखी तक्रार दाखल केली आणि वाढीचा विचार करण्यापूर्वी प्रकाशित प्रतिसाद कालावधीची प्रतीक्षा केली.",
+        "evidence": "व्यवहार संदर्भ, खाते विवरण, तक्रारीची पोचपावती, संपर्काच्या तारखा आणि बँकेचे कोणतेही उत्तर.",
+        "process": "बँकेची तक्रार, कागदोपत्री पाठपुरावा, त्यानंतर बँकेच्या प्रक्रियेला प्रतिसाद देण्याची वाजवी संधी मिळाल्यानंतरच नियामक मार्ग.",
+        "outcome": "दस्तऐवजीकरण केलेल्या मार्गाने आधीच काय प्रयत्न केले गेले आहेत आणि काय निराकरण झाले नाही हे दर्शविणे सोपे केले आहे.",
+        "lesson": "नियामक वाढ सामान्यतः संपूर्ण प्रथम-स्तरीय रेकॉर्डवर अवलंबून असते."
+      },
+      {
+        "category": "रेल्वेची तक्रार",
+        "title": "प्रवासाच्या तपशिलांसह सेवा समस्या नोंदवली आहे",
+        "problem": "एका प्रवाशाला विशिष्ट ट्रेन प्रवासाशी संबंधित सेवा समस्येची तक्रार करणे आवश्यक आहे.",
+        "authority": "संबंधित रेल्वे प्रवासी तक्रार चॅनल, जेथे उपलब्ध असेल तेथे प्रवास-विशिष्ट अहवाल मार्ग वापरून.",
+        "action": "प्रवाशाने तिकीट आणि कोणतीही पावती जतन करताना डबा, ट्रेन, तारीख आणि अंक नोंदवला.",
+        "evidence": "तिकीट किंवा PNR तपशील, वेळ आणि स्थान, योग्य तेथे फोटो आणि तक्रारीचा संदर्भ.",
+        "process": "प्रॉम्प्ट प्रवास-लिंक्ड रिपोर्ट, पोचपावती ट्रॅकिंग आणि प्रकाशित प्रवासी समर्थन चॅनेलद्वारे पाठपुरावा.",
+        "outcome": "अहवाल मार्ग करणे सोपे झाले कारण त्यात सेवा संदर्भ ओळखण्यासाठी आवश्यक तपशीलांचा समावेश आहे.",
+        "lesson": "वेळ-संवेदनशील सेवा समस्यांसाठी, शक्य तितक्या लवकर प्रवासातील तथ्ये नोंदवा."
+      },
+      {
+        "category": "सरकारची तक्रार",
+        "title": "पाठपुरावा करण्यासाठी विलंबित सेवा विनंती आयोजित केली आहे",
+        "problem": "एका नागरिकाने सरकारी सेवा विनंती सादर केली होती परंतु स्पष्ट स्थिती अपडेट मिळू शकली नाही.",
+        "authority": "संबंधित विभागाची तक्रार वाहिनी किंवा सेवेसाठी योग्य सार्वजनिक तक्रार मार्ग.",
+        "action": "नागरिकाने संक्षिप्त तक्रार सबमिट करण्यापूर्वी मूळ अर्ज क्रमांक, टाइमलाइन आणि पूर्व उत्तरे एकत्र केली.",
+        "evidence": "अर्जाची पोचपावती, संबंधित पावत्या, पत्रव्यवहार, सेवा पोर्टलचे स्क्रीनशॉट आणि तारखा.",
+        "process": "विभाग-स्तरीय तक्रार, संदर्भ ट्रॅकिंग, नंतर प्रतिसाद अपुरा असल्यास प्रकाशित वाढीव यंत्रणा.",
+        "outcome": "एका संक्षिप्त टाइमलाइनने गहाळ कारवाई किंवा स्पष्टीकरणावर तक्रारीवर लक्ष केंद्रित करण्यात मदत केली.",
+        "lesson": "एक लहान कालगणना अनेकदा प्रशासकीय तक्रार समजून घेणे सोपे करते."
+      }
+    ]
   }
 }

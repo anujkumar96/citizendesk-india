@@ -1,389 +1,620 @@
 {
   "nav": {
-    "complaintFinder": "Complaint Finder",
-    "guides": "Guides",
-    "about": "About",
-    "contact": "Contact",
-    "findAuthority": "Find authority",
-    "theme": "Theme",
-    "language": "ಕನ್ನಡ",
-    "supportedAuthorities": "Supported Authorities",
-    "categoriesEyebrow": "Supported Authorities",
-    "privacyTitle": "Privacy Policy",
-    "termsTitle": "Terms and Conditions"
+    "complaintFinder": "ದೂರು ಫೈಂಡರ್",
+    "guides": "ಮಾರ್ಗದರ್ಶಕರು",
+    "successStories": "ಯಶಸ್ಸಿನ ಕಥೆಗಳು",
+    "about": "ಬಗ್ಗೆ",
+    "contact": "ಸಂಪರ್ಕಿಸಿ",
+    "findAuthority": "ಅಧಿಕಾರವನ್ನು ಹುಡುಕಿ",
+    "theme": "ಥೀಮ್",
+    "language": "ಭಾಷೆ",
+    "supportedAuthorities": "ಬೆಂಬಲಿತ ಅಧಿಕಾರಿಗಳು",
+    "categoriesEyebrow": "ಬೆಂಬಲಿತ ಅಧಿಕಾರಿಗಳು",
+    "privacyTitle": "ಗೌಪ್ಯತೆ ನೀತಿ",
+    "termsTitle": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು"
   },
   "common": {
-    "brand": "CitizenDesk India",
-    "tagline": "Find the Right Authority. Resolve with Confidence.",
-    "start": "Start complaint finder",
-    "learn": "Read procedure guides",
-    "openFinder": "Open complaint finder",
-    "independent": "Independent citizen assistance platform. Not affiliated with any government department.",
-    "explore": "Explore",
-    "officialResource": "Official resource"
+    "brand": "ಸಿಟಿಜನ್ ಡೆಸ್ಕ್ ಇಂಡಿಯಾ",
+    "home": "ಮುಖಪುಟ",
+    "tagline": "ಸರಿಯಾದ ಅಧಿಕಾರವನ್ನು ಹುಡುಕಿ. ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ಪರಿಹರಿಸಿಕೊಳ್ಳಿ.",
+    "start": "ದೂರು ಫೈಂಡರ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+    "learn": "ಕಾರ್ಯವಿಧಾನದ ಮಾರ್ಗದರ್ಶಿಗಳನ್ನು ಓದಿ",
+    "openFinder": "ದೂರಿನ ಶೋಧಕವನ್ನು ತೆರೆಯಿರಿ",
+    "successStories": "ಯಶಸ್ಸಿನ ಕಥೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
+    "independent": "ಸ್ವತಂತ್ರ ನಾಗರಿಕ ಸಹಾಯ ವೇದಿಕೆ. ಯಾವುದೇ ಸರ್ಕಾರಿ ಇಲಾಖೆಯೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ.",
+    "explore": "ಅನ್ವೇಷಿಸಿ",
+    "officialResource": "ಅಧಿಕೃತ ಸಂಪನ್ಮೂಲ"
   },
   "home": {
-    "eyebrow": "ಕನ್ನಡದಲ್ಲಿ ನಾಗರಿಕ ಸಹಾಯ",
-    "heroTitle": "Find the right authority before you file a complaint.",
-    "heroText": "Navigate complaint procedures with calm, evidence-backed guidance. CitizenDesk India helps you identify the right authority, understand what to prepare, and move with confidence.",
-    "trustedBy": "Built for citizens, students, professionals, families, small businesses, and public-service learners across India.",
-    "categoriesEyebrow": "Supported authorities",
-    "categoriesTitle": "Start with the right forum, not guesswork.",
-    "categoriesText": "Explore common grievance paths with the authority, expected timeline, and the next practical step.",
-    "howEyebrow": "How it works",
-    "howTitle": "A calmer complaint process, step by step.",
-    "featuresEyebrow": "Why CitizenDesk India",
-    "featuresTitle": "Built for citizens who need clarity before action.",
-    "featuresText": "The platform turns confusing grievance systems into clear, practical, responsible next steps.",
-    "faqTitle": "Frequently asked questions",
-    "faqText": "Clear expectations before you start filing or escalating.",
-    "ctaTitle": "Find the right complaint path before you file.",
-    "ctaText": "Choose the category, understand the authority, collect documents, and prepare a stronger complaint.",
-    "trustAuthority": "Authority discovery",
-    "trustProcedure": "Procedure guidance",
-    "trustDraft": "Draft preparation",
-    "verifiedProcess": "Verified process",
-    "authorityMapped": "Authority mapped",
-    "complaintReadiness": "Complaint readiness",
-    "issueLabel": "Issue type",
-    "issueValue": "Banking transaction dispute",
-    "authorityLabel": "Likely authority",
-    "authorityValue": "RBI Integrated Ombudsman",
-    "nextStepLabel": "Next step",
-    "nextStepValue": "Check response and prepare escalation",
-    "clearTitle": "Clear",
-    "clearText": "Know where to go first.",
-    "preparedTitle": "Prepared",
-    "preparedText": "File with better context."
+    "eyebrow": "ಭಾರತಕ್ಕೆ ಸ್ವತಂತ್ರ ನಾಗರಿಕ ನೆರವು",
+    "heroTitle": "ನೀವು ದೂರು ಸಲ್ಲಿಸುವ ಮೊದಲು ಸರಿಯಾದ ಅಧಿಕಾರವನ್ನು ಹುಡುಕಿ.",
+    "heroText": "ಶಾಂತ, ಸಾಕ್ಷ್ಯ-ಬೆಂಬಲಿತ ಮಾರ್ಗದರ್ಶನದೊಂದಿಗೆ ದೂರು ಕಾರ್ಯವಿಧಾನಗಳನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ. ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ನಿಮಗೆ ಸರಿಯಾದ ಅಧಿಕಾರವನ್ನು ಗುರುತಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಏನನ್ನು ಸಿದ್ಧಪಡಿಸಬೇಕು ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ಚಲಿಸುತ್ತದೆ.",
+    "trustedBy": "ಭಾರತದಾದ್ಯಂತ ನಾಗರಿಕರು, ವಿದ್ಯಾರ್ಥಿಗಳು, ವೃತ್ತಿಪರರು, ಕುಟುಂಬಗಳು, ಸಣ್ಣ ವ್ಯಾಪಾರಗಳು ಮತ್ತು ಸಾರ್ವಜನಿಕ-ಸೇವಾ ಕಲಿಯುವವರಿಗೆ ನಿರ್ಮಿಸಲಾಗಿದೆ.",
+    "categoriesEyebrow": "ಬೆಂಬಲಿತ ಅಧಿಕಾರಿಗಳು",
+    "categoriesTitle": "ಸರಿಯಾದ ವೇದಿಕೆಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ, ಊಹೆಯ ಕೆಲಸವಲ್ಲ.",
+    "categoriesText": "ಅಧಿಕಾರ, ನಿರೀಕ್ಷಿತ ಟೈಮ್‌ಲೈನ್ ಮತ್ತು ಮುಂದಿನ ಪ್ರಾಯೋಗಿಕ ಹಂತದೊಂದಿಗೆ ಸಾಮಾನ್ಯ ಕುಂದುಕೊರತೆ ಮಾರ್ಗಗಳನ್ನು ಅನ್ವೇಷಿಸಿ.",
+    "howEyebrow": "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
+    "howTitle": "ಶಾಂತವಾದ ದೂರು ಪ್ರಕ್ರಿಯೆ, ಹಂತ ಹಂತವಾಗಿ.",
+    "featuresEyebrow": "ಏಕೆ ಸಿಟಿಜನ್ ಡೆಸ್ಕ್ ಇಂಡಿಯಾ",
+    "featuresTitle": "ಕ್ರಿಯೆಯ ಮೊದಲು ಸ್ಪಷ್ಟತೆ ಅಗತ್ಯವಿರುವ ನಾಗರಿಕರಿಗಾಗಿ ನಿರ್ಮಿಸಲಾಗಿದೆ.",
+    "featuresText": "ವೇದಿಕೆಯು ಗೊಂದಲಮಯ ಕುಂದುಕೊರತೆ ವ್ಯವಸ್ಥೆಗಳನ್ನು ಸ್ಪಷ್ಟ, ಪ್ರಾಯೋಗಿಕ, ಜವಾಬ್ದಾರಿಯುತ ಮುಂದಿನ ಹಂತಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ.",
+    "faqTitle": "ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು",
+    "faqText": "ನೀವು ಫೈಲಿಂಗ್ ಅಥವಾ ಹೆಚ್ಚಿಸುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ನಿರೀಕ್ಷೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ.",
+    "ctaTitle": "ನೀವು ಸಲ್ಲಿಸುವ ಮೊದಲು ಸರಿಯಾದ ದೂರಿನ ಮಾರ್ಗವನ್ನು ಹುಡುಕಿ.",
+    "ctaText": "ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ, ಅಧಿಕಾರವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ, ದಾಖಲೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಮತ್ತು ಬಲವಾದ ದೂರನ್ನು ಸಿದ್ಧಪಡಿಸಿ.",
+    "trustAuthority": "ಅಧಿಕಾರದ ಆವಿಷ್ಕಾರ",
+    "trustProcedure": "ಕಾರ್ಯವಿಧಾನದ ಮಾರ್ಗದರ್ಶನ",
+    "trustDraft": "ಕರಡು ತಯಾರಿಕೆ",
+    "verifiedProcess": "ಪರಿಶೀಲಿಸಿದ ಪ್ರಕ್ರಿಯೆ",
+    "authorityMapped": "ಅಧಿಕಾರ ನಕ್ಷೆ",
+    "complaintReadiness": "ದೂರು ಸನ್ನದ್ಧತೆ",
+    "issueLabel": "ಸಮಸ್ಯೆಯ ಪ್ರಕಾರ",
+    "issueValue": "ಬ್ಯಾಂಕಿಂಗ್ ವಹಿವಾಟಿನ ವಿವಾದ",
+    "authorityLabel": "ಸಂಭಾವ್ಯ ಅಧಿಕಾರ",
+    "authorityValue": "ಆರ್‌ಬಿಐ ಇಂಟಿಗ್ರೇಟೆಡ್ ಓಂಬುಡ್ಸ್‌ಮನ್",
+    "nextStepLabel": "ಮುಂದಿನ ಹಂತ",
+    "nextStepValue": "ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಏರಿಕೆಯನ್ನು ತಯಾರಿಸಿ",
+    "clearTitle": "ತೆರವುಗೊಳಿಸಿ",
+    "clearText": "ಮೊದಲು ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕೆಂದು ತಿಳಿಯಿರಿ.",
+    "preparedTitle": "ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ",
+    "preparedText": "ಉತ್ತಮ ಸಂದರ್ಭದೊಂದಿಗೆ ಫೈಲ್."
   },
   "process": {
     "describe": {
-      "title": "Describe your issue",
-      "description": "Select the category that best matches the problem and identify the key facts."
+      "title": "ನಿಮ್ಮ ಸಮಸ್ಯೆಯನ್ನು ವಿವರಿಸಿ",
+      "description": "ಸಮಸ್ಯೆಗೆ ಉತ್ತಮವಾಗಿ ಹೊಂದಿಕೆಯಾಗುವ ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಪ್ರಮುಖ ಸಂಗತಿಗಳನ್ನು ಗುರುತಿಸಿ."
     },
     "authority": {
-      "title": "Find the correct authority",
-      "description": "Understand whether the matter belongs to a company, regulator, ombudsman, portal, or department."
+      "title": "ಸರಿಯಾದ ಅಧಿಕಾರವನ್ನು ಹುಡುಕಿ",
+      "description": "ವಿಷಯವು ಕಂಪನಿ, ನಿಯಂತ್ರಕ, ಒಂಬುಡ್ಸ್‌ಮನ್, ಪೋರ್ಟಲ್ ಅಥವಾ ಇಲಾಖೆಗೆ ಸೇರಿದೆಯೇ ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ."
     },
     "prepare": {
-      "title": "Prepare documents",
-      "description": "Collect dates, receipts, IDs, screenshots, reference numbers, and previous replies."
+      "title": "ದಾಖಲೆಗಳನ್ನು ತಯಾರಿಸಿ",
+      "description": "ದಿನಾಂಕಗಳು, ರಸೀದಿಗಳು, ಐಡಿಗಳು, ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳು, ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಹಿಂದಿನ ಪ್ರತ್ಯುತ್ತರಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ."
     },
     "track": {
-      "title": "Track and escalate",
-      "description": "Follow the expected timeline and escalate only when the process allows it."
+      "title": "ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ಹೆಚ್ಚಿಸಿ",
+      "description": "ನಿರೀಕ್ಷಿತ ಟೈಮ್‌ಲೈನ್ ಅನ್ನು ಅನುಸರಿಸಿ ಮತ್ತು ಪ್ರಕ್ರಿಯೆಯು ಅದನ್ನು ಅನುಮತಿಸಿದಾಗ ಮಾತ್ರ ಹೆಚ್ಚಿಸಿ."
     }
   },
   "categories": {
-    "cta": "Explore path",
-    "authority": "Authority",
-    "timeline": "Expected timeline",
-    "learnMore": "Open guide",
+    "cta": "ಮಾರ್ಗವನ್ನು ಅನ್ವೇಷಿಸಿ",
+    "authority": "ಅಧಿಕಾರ",
+    "timeline": "ನಿರೀಕ್ಷಿತ ಟೈಮ್‌ಲೈನ್",
+    "learnMore": "ಮಾರ್ಗದರ್ಶಿ ತೆರೆಯಿರಿ",
     "consumer": {
-      "title": "Consumer Complaint",
-      "description": "Products, services, refunds, defective goods, misleading ads, and unfair trade practices.",
-      "authority": "Consumer Commission / National Consumer Helpline",
-      "timeframe": "Usually 30-90 days"
+      "title": "ಗ್ರಾಹಕರ ದೂರು",
+      "description": "ಉತ್ಪನ್ನಗಳು, ಸೇವೆಗಳು, ಮರುಪಾವತಿಗಳು, ದೋಷಪೂರಿತ ಸರಕುಗಳು, ದಾರಿತಪ್ಪಿಸುವ ಜಾಹೀರಾತುಗಳು ಮತ್ತು ಅನ್ಯಾಯದ ವ್ಯಾಪಾರ ಅಭ್ಯಾಸಗಳು.",
+      "authority": "ಗ್ರಾಹಕ ಆಯೋಗ / ರಾಷ್ಟ್ರೀಯ ಗ್ರಾಹಕ ಸಹಾಯವಾಣಿ",
+      "timeframe": "ಸಾಮಾನ್ಯವಾಗಿ 30-90 ದಿನಗಳು"
     },
     "cpgrams": {
       "title": "CPGRAMS",
-      "description": "Central Government department grievances and public service delays.",
-      "authority": "Concerned Central Government Department",
-      "timeframe": "Usually around 30 days"
+      "description": "ಕೇಂದ್ರ ಸರ್ಕಾರದ ಇಲಾಖೆ ಕುಂದುಕೊರತೆಗಳು ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸೇವೆ ವಿಳಂಬ.",
+      "authority": "ಸಂಬಂಧಪಟ್ಟ ಕೇಂದ್ರ ಸರ್ಕಾರದ ಇಲಾಖೆ",
+      "timeframe": "ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು 30 ದಿನಗಳು"
     },
     "ingram": {
       "title": "INGRAM",
-      "description": "Consumer helpline route for product and service grievances before formal escalation.",
-      "authority": "Department of Consumer Affairs",
-      "timeframe": "Varies by company response"
+      "description": "ಔಪಚಾರಿಕ ಉಲ್ಬಣಗೊಳ್ಳುವ ಮೊದಲು ಉತ್ಪನ್ನ ಮತ್ತು ಸೇವಾ ಕುಂದುಕೊರತೆಗಳಿಗೆ ಗ್ರಾಹಕ ಸಹಾಯವಾಣಿ ಮಾರ್ಗ.",
+      "authority": "ಗ್ರಾಹಕ ವ್ಯವಹಾರಗಳ ಇಲಾಖೆ",
+      "timeframe": "ಕಂಪನಿಯ ಪ್ರತಿಕ್ರಿಯೆಯಿಂದ ಬದಲಾಗುತ್ತದೆ"
     },
     "rti": {
       "title": "RTI",
-      "description": "Right to Information requests, first appeals, and public authority discovery.",
-      "authority": "Public Information Officer",
-      "timeframe": "30 days in most cases"
+      "description": "ಮಾಹಿತಿ ಹಕ್ಕು ವಿನಂತಿಗಳು, ಮೊದಲ ಮನವಿಗಳು ಮತ್ತು ಸಾರ್ವಜನಿಕ ಪ್ರಾಧಿಕಾರದ ಅನ್ವೇಷಣೆ.",
+      "authority": "ಸಾರ್ವಜನಿಕ ಮಾಹಿತಿ ಅಧಿಕಾರಿ",
+      "timeframe": "ಹೆಚ್ಚಿನ ಸಂದರ್ಭಗಳಲ್ಲಿ 30 ದಿನಗಳು"
     },
     "banking": {
-      "title": "Banking",
-      "description": "Failed transactions, UPI issues, loan disputes, cards, and bank service complaints.",
-      "authority": "RBI Integrated Ombudsman",
-      "timeframe": "After bank response window"
+      "title": "ಬ್ಯಾಂಕಿಂಗ್",
+      "description": "ವಿಫಲ ವಹಿವಾಟುಗಳು, UPI ಸಮಸ್ಯೆಗಳು, ಸಾಲದ ವಿವಾದಗಳು, ಕಾರ್ಡ್‌ಗಳು ಮತ್ತು ಬ್ಯಾಂಕ್ ಸೇವೆಯ ದೂರುಗಳು.",
+      "authority": "ಆರ್‌ಬಿಐ ಇಂಟಿಗ್ರೇಟೆಡ್ ಓಂಬುಡ್ಸ್‌ಮನ್",
+      "timeframe": "ಬ್ಯಾಂಕ್ ಪ್ರತಿಕ್ರಿಯೆ ವಿಂಡೋದ ನಂತರ"
     },
     "insurance": {
-      "title": "Insurance",
-      "description": "Claim delay, rejection, mis-selling, policy servicing, and premium disputes.",
-      "authority": "Insurance Ombudsman",
-      "timeframe": "After insurer grievance process"
+      "title": "ವಿಮೆ",
+      "description": "ಕ್ಲೈಮ್ ವಿಳಂಬ, ನಿರಾಕರಣೆ, ತಪ್ಪು-ಮಾರಾಟ, ಪಾಲಿಸಿ ಸೇವೆ ಮತ್ತು ಪ್ರೀಮಿಯಂ ವಿವಾದಗಳು.",
+      "authority": "ವಿಮಾ ಓಂಬುಡ್ಸ್‌ಮನ್",
+      "timeframe": "ವಿಮಾದಾರರ ಕುಂದುಕೊರತೆ ಪ್ರಕ್ರಿಯೆಯ ನಂತರ"
     },
     "railways": {
-      "title": "Railways",
-      "description": "Train travel, refund, cleanliness, staff, ticketing, and onboard service complaints.",
-      "authority": "Rail Madad",
-      "timeframe": "Varies by complaint type"
+      "title": "ರೈಲ್ವೆಗಳು",
+      "description": "ರೈಲು ಪ್ರಯಾಣ, ಮರುಪಾವತಿ, ಸ್ವಚ್ಛತೆ, ಸಿಬ್ಬಂದಿ, ಟಿಕೆಟಿಂಗ್ ಮತ್ತು ಆನ್‌ಬೋರ್ಡ್ ಸೇವೆಯ ದೂರುಗಳು.",
+      "authority": "ರೈಲ್ ಮದದ್",
+      "timeframe": "ದೂರು ಪ್ರಕಾರದಿಂದ ಬದಲಾಗುತ್ತದೆ"
     },
     "passport": {
-      "title": "Passport",
-      "description": "Passport application, police verification, appointment, and document issues.",
-      "authority": "Passport Seva",
-      "timeframe": "Depends on file status"
+      "title": "ಪಾಸ್ಪೋರ್ಟ್",
+      "description": "ಪಾಸ್‌ಪೋರ್ಟ್ ಅರ್ಜಿ, ಪೊಲೀಸ್ ಪರಿಶೀಲನೆ, ನೇಮಕಾತಿ ಮತ್ತು ದಾಖಲೆ ಸಮಸ್ಯೆಗಳು.",
+      "authority": "ಪಾಸ್ಪೋರ್ಟ್ ಸೇವಾ",
+      "timeframe": "ಫೈಲ್ ಸ್ಥಿತಿಯನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ"
     },
     "electricity": {
-      "title": "Electricity",
-      "description": "Billing, meter, outage, connection, and distribution company service issues.",
-      "authority": "Electricity distribution company / regulator",
-      "timeframe": "State-specific service charter"
+      "title": "ವಿದ್ಯುತ್",
+      "description": "ಬಿಲ್ಲಿಂಗ್, ಮೀಟರ್, ಸ್ಥಗಿತ, ಸಂಪರ್ಕ ಮತ್ತು ವಿತರಣಾ ಕಂಪನಿಯ ಸೇವಾ ಸಮಸ್ಯೆಗಳು.",
+      "authority": "ವಿದ್ಯುತ್ ವಿತರಣಾ ಕಂಪನಿ / ನಿಯಂತ್ರಕ",
+      "timeframe": "ರಾಜ್ಯ-ನಿರ್ದಿಷ್ಟ ಸೇವಾ ಚಾರ್ಟರ್"
     },
     "pension": {
-      "title": "Pension",
-      "description": "Pension payment, arrears, life certificate, retirement benefit, and EPFO issues.",
-      "authority": "Pension department / EPFO / CPENGRAMS",
-      "timeframe": "Usually 30-60 days"
+      "title": "ಪಿಂಚಣಿ",
+      "description": "ಪಿಂಚಣಿ ಪಾವತಿ, ಬಾಕಿ, ಜೀವನ ಪ್ರಮಾಣಪತ್ರ, ನಿವೃತ್ತಿ ಪ್ರಯೋಜನ ಮತ್ತು EPFO ಸಮಸ್ಯೆಗಳು.",
+      "authority": "ಪಿಂಚಣಿ ಇಲಾಖೆ / EPFO / CPENGRAMS",
+      "timeframe": "ಸಾಮಾನ್ಯವಾಗಿ 30-60 ದಿನಗಳು"
     }
   },
   "features": {
     "mapping": {
-      "title": "Authority mapping",
-      "description": "Match issue types with the body most likely to handle them."
+      "title": "ಪ್ರಾಧಿಕಾರ ಮ್ಯಾಪಿಂಗ್",
+      "description": "ಅವುಗಳನ್ನು ನಿಭಾಯಿಸುವ ಸಾಧ್ಯತೆಯಿರುವ ದೇಹದೊಂದಿಗೆ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರಗಳನ್ನು ಹೊಂದಿಸಿ."
     },
     "procedure": {
-      "title": "Procedure guidance",
-      "description": "Know the first step, escalation order, and common waiting periods."
+      "title": "ಕಾರ್ಯವಿಧಾನದ ಮಾರ್ಗದರ್ಶನ",
+      "description": "ಮೊದಲ ಹಂತ, ಏರಿಕೆ ಕ್ರಮ ಮತ್ತು ಸಾಮಾನ್ಯ ಕಾಯುವ ಅವಧಿಗಳನ್ನು ತಿಳಿಯಿರಿ."
     },
     "draft": {
-      "title": "Complaint readiness",
-      "description": "Organize facts, evidence, and relief requested before filing."
+      "title": "ದೂರು ಸನ್ನದ್ಧತೆ",
+      "description": "ಸಲ್ಲಿಸುವ ಮೊದಲು ವಿನಂತಿಸಿದ ಸತ್ಯಗಳು, ಪುರಾವೆಗಳು ಮತ್ತು ಪರಿಹಾರವನ್ನು ಆಯೋಜಿಸಿ."
     },
     "learning": {
-      "title": "Citizen knowledge base",
-      "description": "Read practical guides with official links and plain-language explanations."
+      "title": "ನಾಗರಿಕ ಜ್ಞಾನದ ಮೂಲ",
+      "description": "ಅಧಿಕೃತ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ಸರಳ ಭಾಷೆಯ ವಿವರಣೆಗಳೊಂದಿಗೆ ಪ್ರಾಯೋಗಿಕ ಮಾರ್ಗದರ್ಶಿಗಳನ್ನು ಓದಿ."
     }
   },
   "stats": {
     "items": [
-      "Priority complaint categories",
-      "Authority types planned",
-      "Indian languages supported",
-      "Self-serve guidance"
+      "ಆದ್ಯತೆಯ ದೂರು ವಿಭಾಗಗಳು",
+      "ಪ್ರಾಧಿಕಾರದ ಪ್ರಕಾರಗಳನ್ನು ಯೋಜಿಸಲಾಗಿದೆ",
+      "ಭಾರತೀಯ ಭಾಷೆಗಳು ಬೆಂಬಲಿತವಾಗಿದೆ",
+      "ಸ್ವಯಂ ಸೇವಾ ಮಾರ್ಗದರ್ಶನ"
     ]
   },
   "faq": {
     "help": {
-      "question": "Can CitizenDesk India help me choose the correct authority?",
-      "answer": "Yes. It helps you understand the authority that usually handles your issue and what to prepare before filing."
+      "question": "ಸರಿಯಾದ ಅಧಿಕಾರವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು CitizenDesk ಇಂಡಿಯಾ ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?",
+      "answer": "ಹೌದು. ನಿಮ್ಮ ಸಮಸ್ಯೆಯನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ನಿರ್ವಹಿಸುವ ಅಧಿಕಾರ ಮತ್ತು ಫೈಲಿಂಗ್ ಮಾಡುವ ಮೊದಲು ಏನನ್ನು ಸಿದ್ಧಪಡಿಸಬೇಕು ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಇದು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ."
     },
     "government": {
-      "question": "Is CitizenDesk India a government website?",
-      "answer": "No. It is an independent guidance platform and links users to official resources."
+      "question": "ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ಸರ್ಕಾರಿ ವೆಬ್‌ಸೈಟ್ ಆಗಿದೆಯೇ?",
+      "answer": "ಇಲ್ಲ. ಇದು ಸ್ವತಂತ್ರ ಮಾರ್ಗದರ್ಶನ ವೇದಿಕೆಯಾಗಿದೆ ಮತ್ತು ಅಧಿಕೃತ ಸಂಪನ್ಮೂಲಗಳಿಗೆ ಬಳಕೆದಾರರನ್ನು ಲಿಂಕ್ ಮಾಡುತ್ತದೆ."
     },
     "file": {
-      "question": "Will CitizenDesk India file complaints for me?",
-      "answer": "No. It provides guidance only. Users must submit complaints through official portals or authorities."
+      "question": "ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ನನಗಾಗಿ ದೂರುಗಳನ್ನು ಸಲ್ಲಿಸುತ್ತದೆಯೇ?",
+      "answer": "ಇಲ್ಲ. ಇದು ಮಾರ್ಗದರ್ಶನವನ್ನು ಮಾತ್ರ ನೀಡುತ್ತದೆ. ಬಳಕೆದಾರರು ಅಧಿಕೃತ ಪೋರ್ಟಲ್‌ಗಳು ಅಥವಾ ಅಧಿಕಾರಿಗಳ ಮೂಲಕ ದೂರುಗಳನ್ನು ಸಲ್ಲಿಸಬೇಕು."
     },
     "categories": {
-      "question": "Which complaint categories are supported?",
-      "answer": "Consumer, CPGRAMS, INGRAM, RTI, Banking, Insurance, Railways, Passport, Electricity, Pension and more."
+      "question": "ಯಾವ ದೂರು ವರ್ಗಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ?",
+      "answer": "ಗ್ರಾಹಕ, CPGRAMS, INGRAM, RTI, ಬ್ಯಾಂಕಿಂಗ್, ವಿಮೆ, ರೈಲ್ವೆ, ಪಾಸ್‌ಪೋರ್ಟ್, ವಿದ್ಯುತ್, ಪಿಂಚಣಿ ಮತ್ತು ಇನ್ನಷ್ಟು."
     },
     "privacy": {
-      "question": "Is my personal information stored?",
-      "answer": "The public site does not require complaint details. Future assisted workflows should collect only what is necessary."
+      "question": "ನನ್ನ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲಾಗಿದೆಯೇ?",
+      "answer": "ಸಾರ್ವಜನಿಕ ಸೈಟ್‌ಗೆ ದೂರು ವಿವರಗಳ ಅಗತ್ಯವಿಲ್ಲ. ಭವಿಷ್ಯದ ನೆರವಿನ ಕೆಲಸದ ಹರಿವುಗಳು ಅಗತ್ಯವಿರುವದನ್ನು ಮಾತ್ರ ಸಂಗ್ರಹಿಸಬೇಕು."
     }
   },
   "pages": {
-    "finderEyebrow": "Rule-based complaint finder",
-    "finderTitle": "ದೂರು ಹುಡುಕುವಿಕೆ",
-    "finderText": "Choose a complaint category to discover the right authority, likely documents, expected timeline, and escalation path.",
-    "guidesEyebrow": "Knowledge center",
-    "guidesTitle": "ಮಾರ್ಗದರ್ಶಿಗಳು",
-    "guidesText": "Plain-language citizen guides for grievance systems, rights, documents, and official complaint routes.",
-    "readGuide": "Read guide",
-        "aboutEyebrow": "About CitizenDesk India",
+    "finderEyebrow": "ನಿಯಮಾಧಾರಿತ ದೂರು ಫೈಂಡರ್",
+    "finderTitle": "ದೂರು ಫೈಂಡರ್",
+    "finderText": "ಸರಿಯಾದ ಅಧಿಕಾರ, ಸಂಭವನೀಯ ದಾಖಲೆಗಳು, ನಿರೀಕ್ಷಿತ ಟೈಮ್‌ಲೈನ್ ಮತ್ತು ಉಲ್ಬಣಗೊಳ್ಳುವ ಮಾರ್ಗವನ್ನು ಕಂಡುಹಿಡಿಯಲು ದೂರು ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "guidesEyebrow": "ಜ್ಞಾನ ಕೇಂದ್ರ",
+    "guidesTitle": "ಮಾರ್ಗದರ್ಶಕರು",
+    "guidesText": "ಕುಂದುಕೊರತೆ ವ್ಯವಸ್ಥೆಗಳು, ಹಕ್ಕುಗಳು, ದಾಖಲೆಗಳು ಮತ್ತು ಅಧಿಕೃತ ದೂರು ಮಾರ್ಗಗಳಿಗಾಗಿ ಸರಳ ಭಾಷೆಯ ನಾಗರಿಕ ಮಾರ್ಗದರ್ಶಿಗಳು.",
+    "readGuide": "ಮಾರ್ಗದರ್ಶಿ ಓದಿ",
+    "successStoriesTitle": "ವಿವರಣಾತ್ಮಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗಗಳಿಂದ ಕಲಿಯಿರಿ",
+    "successStoriesText": "ತಯಾರಿ, ಸರಿಯಾದ ಅಧಿಕಾರ ಮತ್ತು ದಾಖಲಿತ ಅನುಸರಣೆಯು ದೂರಿನ ಮಾರ್ಗವನ್ನು ಹೇಗೆ ಸ್ಪಷ್ಟಪಡಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ.",
+    "successStoriesLink": "ಯಶಸ್ಸಿನ ಕಥೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
+    "aboutEyebrow": "ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ಕುರಿತು",
     "aboutValues": [
       {
-        "title": "Clarity before action",
-        "body": "Understand the right authority, process, and next step before filing or escalating a grievance."
+        "title": "ಕ್ರಿಯೆಯ ಮೊದಲು ಸ್ಪಷ್ಟತೆ",
+        "body": "ದೂರು ಸಲ್ಲಿಸುವ ಅಥವಾ ಉಲ್ಬಣಗೊಳ್ಳುವ ಮೊದಲು ಸರಿಯಾದ ಅಧಿಕಾರ, ಪ್ರಕ್ರಿಯೆ ಮತ್ತು ಮುಂದಿನ ಹಂತವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ."
       },
       {
-        "title": "Respect for official process",
-        "body": "Use the appropriate grievance channel and follow the published procedure before escalating."
+        "title": "ಅಧಿಕೃತ ಪ್ರಕ್ರಿಯೆಗೆ ಗೌರವ",
+        "body": "ಸೂಕ್ತವಾದ ಕುಂದುಕೊರತೆ ಚಾನಲ್ ಅನ್ನು ಬಳಸಿ ಮತ್ತು ಉಲ್ಬಣಗೊಳ್ಳುವ ಮೊದಲು ಪ್ರಕಟಿಸಿದ ಕಾರ್ಯವಿಧಾನವನ್ನು ಅನುಸರಿಸಿ."
       },
       {
-        "title": "Privacy by design",
-        "body": "Share only the information necessary for your grievance and avoid exposing sensitive personal details."
+        "title": "ವಿನ್ಯಾಸದ ಮೂಲಕ ಗೌಪ್ಯತೆ",
+        "body": "ನಿಮ್ಮ ಕುಂದುಕೊರತೆಗಳಿಗೆ ಅಗತ್ಯವಾದ ಮಾಹಿತಿಯನ್ನು ಮಾತ್ರ ಹಂಚಿಕೊಳ್ಳಿ ಮತ್ತು ಸೂಕ್ಷ್ಮವಾದ ವೈಯಕ್ತಿಕ ವಿವರಗಳನ್ನು ಬಹಿರಂಗಪಡಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ."
       },
       {
-        "title": "Plain-language civic education",
-        "body": "Turn complicated grievance systems into practical guidance that ordinary citizens can understand and use."
+        "title": "ಸರಳ ಭಾಷೆಯ ನಾಗರಿಕ ಶಿಕ್ಷಣ",
+        "body": "ಸಂಕೀರ್ಣವಾದ ದೂರು ವ್ಯವಸ್ಥೆಗಳನ್ನು ಸಾಮಾನ್ಯ ನಾಗರಿಕರು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಮತ್ತು ಬಳಸಬಹುದಾದ ಪ್ರಾಯೋಗಿಕ ಮಾರ್ಗದರ್ಶನವಾಗಿ ಪರಿವರ್ತಿಸಿ."
       }
     ],
-    "aboutTitle": "About CitizenDesk India",
-    "aboutText": "CitizenDesk India exists to make grievance procedures easier to understand, without pretending to be a government portal or legal adviser.",
-    "contactTitle": "Contact CitizenDesk India",
-    "contactText": "Send corrections, suggestions, partnership ideas, and platform feedback.",
-    "privacyTitle": "Privacy Policy",
-    "privacyText": "Your privacy matters. CitizenDesk India is designed to minimize data collection and guide users responsibly.",
-    "termsTitle": "Terms and Conditions",
-    "termsText": "These terms explain acceptable use, disclaimers, external links, and platform limitations.",
-    "notFoundTitle": "Page not found",
-    "notFoundText": "The page you are looking for may have moved or is not available yet.",
-    "formName": "Your name",
-    "formEmail": "Email address",
-    "formMessage": "How can we help?",
-    "formSubmit": "Submit inquiry",
-    "guideCovers": "What this guide covers",
-    "guidePointAuthority": "Identify the correct first-level authority before escalation.",
-    "guidePointDocuments": "Prepare facts, dates, evidence, and reference numbers clearly.",
-    "guidePointEscalation": "Understand when to wait, follow up, or escalate responsibly.",
-    "contactEyebrow": "Contact",
-    "formTitle": "Send a message",
-    "formLocation": "India-first, remote platform",
-    "messageLabel": "Message"
+    "aboutTitle": "ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ಕುರಿತು",
+    "aboutText": "ಸರ್ಕಾರಿ ಪೋರ್ಟಲ್ ಅಥವಾ ಕಾನೂನು ಸಲಹೆಗಾರನಂತೆ ನಟಿಸದೆ, ಕುಂದುಕೊರತೆ ಕಾರ್ಯವಿಧಾನಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಸುಲಭವಾಗಿಸಲು ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "contactTitle": "ಸಿಟಿಜನ್ ಡೆಸ್ಕ್ ಇಂಡಿಯಾವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "contactText": "ತಿದ್ದುಪಡಿಗಳು, ಸಲಹೆಗಳು, ಪಾಲುದಾರಿಕೆ ವಿಚಾರಗಳು ಮತ್ತು ವೇದಿಕೆಯ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಳುಹಿಸಿ.",
+    "privacyTitle": "ಗೌಪ್ಯತೆ ನೀತಿ",
+    "privacyText": "ನಿಮ್ಮ ಗೌಪ್ಯತೆಯು ಮುಖ್ಯವಾಗಿದೆ. ಡೇಟಾ ಸಂಗ್ರಹಣೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಮತ್ತು ಬಳಕೆದಾರರಿಗೆ ಜವಾಬ್ದಾರಿಯುತವಾಗಿ ಮಾರ್ಗದರ್ಶನ ನೀಡಲು ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾವನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ.",
+    "privacySections": [
+      {
+        "title": "ನೀವು ಹಂಚಿಕೊಳ್ಳುವ ಮಾಹಿತಿ",
+        "body": "ನಿಮ್ಮ ಕುಂದುಕೊರತೆಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಅಗತ್ಯವಿರುವ ಮಾಹಿತಿಯನ್ನು ಮಾತ್ರ ಬಳಸಿ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, ಒಟಿಪಿಗಳು, ಪೂರ್ಣ ಗುರುತಿನ ಸಂಖ್ಯೆಗಳು ಅಥವಾ ಇತರ ಅನಗತ್ಯ ಸೂಕ್ಷ್ಮ ವಿವರಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಬೇಡಿ."
+      },
+      {
+        "title": "ಈ ವೇದಿಕೆಯನ್ನು ಹೇಗೆ ಬಳಸಲಾಗುತ್ತದೆ",
+        "body": "ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ಅಧಿಕೃತ ಸಂಪನ್ಮೂಲಗಳಿಗೆ ಸಾಮಾನ್ಯ ಮಾರ್ಗದರ್ಶನ ಮತ್ತು ಲಿಂಕ್‌ಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ. ಇದು ಸರ್ಕಾರಿ ಇಲಾಖೆ ಅಥವಾ ಕಾನೂನು ಸಲಹೆಗಾರರಲ್ಲ."
+      },
+      {
+        "title": "ಬಾಹ್ಯ ಸೇವೆಗಳು",
+        "body": "ಅಧಿಕೃತ ಲಿಂಕ್‌ಗಳು ತಮ್ಮದೇ ಆದ ಗೌಪ್ಯತೆ ಅಭ್ಯಾಸಗಳೊಂದಿಗೆ ಸೇವೆಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು. ಮಾಹಿತಿಯನ್ನು ಸಲ್ಲಿಸುವ ಮೊದಲು ಆ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
+      }
+    ],
+    "termsTitle": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
+    "termsText": "ಈ ನಿಯಮಗಳು ಸ್ವೀಕಾರಾರ್ಹ ಬಳಕೆ, ಹಕ್ಕು ನಿರಾಕರಣೆಗಳು, ಬಾಹ್ಯ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಮಿತಿಗಳನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+    "termsSections": [
+      {
+        "title": "ಮಾರ್ಗದರ್ಶನ ಮಾತ್ರ",
+        "body": "CitizenDesk ಇಂಡಿಯಾ ಸಾಮಾನ್ಯ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸುತ್ತದೆ, ಕಾನೂನು ಸಲಹೆ, ಅಧಿಕೃತ ನಿರ್ಧಾರಗಳು ಅಥವಾ ಯಾವುದೇ ಕುಂದುಕೊರತೆಯ ಫಲಿತಾಂಶದ ಗ್ಯಾರಂಟಿ ಅಲ್ಲ."
+      },
+      {
+        "title": "ಅಧಿಕೃತ ಚಾನಲ್‌ಗಳನ್ನು ಬಳಸಿ",
+        "body": "ಸಂಬಂಧಿತ ಪ್ರಾಧಿಕಾರದೊಂದಿಗೆ ಕಾರ್ಯವಿಧಾನಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಅಗತ್ಯವಿದ್ದಾಗ ಅಧಿಕೃತ ಚಾನಲ್‌ಗಳ ಮೂಲಕ ದೂರುಗಳನ್ನು ಸಲ್ಲಿಸಿ."
+      },
+      {
+        "title": "ಜವಾಬ್ದಾರಿಯುತ ಬಳಕೆ",
+        "body": "ಅನಗತ್ಯ ಸೂಕ್ಷ್ಮ ಡೇಟಾವನ್ನು ಸಲ್ಲಿಸಬೇಡಿ ಅಥವಾ ತುರ್ತು, ಕಾನೂನು ಅಥವಾ ಅಧಿಕೃತ ಸಹಾಯಕ್ಕಾಗಿ ಬದಲಿಯಾಗಿ ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಅನ್ನು ಅವಲಂಬಿಸಬೇಡಿ."
+      }
+    ],
+    "notFoundTitle": "ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
+    "notFoundText": "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟವು ಸ್ಥಳಾಂತರಗೊಂಡಿರಬಹುದು ಅಥವಾ ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ.",
+    "formName": "ನಿಮ್ಮ ಹೆಸರು",
+    "formEmail": "ಇಮೇಲ್ ವಿಳಾಸ",
+    "formMessage": "ನಾವು ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?",
+    "formSubmit": "ವಿಚಾರಣೆಯನ್ನು ಸಲ್ಲಿಸಿ",
+    "guideCovers": "ಈ ಮಾರ್ಗದರ್ಶಿ ಏನು ಒಳಗೊಂಡಿದೆ",
+    "guidePointAuthority": "ಉಲ್ಬಣಗೊಳ್ಳುವ ಮೊದಲು ಸರಿಯಾದ ಮೊದಲ ಹಂತದ ಅಧಿಕಾರವನ್ನು ಗುರುತಿಸಿ.",
+    "guidePointDocuments": "ಸತ್ಯಗಳು, ದಿನಾಂಕಗಳು, ಪುರಾವೆಗಳು ಮತ್ತು ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ತಯಾರಿಸಿ.",
+    "guidePointEscalation": "ಯಾವಾಗ ಕಾಯಬೇಕು, ಅನುಸರಿಸಬೇಕು ಅಥವಾ ಜವಾಬ್ದಾರಿಯುತವಾಗಿ ಹೆಚ್ಚಿಸಬೇಕು ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+    "contactEyebrow": "ಸಂಪರ್ಕಿಸಿ",
+    "formTitle": "ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿ",
+    "formLocation": "ಭಾರತ-ಮೊದಲ, ದೂರಸ್ಥ ವೇದಿಕೆ",
+    "messageLabel": "ಸಂದೇಶ"
   },
   "footer": {
-    "platform": "Platform",
-    "company": "Company",
-    "resources": "Resources",
-    "legal": "Legal",
-    "rights": "All rights reserved.",
-    "built": "Built for clarity, trust, and responsible citizen action."
+    "platform": "ವೇದಿಕೆ",
+    "company": "ಕಂಪನಿ",
+    "resources": "ಸಂಪನ್ಮೂಲಗಳು",
+    "legal": "ಕಾನೂನುಬದ್ಧ",
+    "rights": "ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
+    "built": "ಸ್ಪಷ್ಟತೆ, ನಂಬಿಕೆ ಮತ್ತು ಜವಾಬ್ದಾರಿಯುತ ನಾಗರಿಕ ಕ್ರಿಯೆಗಾಗಿ ನಿರ್ಮಿಸಲಾಗಿದೆ."
   },
   "guides": {
     "categories": {
-      "consumer": "Consumer",
-      "publicGrievance": "Public grievance",
+      "consumer": "ಗ್ರಾಹಕ",
+      "publicGrievance": "ಸಾರ್ವಜನಿಕ ಕುಂದುಕೊರತೆ",
       "rti": "RTI",
-      "banking": "Banking",
-      "railways": "Railways",
-      "passport": "Passport",
-      "cyberCrime": "Cyber crime",
-      "identity": "Identity"
+      "banking": "ಬ್ಯಾಂಕಿಂಗ್",
+      "railways": "ರೈಲ್ವೆಗಳು",
+      "passport": "ಪಾಸ್ಪೋರ್ಟ್",
+      "cyberCrime": "ಸೈಬರ್ ಅಪರಾಧ",
+      "identity": "ಗುರುತು"
     },
     "consumer-complaint-guide": {
-      "title": "Consumer complaint guide",
-      "description": "Learn when to use the National Consumer Helpline, when to approach a Consumer Commission, and what evidence to prepare.",
-      "overview": "Use this guide when a product or service dispute is unresolved after contacting the seller or service provider."
+      "title": "ಗ್ರಾಹಕ ದೂರು ಮಾರ್ಗದರ್ಶಿ",
+      "description": "ರಾಷ್ಟ್ರೀಯ ಗ್ರಾಹಕ ಸಹಾಯವಾಣಿಯನ್ನು ಯಾವಾಗ ಬಳಸಬೇಕು, ಗ್ರಾಹಕ ಆಯೋಗವನ್ನು ಯಾವಾಗ ಸಂಪರ್ಕಿಸಬೇಕು ಮತ್ತು ಯಾವ ಪುರಾವೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಬೇಕು ಎಂಬುದನ್ನು ತಿಳಿಯಿರಿ.",
+      "overview": "ಮಾರಾಟಗಾರ ಅಥವಾ ಸೇವಾ ಪೂರೈಕೆದಾರರನ್ನು ಸಂಪರ್ಕಿಸಿದ ನಂತರ ಉತ್ಪನ್ನ ಅಥವಾ ಸೇವಾ ವಿವಾದವು ಬಗೆಹರಿಯದಿರುವಾಗ ಈ ಮಾರ್ಗದರ್ಶಿಯನ್ನು ಬಳಸಿ."
     },
     "cpgrams-guide": {
-      "title": "CPGRAMS public grievance guide",
-      "description": "Understand how central government grievances are routed, tracked, and escalated through CPGRAMS.",
-      "overview": "Use this guide for central government department service delays, unresolved requests, and administrative grievances."
+      "title": "CPGRAMS ಸಾರ್ವಜನಿಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗದರ್ಶಿ",
+      "description": "CPGRAMS ಮೂಲಕ ಕೇಂದ್ರ ಸರ್ಕಾರದ ಕುಂದುಕೊರತೆಗಳನ್ನು ಹೇಗೆ ರೂಟ್ ಮಾಡಲಾಗುತ್ತದೆ, ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಉಲ್ಬಣಗೊಳಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+      "overview": "ಕೇಂದ್ರ ಸರ್ಕಾರದ ಇಲಾಖೆಯ ಸೇವಾ ವಿಳಂಬಗಳು, ಪರಿಹರಿಸಲಾಗದ ವಿನಂತಿಗಳು ಮತ್ತು ಆಡಳಿತಾತ್ಮಕ ಕುಂದುಕೊರತೆಗಳಿಗಾಗಿ ಈ ಮಾರ್ಗದರ್ಶಿ ಬಳಸಿ."
     },
     "rti-application-guide": {
-      "title": "RTI application guide",
-      "description": "Identify the public authority, write a precise RTI request, and understand first appeal basics.",
-      "overview": "Use this guide when you need information from a public authority under the Right to Information Act."
+      "title": "RTI ಅಪ್ಲಿಕೇಶನ್ ಮಾರ್ಗದರ್ಶಿ",
+      "description": "ಸಾರ್ವಜನಿಕ ಪ್ರಾಧಿಕಾರವನ್ನು ಗುರುತಿಸಿ, ನಿಖರವಾದ RTI ವಿನಂತಿಯನ್ನು ಬರೆಯಿರಿ ಮತ್ತು ಮೊದಲ ಮನವಿಯ ಮೂಲಭೂತ ಅಂಶಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+      "overview": "ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯ್ದೆಯಡಿ ಸಾರ್ವಜನಿಕ ಪ್ರಾಧಿಕಾರದಿಂದ ನಿಮಗೆ ಮಾಹಿತಿ ಬೇಕಾದಾಗ ಈ ಮಾರ್ಗದರ್ಶಿ ಬಳಸಿ."
     },
     "banking-ombudsman-guide": {
-      "title": "RBI Ombudsman complaint guide",
-      "description": "Escalate unresolved banking, card, UPI, loan, and digital payment issues through the RBI framework.",
-      "overview": "Use this guide after first complaining to your bank or regulated entity and waiting for the required response window."
+      "title": "ಆರ್‌ಬಿಐ ಒಂಬುಡ್ಸ್‌ಮನ್ ದೂರು ಮಾರ್ಗದರ್ಶಿ",
+      "description": "RBI ಚೌಕಟ್ಟಿನ ಮೂಲಕ ಬಗೆಹರಿಸಲಾಗದ ಬ್ಯಾಂಕಿಂಗ್, ಕಾರ್ಡ್, UPI, ಸಾಲ ಮತ್ತು ಡಿಜಿಟಲ್ ಪಾವತಿ ಸಮಸ್ಯೆಗಳನ್ನು ಹೆಚ್ಚಿಸಿ.",
+      "overview": "ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಥವಾ ನಿಯಂತ್ರಿತ ಘಟಕಕ್ಕೆ ಮೊದಲು ದೂರು ನೀಡಿದ ನಂತರ ಮತ್ತು ಅಗತ್ಯವಿರುವ ಪ್ರತಿಕ್ರಿಯೆ ವಿಂಡೋಗಾಗಿ ಕಾಯುತ್ತಿರುವ ನಂತರ ಈ ಮಾರ್ಗದರ್ಶಿಯನ್ನು ಬಳಸಿ."
     },
     "rail-madad-guide": {
-      "title": "Rail Madad complaint guide",
-      "description": "Raise railway travel, refund, cleanliness, catering, ticketing, and onboard service complaints.",
-      "overview": "Use this guide for Indian Railways passenger service issues and follow-up tracking."
+      "title": "ರೈಲ್ ಮದದ್ ದೂರು ಮಾರ್ಗದರ್ಶಿ",
+      "description": "ರೈಲ್ವೆ ಪ್ರಯಾಣ, ಮರುಪಾವತಿ, ಶುಚಿತ್ವ, ಅಡುಗೆ, ಟಿಕೆಟಿಂಗ್ ಮತ್ತು ಆನ್‌ಬೋರ್ಡ್ ಸೇವಾ ದೂರುಗಳನ್ನು ಹೆಚ್ಚಿಸಿ.",
+      "overview": "ಭಾರತೀಯ ರೈಲ್ವೇಯ ಪ್ರಯಾಣಿಕರ ಸೇವಾ ಸಮಸ್ಯೆಗಳು ಮತ್ತು ಅನುಸರಣಾ ಟ್ರ್ಯಾಕಿಂಗ್‌ಗಾಗಿ ಈ ಮಾರ್ಗದರ್ಶಿ ಬಳಸಿ."
     },
     "passport-seva-guide": {
-      "title": "Passport Seva issue guide",
-      "description": "Understand passport application, appointment, police verification, and document correction routes.",
-      "overview": "Use this guide when a passport application is delayed, stuck, or needs correction."
+      "title": "ಪಾಸ್ಪೋರ್ಟ್ ಸೇವಾ ಸಂಚಿಕೆ ಮಾರ್ಗದರ್ಶಿ",
+      "description": "ಪಾಸ್‌ಪೋರ್ಟ್ ಅರ್ಜಿ, ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್, ಪೊಲೀಸ್ ಪರಿಶೀಲನೆ ಮತ್ತು ಡಾಕ್ಯುಮೆಂಟ್ ತಿದ್ದುಪಡಿ ಮಾರ್ಗಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+      "overview": "ಪಾಸ್‌ಪೋರ್ಟ್ ಅಪ್ಲಿಕೇಶನ್ ವಿಳಂಬವಾದಾಗ, ಅಂಟಿಕೊಂಡಾಗ ಅಥವಾ ತಿದ್ದುಪಡಿಯ ಅಗತ್ಯವಿರುವಾಗ ಈ ಮಾರ್ಗದರ್ಶಿಯನ್ನು ಬಳಸಿ."
     },
     "cyber-crime-guide": {
-      "title": "Cyber crime complaint guide",
-      "description": "Know the urgent route for online fraud, phishing, impersonation, harassment, and suspicious financial activity.",
-      "overview": "Use this guide for cyber incidents, especially when fast reporting can reduce financial or personal harm."
+      "title": "ಸೈಬರ್ ಅಪರಾಧ ದೂರು ಮಾರ್ಗದರ್ಶಿ",
+      "description": "ಆನ್‌ಲೈನ್ ವಂಚನೆ, ಫಿಶಿಂಗ್, ಸೋಗು ಹಾಕುವಿಕೆ, ಕಿರುಕುಳ ಮತ್ತು ಅನುಮಾನಾಸ್ಪದ ಹಣಕಾಸಿನ ಚಟುವಟಿಕೆಗಾಗಿ ತುರ್ತು ಮಾರ್ಗವನ್ನು ತಿಳಿಯಿರಿ.",
+      "overview": "ಸೈಬರ್ ಘಟನೆಗಳಿಗಾಗಿ ಈ ಮಾರ್ಗದರ್ಶಿ ಬಳಸಿ, ವಿಶೇಷವಾಗಿ ವೇಗವಾಗಿ ವರದಿ ಮಾಡುವುದರಿಂದ ಹಣಕಾಸಿನ ಅಥವಾ ವೈಯಕ್ತಿಕ ಹಾನಿಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು."
     },
     "uidai-guide": {
-      "title": "Aadhaar and UIDAI service guide",
-      "description": "Understand Aadhaar update, authentication, enrolment, and service complaint options.",
-      "overview": "Use this guide for Aadhaar-related service, update, authentication, or enrolment problems."
+      "title": "ಆಧಾರ್ ಮತ್ತು UIDAI ಸೇವಾ ಮಾರ್ಗದರ್ಶಿ",
+      "description": "ಆಧಾರ್ ನವೀಕರಣ, ದೃಢೀಕರಣ, ದಾಖಲಾತಿ ಮತ್ತು ಸೇವಾ ದೂರು ಆಯ್ಕೆಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+      "overview": "ಆಧಾರ್-ಸಂಬಂಧಿತ ಸೇವೆ, ನವೀಕರಣ, ದೃಢೀಕರಣ ಅಥವಾ ದಾಖಲಾತಿ ಸಮಸ್ಯೆಗಳಿಗೆ ಈ ಮಾರ್ಗದರ್ಶಿ ಬಳಸಿ."
     }
   },
   "finder": {
-    "startTitle": "Start with your problem",
-    "startText": "Describe the issue or choose a category. The finder will suggest the likely path.",
-    "issueLabel": "What happened?",
-    "issuePlaceholder": "Example: My pension stopped after I submitted my life certificate.",
-    "categoryLabel": "Complaint category",
-    "categoryAuto": "Detect from my description",
-    "validation": "Add a short description or choose a category to continue.",
-    "find": "Find authority",
-    "reset": "Reset",
-    "likelyAuthority": "Likely authority path",
-    "procedure": "Procedure",
-    "timeline": "Timeline",
-    "evidence": "Evidence to keep",
-    "escalation": "Escalation path",
-    "prepareDraft": "Prepare complaint draft",
-    "viewProcedure": "View procedure guide",
-    "emptyTitle": "Your result will appear here",
-    "emptyText": "A well-documented complaint sent to the right authority gives you a stronger path forward.",
-    "back": "Back to result",
-    "draftTitle": "Complaint draft starter",
-    "draftGreeting": "To the Grievance Officer,",
-    "draftIntro": "I am submitting this complaint regarding",
-    "draftFacts": "Key facts",
-    "draftPlaceholder": "Describe the issue with dates, reference numbers, and earlier replies.",
-    "draftEvidence": "Documents/evidence attached",
-    "draftRelief": "Requested action",
-    "draftClose": "Please examine the matter and provide a written response through the appropriate grievance process.",
-    "copyDraft": "Copy draft",
-    "copied": "Copied"
+    "startTitle": "ನಿಮ್ಮ ಸಮಸ್ಯೆಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ",
+    "startText": "ಸಮಸ್ಯೆಯನ್ನು ವಿವರಿಸಿ ಅಥವಾ ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಹುಡುಕುವವರು ಸಂಭವನೀಯ ಮಾರ್ಗವನ್ನು ಸೂಚಿಸುತ್ತಾರೆ.",
+    "issueLabel": "ಏನಾಯಿತು?",
+    "issuePlaceholder": "ಉದಾಹರಣೆ: ನನ್ನ ಜೀವನ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಸಲ್ಲಿಸಿದ ನಂತರ ನನ್ನ ಪಿಂಚಣಿ ಸ್ಥಗಿತಗೊಂಡಿದೆ.",
+    "categoryLabel": "ದೂರು ವರ್ಗ",
+    "categoryAuto": "ನನ್ನ ವಿವರಣೆಯಿಂದ ಪತ್ತೆ ಮಾಡಿ",
+    "validation": "ಚಿಕ್ಕ ವಿವರಣೆಯನ್ನು ಸೇರಿಸಿ ಅಥವಾ ಮುಂದುವರಿಸಲು ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "find": "ಅಧಿಕಾರವನ್ನು ಹುಡುಕಿ",
+    "reset": "ಮರುಹೊಂದಿಸಿ",
+    "likelyAuthority": "ಸಂಭಾವ್ಯ ಅಧಿಕಾರ ಮಾರ್ಗ",
+    "procedure": "ಕಾರ್ಯವಿಧಾನ",
+    "timeline": "ಟೈಮ್‌ಲೈನ್",
+    "evidence": "ಇರಿಸಿಕೊಳ್ಳಲು ಪುರಾವೆ",
+    "escalation": "ಏರಿಕೆಯ ಮಾರ್ಗ",
+    "prepareDraft": "ದೂರಿನ ಕರಡನ್ನು ತಯಾರಿಸಿ",
+    "viewProcedure": "ಕಾರ್ಯವಿಧಾನ ಮಾರ್ಗದರ್ಶಿ ವೀಕ್ಷಿಸಿ",
+    "emptyTitle": "ನಿಮ್ಮ ಫಲಿತಾಂಶ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ",
+    "emptyText": "ಸರಿಯಾದ ಅಧಿಕಾರಕ್ಕೆ ಕಳುಹಿಸಲಾದ ಉತ್ತಮ ದಾಖಲಿತ ದೂರು ನಿಮಗೆ ಮುಂದೆ ಬಲವಾದ ಮಾರ್ಗವನ್ನು ನೀಡುತ್ತದೆ.",
+    "back": "ಫಲಿತಾಂಶಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+    "draftTitle": "ದೂರು ಡ್ರಾಫ್ಟ್ ಸ್ಟಾರ್ಟರ್",
+    "draftGreeting": "ಕುಂದುಕೊರತೆ ಅಧಿಕಾರಿಗೆ,",
+    "draftIntro": "ಎಂಬ ಬಗ್ಗೆ ಈ ದೂರನ್ನು ಸಲ್ಲಿಸುತ್ತಿದ್ದೇನೆ",
+    "draftFacts": "ಪ್ರಮುಖ ಸಂಗತಿಗಳು",
+    "draftPlaceholder": "ದಿನಾಂಕಗಳು, ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಹಿಂದಿನ ಪ್ರತ್ಯುತ್ತರಗಳೊಂದಿಗೆ ಸಮಸ್ಯೆಯನ್ನು ವಿವರಿಸಿ.",
+    "draftEvidence": "ದಾಖಲೆಗಳು/ಸಾಕ್ಷಿಗಳನ್ನು ಲಗತ್ತಿಸಲಾಗಿದೆ",
+    "draftRelief": "ಕ್ರಮಕ್ಕೆ ಕೋರಲಾಗಿದೆ",
+    "draftClose": "ದಯವಿಟ್ಟು ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಸೂಕ್ತವಾದ ದೂರು ಪ್ರಕ್ರಿಯೆಯ ಮೂಲಕ ಲಿಖಿತ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಒದಗಿಸಿ.",
+    "copyDraft": "ಕರಡು ಪ್ರತಿ",
+    "copied": "ನಕಲು ಮಾಡಲಾಗಿದೆ"
   },
   "assistant": {
-    "open": "Open citizen assistant",
-    "close": "Close assistant",
-    "title": "Citizen Assistant",
-    "subtitle": "Guidance, not official legal advice",
-    "language": "Assistant language",
-    "welcome": "Tell me the grievance in simple words. I can suggest the likely authority, documents to keep, escalation path, and a draft structure.",
-    "placeholder": "Ask about a complaint path...",
-    "send": "Send",
-    "clear": "Clear conversation",
-    "typing": "Preparing guidance...",
-    "copy": "Copy",
-    "suggestPension": "My pension has stopped. What should I do?",
-    "suggestBank": "My bank is not resolving my complaint.",
-    "suggestDraft": "Help me draft a complaint.",
-    "likelyPath": "Likely path:",
-    "firstStep": "First step:",
-    "keepEvidence": "Keep evidence such as:",
-    "escalate": "Escalation:",
-    "disclaimer": "CitizenDesk India is an independent guidance platform, not a government department. Verify details on official sources and avoid sharing unnecessary sensitive personal information."
+    "open": "ಮುಕ್ತ ನಾಗರಿಕ ಸಹಾಯಕ",
+    "close": "ನಿಕಟ ಸಹಾಯಕ",
+    "title": "ನಾಗರಿಕ ಸಹಾಯಕ",
+    "subtitle": "ಮಾರ್ಗದರ್ಶನ, ಅಧಿಕೃತ ಕಾನೂನು ಸಲಹೆ ಅಲ್ಲ",
+    "language": "ಸಹಾಯಕ ಭಾಷೆ",
+    "welcome": "ಸರಳ ಪದಗಳಲ್ಲಿ ಅಸಮಾಧಾನವನ್ನು ಹೇಳಿ. ನಾನು ಸಂಭಾವ್ಯ ಅಧಿಕಾರ, ಇರಿಸಿಕೊಳ್ಳಲು ದಾಖಲೆಗಳು, ಏರಿಕೆ ಮಾರ್ಗ ಮತ್ತು ಕರಡು ರಚನೆಯನ್ನು ಸೂಚಿಸಬಹುದು.",
+    "placeholder": "ದೂರಿನ ಮಾರ್ಗದ ಬಗ್ಗೆ ಕೇಳಿ...",
+    "send": "ಕಳುಹಿಸು",
+    "clear": "ಸ್ಪಷ್ಟ ಸಂಭಾಷಣೆ",
+    "typing": "ಮಾರ್ಗದರ್ಶನವನ್ನು ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ...",
+    "copy": "ನಕಲು ಮಾಡಿ",
+    "suggestPension": "ನನ್ನ ಪಿಂಚಣಿ ಸ್ಥಗಿತಗೊಂಡಿದೆ. ನಾನು ಏನು ಮಾಡಬೇಕು?",
+    "suggestBank": "ನನ್ನ ಬ್ಯಾಂಕ್ ನನ್ನ ದೂರನ್ನು ಪರಿಹರಿಸುತ್ತಿಲ್ಲ.",
+    "suggestDraft": "ದೂರನ್ನು ಕರಡು ಮಾಡಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ.",
+    "likelyPath": "ಸಂಭವನೀಯ ಮಾರ್ಗ:",
+    "firstStep": "ಮೊದಲ ಹೆಜ್ಜೆ:",
+    "keepEvidence": "ಅಂತಹ ಪುರಾವೆಗಳನ್ನು ಇರಿಸಿ:",
+    "escalate": "ಏರಿಕೆ:",
+    "disclaimer": "ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ಸ್ವತಂತ್ರ ಮಾರ್ಗದರ್ಶನ ವೇದಿಕೆಯಾಗಿದೆ, ಸರ್ಕಾರಿ ಇಲಾಖೆಯಲ್ಲ. ಅಧಿಕೃತ ಮೂಲಗಳಲ್ಲಿನ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಅನಗತ್ಯ ಸೂಕ್ಷ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ತಪ್ಪಿಸಿ."
   },
   "confidence": {
-    "eyebrow": "Your complaint can make a difference",
-    "title": "People who don't give up",
-    "text": "These illustrative scenarios show how a documented complaint, sent through the right channel, can create a clearer path forward. They are not promises of outcome.",
-    "illustrative": "Illustrative scenario",
+    "eyebrow": "ನಿಮ್ಮ ದೂರು ಬದಲಾವಣೆಯನ್ನು ತರಬಹುದು",
+    "title": "ಬಿಟ್ಟುಕೊಡದ ಜನರು",
+    "text": "ಈ ವಿವರಣಾತ್ಮಕ ಸನ್ನಿವೇಶಗಳು ಸರಿಯಾದ ಚಾನಲ್ ಮೂಲಕ ಕಳುಹಿಸಲಾದ ದಾಖಲಿತ ದೂರು ಹೇಗೆ ಸ್ಪಷ್ಟವಾದ ಮಾರ್ಗವನ್ನು ರಚಿಸಬಹುದು ಎಂಬುದನ್ನು ತೋರಿಸುತ್ತದೆ. ಅವು ಫಲಿತಾಂಶದ ಭರವಸೆಗಳಲ್ಲ.",
+    "illustrative": "ವಿವರಣಾತ್ಮಕ ಸನ್ನಿವೇಶ",
     "pension": {
-      "title": "Pension payment restored after documented follow-up",
-      "body": "A retired citizen keeps the pension reference, bank entries, life certificate proof, and earlier replies before escalating to the appropriate pension grievance route.",
-      "lesson": "Lesson: keep reference numbers and show the full timeline."
+      "title": "ದಾಖಲಿತ ಅನುಸರಣೆಯ ನಂತರ ಪಿಂಚಣಿ ಪಾವತಿಯನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ",
+      "body": "ನಿವೃತ್ತ ನಾಗರಿಕನು ಪಿಂಚಣಿ ಉಲ್ಲೇಖ, ಬ್ಯಾಂಕ್ ನಮೂದುಗಳು, ಜೀವನ ಪ್ರಮಾಣಪತ್ರ ಪುರಾವೆ ಮತ್ತು ಸರಿಯಾದ ಪಿಂಚಣಿ ಕುಂದುಕೊರತೆ ಮಾರ್ಗಕ್ಕೆ ಏರುವ ಮೊದಲು ಹಿಂದಿನ ಉತ್ತರಗಳನ್ನು ಇಟ್ಟುಕೊಳ್ಳುತ್ತಾನೆ.",
+      "lesson": "ಪಾಠ: ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಗಳನ್ನು ಇರಿಸಿ ಮತ್ತು ಪೂರ್ಣ ಟೈಮ್‌ಲೈನ್ ಅನ್ನು ತೋರಿಸಿ."
     },
     "banking": {
-      "title": "Failed transaction dispute moved beyond branch visits",
-      "body": "A customer first files with the bank in writing, waits for the response window, then prepares an escalation with transaction references and the bank complaint number.",
-      "lesson": "Lesson: regulators usually expect the bank process first."
+      "title": "ವಿಫಲ ವಹಿವಾಟಿನ ವಿವಾದವು ಶಾಖೆಯ ಭೇಟಿಗಳನ್ನು ಮೀರಿ ಚಲಿಸಿದೆ",
+      "body": "ಗ್ರಾಹಕರು ಮೊದಲು ಬ್ಯಾಂಕ್‌ಗೆ ಬರವಣಿಗೆಯಲ್ಲಿ ಫೈಲ್ ಮಾಡುತ್ತಾರೆ, ಪ್ರತಿಕ್ರಿಯೆ ವಿಂಡೋಗಾಗಿ ಕಾಯುತ್ತಾರೆ, ನಂತರ ವಹಿವಾಟು ಉಲ್ಲೇಖಗಳು ಮತ್ತು ಬ್ಯಾಂಕ್ ದೂರು ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಹೆಚ್ಚಳವನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಾರೆ.",
+      "lesson": "ಪಾಠ: ನಿಯಂತ್ರಕರು ಸಾಮಾನ್ಯವಾಗಿ ಬ್ಯಾಂಕ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಮೊದಲು ನಿರೀಕ್ಷಿಸುತ್ತಾರೆ."
     },
     "consumer": {
-      "title": "Defective product complaint becomes clearer with evidence",
-      "body": "A buyer records invoice details, warranty promises, photos, and seller messages before using the consumer grievance path.",
-      "lesson": "Lesson: evidence makes the request specific and easier to examine."
+      "title": "ದೋಷಯುಕ್ತ ಉತ್ಪನ್ನದ ದೂರು ಪುರಾವೆಗಳೊಂದಿಗೆ ಸ್ಪಷ್ಟವಾಗುತ್ತದೆ",
+      "body": "ಗ್ರಾಹಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗವನ್ನು ಬಳಸುವ ಮೊದಲು ಖರೀದಿದಾರನು ಸರಕುಪಟ್ಟಿ ವಿವರಗಳು, ಖಾತರಿ ಭರವಸೆಗಳು, ಫೋಟೋಗಳು ಮತ್ತು ಮಾರಾಟಗಾರರ ಸಂದೇಶಗಳನ್ನು ದಾಖಲಿಸುತ್ತಾನೆ.",
+      "lesson": "ಪಾಠ: ಸಾಕ್ಷ್ಯವು ವಿನಂತಿಯನ್ನು ನಿರ್ದಿಷ್ಟವಾಗಿ ಮತ್ತು ಪರಿಶೀಲಿಸಲು ಸುಲಭಗೊಳಿಸುತ್ತದೆ."
     },
     "rights": {
       "evidence": {
-        "title": "What should I keep as evidence?",
-        "text": "Dates, receipts, application numbers, screenshots, photos, letters, and names of offices contacted."
+        "title": "ನಾನು ಸಾಕ್ಷಿಯಾಗಿ ಏನು ಇಡಬೇಕು?",
+        "text": "ದಿನಾಂಕಗಳು, ರಸೀದಿಗಳು, ಅಪ್ಲಿಕೇಶನ್ ಸಂಖ್ಯೆಗಳು, ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳು, ಫೋಟೋಗಳು, ಪತ್ರಗಳು ಮತ್ತು ಸಂಪರ್ಕಿಸಲಾದ ಕಚೇರಿಗಳ ಹೆಸರುಗಳು."
       },
       "noResponse": {
-        "title": "What if there is no response?",
-        "text": "Follow the stated timeline, keep proof of submission, then escalate through the published grievance route."
+        "title": "ಯಾವುದೇ ಪ್ರತಿಕ್ರಿಯೆ ಇಲ್ಲದಿದ್ದರೆ ಏನು?",
+        "text": "ತಿಳಿಸಲಾದ ಟೈಮ್‌ಲೈನ್ ಅನ್ನು ಅನುಸರಿಸಿ, ಸಲ್ಲಿಕೆಯ ಪುರಾವೆಗಳನ್ನು ಇರಿಸಿ, ನಂತರ ಪ್ರಕಟಿಸಿದ ಕುಂದುಕೊರತೆ ಮಾರ್ಗದ ಮೂಲಕ ಹೆಚ್ಚಿಸಿ."
       },
       "escalate": {
-        "title": "When should I escalate?",
-        "text": "Escalate after the first authority has had a fair chance to respond, or when the official process allows appeal."
+        "title": "ನಾನು ಯಾವಾಗ ಉಲ್ಬಣಗೊಳ್ಳಬೇಕು?",
+        "text": "ಮೊದಲ ಪ್ರಾಧಿಕಾರವು ಪ್ರತಿಕ್ರಿಯಿಸಲು ನ್ಯಾಯಯುತ ಅವಕಾಶವನ್ನು ಪಡೆದ ನಂತರ ಅಥವಾ ಅಧಿಕೃತ ಪ್ರಕ್ರಿಯೆಯು ಮೇಲ್ಮನವಿಯನ್ನು ಅನುಮತಿಸಿದಾಗ ಹೆಚ್ಚಿಸಿ."
       }
     },
-    "trust": "CitizenDesk India is not a government department and does not guarantee any decision. AI and rule-based guidance can contain errors, so verify official links and do not share passwords, OTPs, full identity numbers, or unnecessary sensitive details."
+    "trust": "CitizenDesk India ಸರ್ಕಾರಿ ಇಲಾಖೆ ಅಲ್ಲ ಮತ್ತು ಯಾವುದೇ ನಿರ್ಧಾರವನ್ನು ಖಾತರಿಪಡಿಸುವುದಿಲ್ಲ. AI ಮತ್ತು ನಿಯಮ-ಆಧಾರಿತ ಮಾರ್ಗದರ್ಶನವು ದೋಷಗಳನ್ನು ಹೊಂದಿರಬಹುದು, ಆದ್ದರಿಂದ ಅಧಿಕೃತ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪಾಸ್‌ವರ್ಡ್‌ಗಳು, OTP ಗಳು, ಪೂರ್ಣ ಗುರುತಿನ ಸಂಖ್ಯೆಗಳು ಅಥವಾ ಅನಗತ್ಯ ಸೂಕ್ಷ್ಮ ವಿವರಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಬೇಡಿ."
+  },
+  "guidance": {
+    "consumer": {
+      "firstStep": "ಸಮಸ್ಯೆ ಮತ್ತು ನಿಮಗೆ ಬೇಕಾದ ಪರಿಹಾರದೊಂದಿಗೆ ಮಾರಾಟಗಾರ ಅಥವಾ ಸೇವಾ ಪೂರೈಕೆದಾರರಿಗೆ ಬರೆಯಿರಿ.",
+      "evidence": [
+        "ಸರಕುಪಟ್ಟಿ",
+        "ಖಾತರಿ ನಿಯಮಗಳು",
+        "ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳು",
+        "ಮಾರಾಟಗಾರರ ಸಂದೇಶಗಳು"
+      ],
+      "escalation": "ಲಿಖಿತ ಪ್ರತಿಕ್ರಿಯೆಯು ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸದಿದ್ದರೆ ಸೂಕ್ತವಾದ ಗ್ರಾಹಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗವನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ದೋಷಪೂರಿತ ಉತ್ಪನ್ನ ಅಥವಾ ಸೇವೆ ಮತ್ತು ನಿರ್ದಿಷ್ಟ ಪರಿಹಾರವನ್ನು ವಿನಂತಿಸಲಾಗಿದೆ."
+    },
+    "cpgrams": {
+      "firstStep": "ಮೂಲ ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದ ಇಲಾಖೆಗೆ ಸಂಕ್ಷಿಪ್ತ ಕುಂದುಕೊರತೆ ಸಲ್ಲಿಸಿ.",
+      "evidence": [
+        "ಅಪ್ಲಿಕೇಶನ್ ಉಲ್ಲೇಖ",
+        "ರಸೀದಿಗಳು",
+        "ಹಿಂದಿನ ಪ್ರತ್ಯುತ್ತರಗಳು",
+        "ಟೈಮ್‌ಲೈನ್"
+      ],
+      "escalation": "ಸ್ವೀಕೃತಿಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಯು ಅಸಮರ್ಪಕವಾಗಿದ್ದರೆ ಪ್ರಕಟಿತ ಏರಿಕೆಯ ಕಾರ್ಯವಿಧಾನವನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ವಿಳಂಬವಾದ ಸಾರ್ವಜನಿಕ ಸೇವೆ ಮತ್ತು ಕ್ರಮ ಅಥವಾ ವಿವರಣೆಯನ್ನು ಕೋರಲಾಗಿದೆ."
+    },
+    "ingram": {
+      "firstStep": "ಅದರ ಪ್ರಕಟಿತ ಗ್ರಾಹಕ ಬೆಂಬಲ ಚಾನಲ್ ಮೂಲಕ ಕಂಪನಿಯೊಂದಿಗೆ ಸಮಸ್ಯೆಯನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ.",
+      "evidence": [
+        "ದೂರು ಸಂಖ್ಯೆ",
+        "ಉತ್ಪನ್ನ ಅಥವಾ ಸೇವೆಯ ವಿವರಗಳು",
+        "ಸಂದೇಶಗಳು",
+        "ಪಾವತಿ ದಾಖಲೆಗಳು"
+      ],
+      "escalation": "ಸಮಂಜಸವಾದ ಪ್ರತಿಕ್ರಿಯೆ ಅವಧಿಯನ್ನು ಅನುಮತಿಸಿದ ನಂತರ ಅನ್ವಯವಾಗುವ ಗ್ರಾಹಕ ಹೆಚ್ಚಳದ ಮಾರ್ಗವನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ಬಗೆಹರಿಯದ ಗ್ರಾಹಕರ ಸಮಸ್ಯೆ ಮತ್ತು ಪರಿಹಾರವನ್ನು ಕೋರಲಾಗಿದೆ."
+    },
+    "rti": {
+      "firstStep": "ಕೇಂದ್ರೀಕೃತ RTI ಅರ್ಜಿಯನ್ನು ಸರಿಯಾದ ಸಾರ್ವಜನಿಕ ಪ್ರಾಧಿಕಾರ ಅಥವಾ ಸಾರ್ವಜನಿಕ ಮಾಹಿತಿ ಅಧಿಕಾರಿಗೆ ಕಳುಹಿಸಿ.",
+      "evidence": [
+        "ಅಪ್ಲಿಕೇಶನ್ ನಕಲು",
+        "ಶುಲ್ಕ ರಶೀದಿ",
+        "ವಿತರಣಾ ಪುರಾವೆ",
+        "ಹಿಂದಿನ ಪತ್ರವ್ಯವಹಾರ"
+      ],
+      "escalation": "ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಸ್ವೀಕರಿಸದಿದ್ದಾಗ ಅಥವಾ ಅಪೂರ್ಣವಾದಾಗ ಮೊದಲ ಮೇಲ್ಮನವಿ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ಸಾರ್ವಜನಿಕ ಪ್ರಾಧಿಕಾರದಿಂದ ನಿರ್ದಿಷ್ಟ ಮಾಹಿತಿ ಕೋರಲಾಗಿದೆ."
+    },
+    "banking": {
+      "firstStep": "ಬ್ಯಾಂಕಿನ ಅಧಿಕೃತ ಕುಂದುಕೊರತೆ ಚಾನೆಲ್ ಮೂಲಕ ಲಿಖಿತ ದೂರನ್ನು ದಾಖಲಿಸಿ.",
+      "evidence": [
+        "ವಹಿವಾಟಿನ ಉಲ್ಲೇಖ",
+        "ಖಾತೆ ಹೇಳಿಕೆ",
+        "ದೂರು ಸ್ವೀಕೃತಿ",
+        "ಬ್ಯಾಂಕ್ ಉತ್ತರಿಸುತ್ತದೆ"
+      ],
+      "escalation": "ಬ್ಯಾಂಕ್ ಪ್ರಕ್ರಿಯೆ ಮತ್ತು ಅರ್ಹತಾ ಅವಶ್ಯಕತೆಗಳನ್ನು ಪೂರೈಸಿದ ನಂತರವೇ RBI ಇಂಟಿಗ್ರೇಟೆಡ್ ಒಂಬುಡ್ಸ್‌ಮನ್ ಯೋಜನೆಯನ್ನು ಪರಿಗಣಿಸಿ.",
+      "draftFocus": "ವಿವಾದಿತ ಬ್ಯಾಂಕಿಂಗ್ ಸಮಸ್ಯೆ ಮತ್ತು ತಿದ್ದುಪಡಿ ಅಥವಾ ವಿವರಣೆಯನ್ನು ಕೋರಲಾಗಿದೆ."
+    },
+    "insurance": {
+      "firstStep": "ಪಾಲಿಸಿ ಮತ್ತು ಕ್ಲೈಮ್ ವಿವರಗಳೊಂದಿಗೆ ವಿಮಾದಾರರ ಕುಂದುಕೊರತೆ ಚಾನಲ್‌ಗೆ ಕಾಳಜಿಯನ್ನು ಸಲ್ಲಿಸಿ.",
+      "evidence": [
+        "ನೀತಿ ದಾಖಲೆ",
+        "ಹಕ್ಕು ಉಲ್ಲೇಖ",
+        "ವೈದ್ಯಕೀಯ ಅಥವಾ ಮೌಲ್ಯಮಾಪನ ದಾಖಲೆಗಳು",
+        "ವಿಮಾದಾರರು ಉತ್ತರಿಸುತ್ತಾರೆ"
+      ],
+      "escalation": "ವಿಮಾದಾರರು ಪ್ರಕಟಿಸಿದ ಏರಿಕೆಯ ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸಿ ಮತ್ತು ಸೂಕ್ತವಾದ ಒಂಬುಡ್ಸ್‌ಮನ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "draftFocus": "ಬಗೆಹರಿಯದ ವಿಮಾ ಹಕ್ಕು ಅಥವಾ ಸೇವಾ ಸಮಸ್ಯೆ ಮತ್ತು ವಿನಂತಿಸಿದ ಕ್ರಮ."
+    },
+    "railways": {
+      "firstStep": "ಸಂಬಂಧಿತ ರೈಲ್ವೆ ಪ್ರಯಾಣಿಕರ ಬೆಂಬಲ ಚಾನಲ್ ಮೂಲಕ ಪ್ರಯಾಣ-ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ.",
+      "evidence": [
+        "ಟಿಕೆಟ್ ಅಥವಾ PNR",
+        "ರೈಲು ಮತ್ತು ಕೋಚ್ ವಿವರಗಳು",
+        "ಸಮಯ ಮತ್ತು ಸ್ಥಳ",
+        "ಸೂಕ್ತವಾದಲ್ಲಿ ಫೋಟೋಗಳು"
+      ],
+      "escalation": "ಸ್ವೀಕೃತಿಯನ್ನು ಇರಿಸಿಕೊಳ್ಳಿ ಮತ್ತು ಪ್ರಕಟಿಸಿದ ಪ್ರಯಾಣಿಕರ ಕುಂದುಕೊರತೆ ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸಿ.",
+      "draftFocus": "ಪ್ರಯಾಣ-ನಿರ್ದಿಷ್ಟ ಸೇವಾ ಸಮಸ್ಯೆ ಮತ್ತು ವಿನಂತಿಸಿದ ಕ್ರಮ."
+    },
+    "passport": {
+      "firstStep": "ಪಾಸ್‌ಪೋರ್ಟ್ ಸೇವಾ ಅರ್ಜಿಯ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಅಧಿಕೃತ ಬೆಂಬಲ ಮಾರ್ಗದ ಮೂಲಕ ಸಮಸ್ಯೆಯನ್ನು ಎತ್ತಿಕೊಳ್ಳಿ.",
+      "evidence": [
+        "ಅಪ್ಲಿಕೇಶನ್ ಸಂಖ್ಯೆ",
+        "ನೇಮಕಾತಿ ವಿವರಗಳು",
+        "ಡಾಕ್ಯುಮೆಂಟ್ ರಸೀದಿಗಳು",
+        "ಸ್ಥಿತಿಯ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳು"
+      ],
+      "escalation": "ಸಮಸ್ಯೆಯು ಬಗೆಹರಿಯದೆ ಉಳಿದಿದ್ದರೆ, ಪ್ರಕಟಿತ ಪಾಸ್‌ಪೋರ್ಟ್ ಸೇವಾ ಕುಂದುಕೊರತೆ ಅಥವಾ ಉಲ್ಬಣ ಚಾನೆಲ್ ಅನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ಪಾಸ್‌ಪೋರ್ಟ್ ಅರ್ಜಿಯ ಸಮಸ್ಯೆ ಮತ್ತು ಸ್ಪಷ್ಟೀಕರಣ ಅಥವಾ ಕ್ರಮವನ್ನು ವಿನಂತಿಸಲಾಗಿದೆ."
+    },
+    "electricity": {
+      "firstStep": "ಸ್ಥಳೀಯ ವಿದ್ಯುತ್ ವಿತರಣಾ ಕಂಪನಿಗೆ ಲಿಖಿತ ದೂರು ನೀಡಿ.",
+      "evidence": [
+        "ಗ್ರಾಹಕ ಸಂಖ್ಯೆ",
+        "ಬಿಲ್ಲುಗಳು",
+        "ಮೀಟರ್ ಫೋಟೋಗಳು",
+        "ಹಿಂದಿನ ದೂರಿನ ಉಲ್ಲೇಖಗಳು"
+      ],
+      "escalation": "ವಿತರಣಾ ಕಂಪನಿಯ ಪ್ರಕಟಿತ ಏರಿಕೆ ಮಾರ್ಗ ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ ಅನ್ವಯವಾಗುವ ನಿಯಂತ್ರಕ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ವಿದ್ಯುತ್ ಸೇವೆ ಅಥವಾ ಬಿಲ್ಲಿಂಗ್ ಸಮಸ್ಯೆ ಮತ್ತು ತಿದ್ದುಪಡಿಯನ್ನು ವಿನಂತಿಸಲಾಗಿದೆ."
+    },
+    "pension": {
+      "firstStep": "ನಿಮ್ಮ ಪಿಂಚಣಿ ಉಲ್ಲೇಖದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದ ಪಿಂಚಣಿ ಕಚೇರಿ ಅಥವಾ ಸೇವಾ ಚಾನಲ್‌ಗೆ ಲಿಖಿತ ಕುಂದುಕೊರತೆಯನ್ನು ಸಲ್ಲಿಸಿ.",
+      "evidence": [
+        "ಪಿಂಚಣಿ ಉಲ್ಲೇಖ",
+        "ಬ್ಯಾಂಕ್ ನಮೂದುಗಳು",
+        "ಜೀವನ ಪ್ರಮಾಣಪತ್ರ ಪುರಾವೆ",
+        "ಹಿಂದಿನ ಉತ್ತರಗಳು"
+      ],
+      "escalation": "ಪ್ರತಿ ಸಲ್ಲಿಕೆಯ ಪುರಾವೆಯನ್ನು ಸಂರಕ್ಷಿಸಿದ ನಂತರ ಸಂಬಂಧಿತ ಪಿಂಚಣಿ ಕುಂದುಕೊರತೆ ಹೆಚ್ಚಳದ ಮಾರ್ಗವನ್ನು ಬಳಸಿ.",
+      "draftFocus": "ಪಿಂಚಣಿ ಪಾವತಿ ಅಥವಾ ಸೇವಾ ಸಮಸ್ಯೆ ಮತ್ತು ವಿನಂತಿಸಿದ ಕ್ರಮ."
+    }
+  },
+  "successStories": {
+    "realMetaTitle": "ದಾಖಲಿತ ಸಾರ್ವಜನಿಕ ಗ್ರಾಹಕ ಪ್ರಕರಣಗಳು | ಸಿಟಿಜನ್ ಡೆಸ್ಕ್ ಇಂಡಿಯಾ",
+    "realMetaDescription": "ಮೂಲ ವರದಿ ಅಥವಾ ಪ್ರಕಟಿತ ಆದೇಶಕ್ಕೆ ಲಿಂಕ್‌ಗಳೊಂದಿಗೆ ಸ್ವತಂತ್ರವಾಗಿ ಭಾರತೀಯ ಗ್ರಾಹಕ ಪ್ರಕರಣಗಳನ್ನು ವರದಿ ಮಾಡಿದೆ.",
+    "realEyebrow": "ಸಾರ್ವಜನಿಕ ಪ್ರಕರಣಗಳನ್ನು ದಾಖಲಿಸಲಾಗಿದೆ",
+    "realTitle": "ನೈಜ ಗ್ರಾಹಕ-ಪರಿಹಾರ ಪ್ರಕರಣಗಳು",
+    "realIntro": "ಈ ಸಾರಾಂಶಗಳು ಸ್ವತಂತ್ರವಾಗಿ ವರದಿಯಾದ ಸಾರ್ವಜನಿಕ ಪ್ರಕರಣಗಳು ಮತ್ತು ಪ್ರಕಟಿತ ಆದೇಶಗಳನ್ನು ಆಧರಿಸಿವೆ. ಅವು ಸಿಟಿಜನ್‌ಡೆಸ್ಕ್ ಇಂಡಿಯಾ ವಿಷಯಗಳಲ್ಲ, ಕಾನೂನು ಸಲಹೆ ಅಥವಾ ಅಂತಹುದೇ ಫಲಿತಾಂಶದ ಭರವಸೆಯಲ್ಲ.",
+    "independentNotice": "ಫಲಿತಾಂಶಗಳು ಸತ್ಯಗಳು, ಪುರಾವೆಗಳು, ಅನ್ವಯವಾಗುವ ಕಾನೂನು ಮತ್ತು ಯಾವುದೇ ವಿಮರ್ಶೆ ಅಥವಾ ಮನವಿಯನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ. ಸಾರಾಂಶವನ್ನು ಅವಲಂಬಿಸುವ ಮೊದಲು ಮೂಲ ಮೂಲವನ್ನು ಓದಿ.",
+    "readOriginal": "ಮೂಲ ವರದಿಯನ್ನು ಓದಿ",
+    "metaTitle": "ಯಶಸ್ವಿ ನಾಗರಿಕ ಕಥೆಗಳು | ಸಿಟಿಜನ್ ಡೆಸ್ಕ್ ಇಂಡಿಯಾ",
+    "metaDescription": "ಸಾಕ್ಷ್ಯ, ಸರಿಯಾದ ಅಧಿಕಾರ ಮತ್ತು ಜವಾಬ್ದಾರಿಯುತ ಅನುಸರಣೆಯು ಮುಂದಿನ ಹಂತವನ್ನು ಹೇಗೆ ಸ್ಪಷ್ಟಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ತೋರಿಸುವ ಸಚಿತ್ರ ನಾಗರಿಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗಗಳು.",
+    "eyebrow": "ವಿವರಣಾತ್ಮಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗಗಳು",
+    "title": "ಯಶಸ್ವಿ ನಾಗರಿಕ ಕಥೆಗಳು",
+    "intro": "ಈ ಅನಾಮಧೇಯ ಉದಾಹರಣೆಗಳು ವಿಶಿಷ್ಟ ಕುಂದುಕೊರತೆ ಮಾರ್ಗಗಳನ್ನು ಆಧರಿಸಿವೆ. ಸ್ಪಷ್ಟವಾದ ದಾಖಲೆ, ಸರಿಯಾದ ಅಧಿಕಾರ ಮತ್ತು ಅಳತೆ ಮಾಡಿದ ಅನುಸರಣೆಯು ನಾಗರಿಕರು ಮುಂದುವರಿಯಲು ಹೇಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ಅವರು ತೋರಿಸುತ್ತಾರೆ. ಅವು ಯಾವುದೇ ಫಲಿತಾಂಶದ ಭರವಸೆಗಳಲ್ಲ.",
+    "illustrativeNotice": "ಕೆಳಗಿನ ಪ್ರತಿಯೊಂದು ಕಥೆಯು ವಿವರಣಾತ್ಮಕ ಉದಾಹರಣೆಯಾಗಿದೆ, ಪರಿಶೀಲಿಸಿದ ಪ್ರಕರಣದ ದಾಖಲೆಯಲ್ಲ.",
+    "illustrativeLabel": "ವಿವರಣಾತ್ಮಕ ಉದಾಹರಣೆ",
+    "rightAuthority": {
+      "title": "ಸರಿಯಾದ ಅಧಿಕಾರದೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ",
+      "text": "ಪ್ರಕಟಿತ ಮೊದಲ ಹಂತದ ಚಾನಲ್‌ನಲ್ಲಿ ದೂರು ಪ್ರಾರಂಭವಾದಾಗ ಅದನ್ನು ಪರಿಶೀಲಿಸಲು ಸುಲಭವಾಗುತ್ತದೆ."
+    },
+    "documented": {
+      "title": "ದಾಖಲೆಯನ್ನು ಒಟ್ಟಿಗೆ ಇರಿಸಿ",
+      "text": "ದಿನಾಂಕಗಳು, ಉಲ್ಲೇಖಗಳು, ರಸೀದಿಗಳು, ಸಂದೇಶಗಳು ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಗಳು ಸ್ಪಷ್ಟವಾದ ಜಾಡು ರಚಿಸುತ್ತವೆ."
+    },
+    "followUp": {
+      "title": "ಹೇಳಿದ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಅನುಸರಿಸಿ",
+      "text": "ಮತ್ತಷ್ಟು ಚಲಿಸುವ ಮೊದಲು ಪ್ರಕಟಿತ ಪ್ರತಿಕ್ರಿಯೆ ವಿಂಡೋ ಮತ್ತು ಏರಿಕೆ ಮಾರ್ಗವನ್ನು ಬಳಸಿ."
+    },
+    "labels": {
+      "problem": "ಏನು ತಪ್ಪಾಗಿದೆ",
+      "authority": "ಸೂಕ್ತ ಅಧಿಕಾರ",
+      "action": "ನಾಗರಿಕನು ಏನು ಮಾಡಿದನು",
+      "evidence": "ಪ್ರಮುಖ ದಾಖಲೆಗಳು ಅಥವಾ ಪುರಾವೆಗಳು",
+      "process": "ಅಂದಾಜು ಪ್ರಕ್ರಿಯೆ",
+      "outcome": "ವಿವರಣಾತ್ಮಕ ಫಲಿತಾಂಶ",
+      "lesson": "ಪ್ರಮುಖ ಪಾಠ"
+    },
+    "ctaTitle": "ನಿಮ್ಮ ದೂರಿಗೆ ಸರಿಯಾದ ಮಾರ್ಗವನ್ನು ಕಂಡುಕೊಳ್ಳಿ",
+    "ctaText": "ಸಂಭಾವ್ಯ ಅಧಿಕಾರವನ್ನು ಗುರುತಿಸಲು ದೂರು ಫೈಂಡರ್‌ನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ, ಇರಿಸಿಕೊಳ್ಳಲು ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಮತ್ತು ಸಂವೇದನಾಶೀಲ ಮುಂದಿನ ಹಂತ.",
+    "stories": [
+      {
+        "category": "ಗ್ರಾಹಕರ ದೂರು",
+        "title": "ದೋಷಪೂರಿತ ಸಾಧನದ ದೂರು ನಿರ್ದಿಷ್ಟವಾಗುತ್ತದೆ",
+        "problem": "ಖರೀದಿಸಿದ ಉಪಕರಣವು ಅದರ ಖಾತರಿ ಅವಧಿಯಲ್ಲಿ ಪದೇ ಪದೇ ವಿಫಲಗೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಮಾರಾಟಗಾರನು ಕೇವಲ ಮೌಖಿಕ ಭರವಸೆಗಳನ್ನು ನೀಡುತ್ತಾನೆ.",
+        "authority": "ಮಾರಾಟಗಾರ ಅಥವಾ ಸೇವಾ ಪೂರೈಕೆದಾರರು ಮೊದಲು, ಅಗತ್ಯವಿದ್ದಲ್ಲಿ ಸೂಕ್ತ ಗ್ರಾಹಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸಿ.",
+        "action": "ಖರೀದಿದಾರನು ದೋಷ ಮತ್ತು ಪರಿಹಾರವನ್ನು ವಿವರಿಸುವ ದಿನಾಂಕದ ಲಿಖಿತ ವಿನಂತಿಯನ್ನು ಕಳುಹಿಸಿದನು, ನಂತರ ಸಲ್ಲಿಕೆ ಉಲ್ಲೇಖವನ್ನು ಇರಿಸಿದನು.",
+        "evidence": "ಸರಕುಪಟ್ಟಿ, ಖಾತರಿ ನಿಯಮಗಳು, ದೋಷದ ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊ, ಸೇವಾ ದಾಖಲೆಗಳು ಮತ್ತು ಮಾರಾಟಗಾರರ ಸಂದೇಶಗಳು.",
+        "process": "ಲಿಖಿತ ಮೊದಲ ಹಂತದ ದೂರು, ಸಮಂಜಸವಾದ ಪ್ರತಿಕ್ರಿಯೆ ವಿಂಡೋ, ನಂತರ ಪರಿಹಾರವಾಗದಿದ್ದಲ್ಲಿ ಸಂಬಂಧಿತ ಗ್ರಾಹಕ ಮಾರ್ಗ.",
+        "outcome": "ದೂರಿನ ದಾಖಲೆಯು ಖರೀದಿದಾರರಿಗೆ ಮುಂದಿನ ಅಧಿಕೃತ ಹೆಜ್ಜೆಗೆ ಸ್ಪಷ್ಟವಾದ, ಸಾಕ್ಷ್ಯ-ನೇತೃತ್ವದ ಆಧಾರವನ್ನು ನೀಡಿದೆ.",
+        "lesson": "ನಿರ್ದಿಷ್ಟ ಪರಿಹಾರಕ್ಕಾಗಿ ಕೇಳಿ ಮತ್ತು ಪ್ರತಿ ಸಂಪರ್ಕದ ಪುರಾವೆಗಳನ್ನು ಸಂರಕ್ಷಿಸಿ."
+      },
+      {
+        "category": "ಬ್ಯಾಂಕಿಂಗ್ ದೂರು",
+        "title": "ವಹಿವಾಟಿನ ವಿವಾದವು ಶಾಖೆಯ ಭೇಟಿಗಳನ್ನು ಮೀರಿ ಚಲಿಸುತ್ತದೆ",
+        "problem": "ಗ್ರಾಹಕರು ವಿವಾದಿತ ವ್ಯವಹಾರವನ್ನು ಹೊಂದಿದ್ದರು ಆದರೆ ಶಾಖೆಯ ಭೇಟಿಗಳ ಸಮಯದಲ್ಲಿ ಅನೌಪಚಾರಿಕ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ ಪಡೆದರು.",
+        "authority": "ಮೊದಲು ಬ್ಯಾಂಕಿನ ಕುಂದುಕೊರತೆ ಚಾನೆಲ್, ನಂತರ ಅರ್ಹತೆ ಮತ್ತು ಟೈಮ್‌ಲೈನ್‌ಗಳು ಅನುಮತಿಸುವ ಆರ್‌ಬಿಐ ಇಂಟಿಗ್ರೇಟೆಡ್ ಒಂಬುಡ್ಸ್‌ಮನ್ ಸ್ಕೀಮ್.",
+        "action": "ಗ್ರಾಹಕರು ಬ್ಯಾಂಕ್‌ಗೆ ಲಿಖಿತ ದೂರನ್ನು ಸಲ್ಲಿಸಿದರು ಮತ್ತು ಏರಿಕೆಯನ್ನು ಪರಿಗಣಿಸುವ ಮೊದಲು ಪ್ರಕಟಿತ ಪ್ರತಿಕ್ರಿಯೆ ಅವಧಿಗಾಗಿ ಕಾಯುತ್ತಿದ್ದರು.",
+        "evidence": "ವಹಿವಾಟಿನ ಉಲ್ಲೇಖ, ಖಾತೆ ಹೇಳಿಕೆ, ದೂರು ಸ್ವೀಕೃತಿ, ಸಂಪರ್ಕದ ದಿನಾಂಕಗಳು ಮತ್ತು ಯಾವುದೇ ಬ್ಯಾಂಕ್ ಪ್ರತ್ಯುತ್ತರಗಳು.",
+        "process": "ಬ್ಯಾಂಕ್ ದೂರು, ದಾಖಲಿತ ಅನುಸರಣೆ, ನಂತರ ಬ್ಯಾಂಕ್ ಪ್ರಕ್ರಿಯೆಯು ಪ್ರತಿಕ್ರಿಯಿಸಲು ನ್ಯಾಯಯುತ ಅವಕಾಶವನ್ನು ಪಡೆದ ನಂತರ ಮಾತ್ರ ನಿಯಂತ್ರಕ ಮಾರ್ಗ.",
+        "outcome": "ದಾಖಲಿತ ಮಾರ್ಗವು ಈಗಾಗಲೇ ಪ್ರಯತ್ನಿಸಿದ್ದನ್ನು ಮತ್ತು ಪರಿಹರಿಸಲಾಗದಿರುವುದನ್ನು ತೋರಿಸಲು ಸುಲಭಗೊಳಿಸಿದೆ.",
+        "lesson": "ನಿಯಂತ್ರಕ ಹೆಚ್ಚಳವು ಸಾಮಾನ್ಯವಾಗಿ ಸಂಪೂರ್ಣ ಮೊದಲ ಹಂತದ ದಾಖಲೆಯನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ."
+      },
+      {
+        "category": "ರೈಲ್ವೆ ದೂರು",
+        "title": "ಪ್ರಯಾಣದ ವಿವರಗಳೊಂದಿಗೆ ಸೇವೆಯ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಲಾಗಿದೆ",
+        "problem": "ಪ್ರಯಾಣಿಕನು ನಿರ್ದಿಷ್ಟ ರೈಲು ಪ್ರಯಾಣಕ್ಕೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಸೇವಾ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡುವ ಅಗತ್ಯವಿದೆ.",
+        "authority": "ಲಭ್ಯವಿರುವಲ್ಲಿ ಪ್ರಯಾಣ-ನಿರ್ದಿಷ್ಟ ವರದಿ ಮಾಡುವ ಮಾರ್ಗವನ್ನು ಬಳಸಿಕೊಂಡು ಸಂಬಂಧಿತ ರೈಲ್ವೆ ಪ್ರಯಾಣಿಕರ ಕುಂದುಕೊರತೆ ಚಾನಲ್.",
+        "action": "ಪ್ರಯಾಣಿಕನು ಟಿಕೆಟ್ ಮತ್ತು ಯಾವುದೇ ಸ್ವೀಕೃತಿಯನ್ನು ಸಂರಕ್ಷಿಸುವಾಗ ಕೋಚ್, ರೈಲು, ದಿನಾಂಕ ಮತ್ತು ಸಮಸ್ಯೆಯನ್ನು ದಾಖಲಿಸಿದ್ದಾರೆ.",
+        "evidence": "ಟಿಕೆಟ್ ಅಥವಾ PNR ವಿವರಗಳು, ಸಮಯ ಮತ್ತು ಸ್ಥಳ, ಸೂಕ್ತವಾದ ಫೋಟೋಗಳು ಮತ್ತು ದೂರಿನ ಉಲ್ಲೇಖ.",
+        "process": "ಪ್ರಕಟಿತ ಪ್ರಯಾಣಿಕ ಬೆಂಬಲ ಚಾನಲ್ ಮೂಲಕ ತ್ವರಿತ ಪ್ರಯಾಣ-ಸಂಯೋಜಿತ ವರದಿ, ಸ್ವೀಕೃತಿ ಟ್ರ್ಯಾಕಿಂಗ್ ಮತ್ತು ಫಾಲೋ-ಅಪ್.",
+        "outcome": "ಸೇವೆಯ ಸಂದರ್ಭವನ್ನು ಗುರುತಿಸಲು ಅಗತ್ಯವಿರುವ ವಿವರಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಕಾರಣ ವರದಿಯು ಮಾರ್ಗಕ್ಕೆ ಸುಲಭವಾಯಿತು.",
+        "lesson": "ಸಮಯ-ಸೂಕ್ಷ್ಮ ಸೇವಾ ಸಮಸ್ಯೆಗಳಿಗಾಗಿ, ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ಪ್ರಯಾಣದ ಸಂಗತಿಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ."
+      },
+      {
+        "category": "ಸರ್ಕಾರದ ಕುಂದುಕೊರತೆ",
+        "title": "ಅನುಸರಣೆಗಾಗಿ ವಿಳಂಬಿತ ಸೇವಾ ವಿನಂತಿಯನ್ನು ಆಯೋಜಿಸಲಾಗಿದೆ",
+        "problem": "ನಾಗರಿಕರೊಬ್ಬರು ಸರ್ಕಾರಿ ಸೇವಾ ವಿನಂತಿಯನ್ನು ಸಲ್ಲಿಸಿದ್ದರು ಆದರೆ ಸ್ಪಷ್ಟ ಸ್ಥಿತಿ ನವೀಕರಣವನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+        "authority": "ಸಂಬಂಧಪಟ್ಟ ಇಲಾಖೆಯ ಕುಂದುಕೊರತೆ ಚಾನೆಲ್ ಅಥವಾ ಸೇವೆಗೆ ಸೂಕ್ತವಾದ ಸಾರ್ವಜನಿಕ ಕುಂದುಕೊರತೆ ಮಾರ್ಗ.",
+        "action": "ನಾಗರಿಕರು ಸಂಕ್ಷಿಪ್ತ ದೂರು ಸಲ್ಲಿಸುವ ಮೊದಲು ಮೂಲ ಅರ್ಜಿ ಸಂಖ್ಯೆ, ಟೈಮ್‌ಲೈನ್ ಮತ್ತು ಪೂರ್ವ ಉತ್ತರಗಳನ್ನು ಒಟ್ಟುಗೂಡಿಸಿದ್ದಾರೆ.",
+        "evidence": "ಅಪ್ಲಿಕೇಶನ್ ಸ್ವೀಕೃತಿ, ಸಂಬಂಧಿತ ರಸೀದಿಗಳು, ಪತ್ರವ್ಯವಹಾರ, ಸೇವಾ ಪೋರ್ಟಲ್ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳು ಮತ್ತು ದಿನಾಂಕಗಳು.",
+        "process": "ಇಲಾಖಾ ಮಟ್ಟದ ಕುಂದುಕೊರತೆ, ರೆಫರೆನ್ಸ್ ಟ್ರ್ಯಾಕಿಂಗ್, ನಂತರ ಪ್ರತಿಕ್ರಿಯೆ ಅಸಮರ್ಪಕವಾಗಿದ್ದರೆ ಪ್ರಕಟಿಸಿದ ಏರಿಕೆ ಕಾರ್ಯವಿಧಾನ.",
+        "outcome": "ಕಾಣೆಯಾದ ಕ್ರಿಯೆ ಅಥವಾ ವಿವರಣೆಯ ಮೇಲೆ ಕುಂದುಕೊರತೆಯನ್ನು ಕೇಂದ್ರೀಕರಿಸಲು ಸಂಕ್ಷಿಪ್ತ ಟೈಮ್‌ಲೈನ್ ಸಹಾಯ ಮಾಡಿದೆ.",
+        "lesson": "ಒಂದು ಸಣ್ಣ ಕಾಲಗಣನೆಯು ಸಾಮಾನ್ಯವಾಗಿ ಆಡಳಿತಾತ್ಮಕ ದೂರನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಸುಲಭವಾಗುತ್ತದೆ."
+      }
+    ]
   }
 }

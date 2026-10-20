@@ -3,7 +3,7 @@
 import { siteConfig } from "@/src/config/site";
 import { locales } from "@/src/i18n/routing";
 
-const routes = ["/", "/about", "/contact", "/complaint-finder", "/guides", "/privacy-policy", "/terms"] as const;
+const routes = ["/", "/about", "/contact", "/complaint-finder", "/guides", "/privacy-policy", "/success-stories", "/terms"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return locales.flatMap((locale) =>

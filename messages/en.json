@@ -2,6 +2,7 @@
   "nav": {
     "complaintFinder": "Complaint Finder",
     "guides": "Guides",
+    "successStories": "Success Stories",
     "about": "About",
     "contact": "Contact",
     "findAuthority": "Find authority",
@@ -14,10 +15,12 @@
   },
   "common": {
     "brand": "CitizenDesk India",
+    "home": "Home",
     "tagline": "Find the Right Authority. Resolve with Confidence.",
     "start": "Start complaint finder",
     "learn": "Read procedure guides",
     "openFinder": "Open complaint finder",
+    "successStories": "Explore success stories",
     "independent": "Independent citizen assistance platform. Not affiliated with any government department.",
     "explore": "Explore",
     "officialResource": "Official resource"
@@ -196,6 +199,9 @@
     "guidesTitle": "Guides",
     "guidesText": "Plain-language citizen guides for grievance systems, rights, documents, and official complaint routes.",
     "readGuide": "Read guide",
+    "successStoriesTitle": "Learn from illustrative grievance pathways",
+    "successStoriesText": "See how preparation, the right authority, and documented follow-up can make a complaint path clearer.",
+    "successStoriesLink": "Explore success stories",
     "aboutEyebrow": "About CitizenDesk India",
     "aboutValues": [
       {
@@ -221,8 +227,18 @@
     "contactText": "Send corrections, suggestions, partnership ideas, and platform feedback.",
     "privacyTitle": "Privacy Policy",
     "privacyText": "Your privacy matters. CitizenDesk India is designed to minimize data collection and guide users responsibly.",
+    "privacySections": [
+      {"title": "Information you share", "body": "Use only the information needed to understand your grievance. Do not share passwords, OTPs, full identity numbers, or other unnecessary sensitive details."},
+      {"title": "How this platform is used", "body": "CitizenDesk India provides general guidance and links to official resources. It is not a government department or legal adviser."},
+      {"title": "External services", "body": "Official links may lead to services with their own privacy practices. Review those notices before submitting information."}
+    ],
     "termsTitle": "Terms and Conditions",
     "termsText": "These terms explain acceptable use, disclaimers, external links, and platform limitations.",
+    "termsSections": [
+      {"title": "Guidance only", "body": "CitizenDesk India provides general information, not legal advice, official decisions, or a guarantee of any grievance outcome."},
+      {"title": "Use official channels", "body": "Verify procedures with the relevant authority and submit complaints through official channels when required."},
+      {"title": "Responsible use", "body": "Do not submit unnecessary sensitive data or rely on this platform as a substitute for emergency, legal, or official assistance."}
+    ],
     "notFoundTitle": "Page not found",
     "notFoundText": "The page you are looking for may have moved or is not available yet.",
     "formName": "Your name",
@@ -385,5 +401,45 @@
       }
     },
     "trust": "CitizenDesk India is not a government department and does not guarantee any decision. AI and rule-based guidance can contain errors, so verify official links and do not share passwords, OTPs, full identity numbers, or unnecessary sensitive details."
+  },
+  "guidance": {
+    "consumer": {"firstStep": "Write to the seller or service provider with the problem and the remedy you want.", "evidence": ["Invoice", "Warranty terms", "Photos or videos", "Seller messages"], "escalation": "Use the appropriate consumer grievance route if the written response does not resolve the issue.", "draftFocus": "the defective product or service and the specific remedy requested."},
+    "cpgrams": {"firstStep": "Submit a concise grievance to the concerned department with the original reference number.", "evidence": ["Application reference", "Receipts", "Previous replies", "Timeline"], "escalation": "Track the acknowledgement and use the published escalation mechanism if the response is inadequate.", "draftFocus": "the delayed public service and the action or explanation requested."},
+    "ingram": {"firstStep": "Record the issue with the company through its published customer support channel.", "evidence": ["Complaint number", "Product or service details", "Messages", "Payment records"], "escalation": "Use the applicable consumer escalation path after allowing a reasonable response period.", "draftFocus": "the unresolved consumer issue and the remedy requested."},
+    "rti": {"firstStep": "Send a focused RTI application to the correct public authority or public information officer.", "evidence": ["Application copy", "Fee receipt", "Delivery proof", "Previous correspondence"], "escalation": "Use the first appeal process when a response is not received or is incomplete.", "draftFocus": "the specific information requested from the public authority."},
+    "banking": {"firstStep": "File a written complaint through the bank's official grievance channel.", "evidence": ["Transaction reference", "Account statement", "Complaint acknowledgement", "Bank replies"], "escalation": "Consider the RBI Integrated Ombudsman Scheme only after the bank process and eligibility requirements are met.", "draftFocus": "the disputed banking issue and the correction or explanation requested."},
+    "insurance": {"firstStep": "Submit the concern to the insurer's grievance channel with the policy and claim details.", "evidence": ["Policy document", "Claim reference", "Medical or assessment records", "Insurer replies"], "escalation": "Follow the insurer's published escalation route and check the appropriate ombudsman process where relevant.", "draftFocus": "the unresolved insurance claim or service issue and the requested action."},
+    "railways": {"firstStep": "Report the journey-linked issue through the relevant railway passenger support channel.", "evidence": ["Ticket or PNR", "Train and coach details", "Time and location", "Photos where appropriate"], "escalation": "Keep the acknowledgement and follow the published passenger grievance route.", "draftFocus": "the journey-specific service issue and the action requested."},
+    "passport": {"firstStep": "Check the Passport Seva application status and raise the issue through the official support route.", "evidence": ["Application number", "Appointment details", "Document receipts", "Status screenshots"], "escalation": "Use the published Passport Seva grievance or escalation channel if the issue remains unresolved.", "draftFocus": "the passport application issue and the clarification or action requested."},
+    "electricity": {"firstStep": "Raise a written complaint with the local electricity distribution company.", "evidence": ["Consumer number", "Bills", "Meter photos", "Previous complaint references"], "escalation": "Use the distribution company's published escalation route and the applicable regulator process if needed.", "draftFocus": "the electricity service or billing issue and the correction requested."},
+    "pension": {"firstStep": "Submit a written grievance to the concerned pension office or service channel with your pension reference.", "evidence": ["Pension reference", "Bank entries", "Life certificate proof", "Earlier replies"], "escalation": "Use the relevant pension grievance escalation route after preserving proof of each submission.", "draftFocus": "the pension payment or service issue and the action requested."}
+  },
+  "successStories": {
+    "realMetaTitle": "Documented Public Consumer Cases | CitizenDesk India",
+    "realMetaDescription": "Independently reported Indian consumer cases with links to the original report or published order.",
+    "realEyebrow": "Documented public cases",
+    "realTitle": "Real Consumer-Redress Cases",
+    "realIntro": "These summaries are based on independently reported public cases and published orders. They are not CitizenDesk India matters, legal advice, or a promise of a similar outcome.",
+    "independentNotice": "Outcomes depend on the facts, evidence, applicable law, and any review or appeal. Read the original source before relying on a summary.",
+    "readOriginal": "Read original report",
+    "metaTitle": "Successful Citizen Stories | CitizenDesk India",
+    "metaDescription": "Illustrative citizen grievance pathways showing how evidence, the right authority, and responsible follow-up can help clarify the next step.",
+    "eyebrow": "Illustrative grievance pathways",
+    "title": "Successful Citizen Stories",
+    "intro": "These anonymized examples are based on typical grievance pathways. They show how a clear record, the right authority, and measured follow-up can help citizens move forward. They are not promises of any outcome.",
+    "illustrativeNotice": "Every story below is an illustrative example, not a verified case record.",
+    "illustrativeLabel": "Illustrative example",
+    "rightAuthority": {"title": "Start with the right authority", "text": "A complaint is easier to examine when it begins in the published first-level channel."},
+    "documented": {"title": "Keep the record together", "text": "Dates, references, receipts, messages, and responses create a clear trail."},
+    "followUp": {"title": "Follow the stated process", "text": "Use the published response window and escalation route before moving further."},
+    "labels": {"problem": "What went wrong", "authority": "Appropriate authority", "action": "What the citizen did", "evidence": "Key documents or evidence", "process": "Approximate process", "outcome": "Illustrative outcome", "lesson": "Key lesson"},
+    "ctaTitle": "Find the right path for your complaint",
+    "ctaText": "Start with the Complaint Finder to identify a likely authority, documents to keep, and a sensible next step.",
+    "stories": [
+      {"category": "Consumer complaint", "title": "A defective appliance complaint becomes specific", "problem": "A purchased appliance repeatedly failed during its warranty period and the seller only gave verbal assurances.", "authority": "The seller or service provider first, followed by the appropriate consumer grievance route if needed.", "action": "The buyer sent a dated written request describing the defect and the remedy sought, then kept the submission reference.", "evidence": "Invoice, warranty terms, photos or video of the fault, service records, and seller messages.", "process": "Written first-level complaint, a reasonable response window, then the relevant consumer route if unresolved.", "outcome": "The complaint record gave the buyer a clearer, evidence-led basis for the next official step.", "lesson": "Ask for a specific remedy and preserve proof of each contact."},
+      {"category": "Banking complaint", "title": "A transaction dispute moves beyond branch visits", "problem": "A customer had a disputed transaction but received only informal responses during branch visits.", "authority": "The bank's grievance channel first, then the RBI Integrated Ombudsman Scheme where eligibility and timelines allow.", "action": "The customer filed a written complaint with the bank and waited for the published response period before considering escalation.", "evidence": "Transaction reference, account statement, complaint acknowledgement, dates of contact, and any bank replies.", "process": "Bank complaint, documented follow-up, then a regulator route only after the bank process has had a fair chance to respond.", "outcome": "The documented path made it easier to show what had already been tried and what remained unresolved.", "lesson": "Regulatory escalation usually depends on a complete first-level record."},
+      {"category": "Railway complaint", "title": "A service issue is reported with journey details", "problem": "A traveller needed to report a service issue connected to a specific train journey.", "authority": "The relevant railway passenger grievance channel, using the journey-specific reporting path where available.", "action": "The traveller recorded the coach, train, date, and issue while preserving the ticket and any acknowledgement.", "evidence": "Ticket or PNR details, time and location, photos where appropriate, and the complaint reference.", "process": "Prompt journey-linked report, acknowledgement tracking, and follow-up through the published passenger support channel.", "outcome": "The report became easier to route because it included the details needed to identify the service context.", "lesson": "For time-sensitive service issues, record the journey facts as early as possible."},
+      {"category": "Government grievance", "title": "A delayed service request is organized for follow-up", "problem": "A citizen had submitted a government service request but could not get a clear status update.", "authority": "The concerned department's grievance channel, or the appropriate public grievance route for the service.", "action": "The citizen assembled the original application number, timeline, and prior replies before submitting a concise grievance.", "evidence": "Application acknowledgement, relevant receipts, correspondence, service portal screenshots, and dates.", "process": "Department-level grievance, reference tracking, then the published escalation mechanism if the response is inadequate.", "outcome": "A concise timeline helped focus the grievance on the missing action or explanation.", "lesson": "A short chronology often makes an administrative complaint easier to understand."}
+    ]
   }
 }

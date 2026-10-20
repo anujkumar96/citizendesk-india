@@ -47,6 +47,12 @@ export function CitizenConfidence() {
           <Link href="/guides" className="inline-flex h-11 items-center justify-center rounded-md border border-border bg-card px-4 text-sm font-semibold text-foreground">
             {common("learn")}
           </Link>
+          <Link href="/success-stories" className="inline-flex h-11 items-center justify-center rounded-md border border-border bg-card px-4 text-sm font-semibold text-foreground">
+            {common("successStories")}
+          </Link>
+          <Link href="/success-stories" className="inline-flex h-11 items-center justify-center rounded-md border border-border bg-card px-4 text-sm font-semibold text-foreground">
+            {common("successStories")}
+          </Link>
         </div>
         <p className="mt-8 max-w-4xl text-xs leading-5 text-muted-foreground">{t("trust")}</p>
       </div>

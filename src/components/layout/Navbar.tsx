@@ -21,7 +21,7 @@ export function Navbar() {
           className="flex items-center gap-3 rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
           aria-label={`${common("brand")} home`}
         >
-          <span className="flex size-9 items-center justify-center rounded-lg bg-blue-600 text-white shadow-lg shadow-blue-600/25">
+          <span className="flex size-9 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-white shadow-lg shadow-blue-600/25 ring-1 ring-white/20">
             <ShieldCheck className="size-5" aria-hidden="true" />
           </span>
           <span className="hidden text-sm font-semibold tracking-normal text-slate-950 dark:text-white sm:block">

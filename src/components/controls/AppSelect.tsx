@@ -2,6 +2,7 @@
 
 import { Check, ChevronDown, Search } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 import { cn } from "@/src/utils/helpers";
 
@@ -29,7 +30,9 @@ export function AppSelect({
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
+  const [menuPosition, setMenuPosition] = useState({ top: 0, right: 16, width: 288 });
   const rootRef = useRef<HTMLDivElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
   const selected = options.find((option) => option.value === value) ?? options[0];
   const filtered = useMemo(() => {
@@ -48,7 +51,8 @@ export function AppSelect({
 
   useEffect(() => {
     function onPointerDown(event: PointerEvent) {
-      if (!rootRef.current?.contains(event.target as Node)) close();
+      const target = event.target as Node;
+      if (!rootRef.current?.contains(target) && !menuRef.current?.contains(target)) close();
     }
     function onKey(event: KeyboardEvent) {
       if (event.key === "Escape") close();
@@ -60,6 +64,29 @@ export function AppSelect({
       document.removeEventListener("keydown", onKey);
     };
   });
+
+  useEffect(() => {
+    if (!open) return;
+
+    const updatePosition = () => {
+      const rect = rootRef.current?.getBoundingClientRect();
+      if (!rect) return;
+      const width = Math.min(288, window.innerWidth - 32);
+      setMenuPosition({
+        top: Math.min(rect.bottom + 8, window.innerHeight - 16),
+        right: Math.max(16, window.innerWidth - rect.right),
+        width,
+      });
+    };
+
+    updatePosition();
+    window.addEventListener("resize", updatePosition);
+    window.addEventListener("scroll", updatePosition, true);
+    return () => {
+      window.removeEventListener("resize", updatePosition);
+      window.removeEventListener("scroll", updatePosition, true);
+    };
+  }, [open]);
 
   useEffect(() => {
     if (open && searchable) searchRef.current?.focus();
@@ -89,8 +116,12 @@ export function AppSelect({
         <span className="truncate">{selected?.label}</span>
         <ChevronDown className={cn("size-4 shrink-0 transition", open && "rotate-180")} aria-hidden="true" />
       </button>
-      {open ? (
-        <div className="absolute right-0 z-[80] mt-2 w-[min(18rem,calc(100vw-2rem))] overflow-hidden rounded-md border border-border bg-popover text-popover-foreground shadow-xl">
+      {open && typeof document !== "undefined" ? createPortal(
+        <div
+          ref={menuRef}
+          className="fixed z-[60] overflow-hidden rounded-md border border-border bg-popover text-popover-foreground shadow-xl"
+          style={{ top: menuPosition.top, right: menuPosition.right, width: menuPosition.width }}
+        >
           {searchable ? (
             <div className="flex items-center gap-2 border-b border-border px-3 py-2">
               <Search className="size-4 text-muted-foreground" aria-hidden="true" />
@@ -151,7 +182,8 @@ export function AppSelect({
               );
             })}
           </div>
-        </div>
+        </div>,
+        document.body,
       ) : null}
     </div>
   );

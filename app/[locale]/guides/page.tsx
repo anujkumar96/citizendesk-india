@@ -38,6 +38,15 @@ export default function GuidesPage() {
             </PremiumCard>
           ))}
         </div>
+        <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8">
+          <div>
+            <h2 className="text-xl font-semibold text-foreground">{t("successStoriesTitle")}</h2>
+            <p className="mt-2 text-sm text-muted-foreground">{t("successStoriesText")}</p>
+          </div>
+          <Link href="/success-stories" className="inline-flex h-11 items-center gap-2 rounded-md bg-[var(--brand)] px-4 text-sm font-semibold text-white">
+            {t("successStoriesLink")} <ArrowRight className="size-4" />
+          </Link>
+        </div>
       </Container>
     </Section>
   );
