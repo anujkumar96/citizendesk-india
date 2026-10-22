@@ -1,6 +1,7 @@
-﻿import { ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 
 import { Container } from "@/src/components/design/Container";
 import { Section } from "@/src/components/design/Section";
@@ -11,7 +12,8 @@ export function generateStaticParams() {
 }
 
 export default async function GuideDetailPage({ params }: PageProps<"/[locale]/guides/[slug]">) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  setRequestLocale(locale);
   const guide = guides.find((item) => item.slug === slug);
   if (!guide) notFound();
 

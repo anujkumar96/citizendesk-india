@@ -1,5 +1,5 @@
-﻿import { ArrowRight, Clock, ExternalLink } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { ArrowRight, Clock, ExternalLink } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/src/components/design/Container";
 import { PremiumCard } from "@/src/components/design/PremiumCard";
@@ -7,10 +7,13 @@ import { Section } from "@/src/components/design/Section";
 import { guides } from "@/src/data/guides/guides";
 import { Link } from "@/src/i18n/navigation";
 
-export default function GuidesPage() {
-  const t = useTranslations("pages");
-  const common = useTranslations("common");
-  const guideText = useTranslations("guides");
+export default async function GuidesPage({ params }: PageProps<"/[locale]/guides">) {
+  const { locale } = await params;
+  const [t, common, guideText] = await Promise.all([
+    getTranslations({ locale, namespace: "pages" }),
+    getTranslations({ locale, namespace: "common" }),
+    getTranslations({ locale, namespace: "guides" }),
+  ]);
 
   return (
     <Section className="bg-slate-50 dark:bg-slate-950">

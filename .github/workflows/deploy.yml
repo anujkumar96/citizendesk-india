@@ -4,13 +4,11 @@ name: Deploy CitizenDesk India to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - github-pages
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: github-pages
@@ -19,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,8 +33,34 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate locale messages
+        run: npm run validate:locales
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npx tsc --noEmit
+
       - name: Build static site
-        run: npm run build
+        run: npm run build -- --webpack
+        env:
+          NEXT_PUBLIC_GITHUB_PAGES: "true"
+          NEXT_PUBLIC_SITE_URL: "https://anujkumar96.github.io/citizendesk-india"
+
+      - name: Verify static export
+        run: |
+          if [ ! -d out ]; then
+            echo "Static export directory out/ is missing" >&2
+            exit 1
+          fi
+          if [ ! -f out/index.html ]; then
+            echo "Static export entry out/index.html is missing" >&2
+            exit 1
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
@@ -43,6 +70,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -1,5 +1,9 @@
+"use client";
+
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 
 import { ComplaintFinder } from "@/src/components/complaints/ComplaintFinder";
 import { Container } from "@/src/components/design/Container";
@@ -8,14 +12,17 @@ import { Section } from "@/src/components/design/Section";
 import { complaintCategories } from "@/src/data/complaints";
 import { Link } from "@/src/i18n/navigation";
 
-export default async function ComplaintFinderPage({ searchParams }: PageProps<"/[locale]/complaint-finder">) {
-  const { category } = await searchParams;
-  const initialCategory = typeof category === "string" ? category : undefined;
-
-  return <ComplaintFinderContent initialCategory={initialCategory} />;
+export default function ComplaintFinderPage() {
+  return (
+    <Suspense fallback={<main className="min-h-[60svh]" aria-busy="true" />}>
+      <ComplaintFinderContent />
+    </Suspense>
+  );
 }
 
-function ComplaintFinderContent({ initialCategory }: { initialCategory?: string }) {
+function ComplaintFinderContent() {
+  const searchParams = useSearchParams();
+  const initialCategory = searchParams.get("category") ?? undefined;
   const t = useTranslations("pages");
   const categories = useTranslations("categories");
 

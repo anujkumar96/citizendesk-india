@@ -1,13 +1,14 @@
-﻿import { Mail, MapPin, MessageSquare } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { Mail, MapPin, MessageSquare } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/src/components/design/Container";
 import { PremiumCard } from "@/src/components/design/PremiumCard";
 import { Section } from "@/src/components/design/Section";
 import { siteConfig } from "@/src/config/site";
 
-export default function ContactPage() {
-  const t = useTranslations("pages");
+export default async function ContactPage({ params }: PageProps<"/[locale]/contact">) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages" });
 
   return (
     <Section className="bg-slate-50 dark:bg-slate-950">

@@ -1,12 +1,13 @@
-﻿import { CheckCircle2 } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { CheckCircle2 } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/src/components/design/Container";
 import { PremiumCard } from "@/src/components/design/PremiumCard";
 import { Section } from "@/src/components/design/Section";
 
-export default function AboutPage() {
-  const t = useTranslations("pages");
+export default async function AboutPage({ params }: PageProps<"/[locale]/about">) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages" });
   const values = t.raw("aboutValues") as { title: string; body: string }[];
 
   return (

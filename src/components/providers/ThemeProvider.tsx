@@ -17,6 +17,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const saved = window.localStorage.getItem("citizendesk-theme");
     const initialTheme: Theme = saved === "light" || saved === "dark" || saved === "system" ? saved : "system";
+    // Load the saved preference after hydration so static rendering stays deterministic.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setThemeState(initialTheme);
     applyTheme(initialTheme);
   }, []);

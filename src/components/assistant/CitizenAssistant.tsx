@@ -38,16 +38,18 @@ export function CitizenAssistant() {
       t("disclaimer"),
     ].join("\n\n");
     let reply = fallbackReply;
-    try {
-      const response = await fetch("/api/assistant", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ message: question, language }),
-      });
-      const data = await response.json();
-      if (typeof data.reply === "string" && data.reply.trim()) reply = `${data.reply}\n\n${t("disclaimer")}`;
-    } catch {
-      reply = fallbackReply;
+    if (process.env.NEXT_PUBLIC_GITHUB_PAGES !== "true") {
+      try {
+        const response = await fetch("/api/assistant", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ message: question, language }),
+        });
+        const data = await response.json();
+        if (typeof data.reply === "string" && data.reply.trim()) reply = `${data.reply}\n\n${t("disclaimer")}`;
+      } catch {
+        reply = fallbackReply;
+      }
     }
     setMessages((current) => [...current, { role: "assistant", content: reply }]);
     setLoading(false);

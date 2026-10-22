@@ -2,14 +2,15 @@
 
 import { siteConfig } from "@/src/config/site";
 
-const defaultOgImage = "/opengraph-image";
+const defaultOgImage = absoluteUrl("opengraph-image.png");
 
 export function absoluteUrl(path = "/") {
-  return new URL(path, siteConfig.url).toString();
+  const baseUrl = siteConfig.url.endsWith("/") ? siteConfig.url : `${siteConfig.url}/`;
+  return new URL(path.replace(/^\/+/, ""), baseUrl).toString();
 }
 
 export const defaultMetadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
+  metadataBase: new URL(new URL(siteConfig.url).origin),
   applicationName: siteConfig.name,
   title: {
     default: `${siteConfig.name} | ${siteConfig.tagline}`,
@@ -17,7 +18,7 @@ export const defaultMetadata: Metadata = {
   },
   description: siteConfig.description,
   alternates: {
-    canonical: "/",
+    canonical: absoluteUrl("/"),
   },
   keywords: [
     "CitizenDesk India",
@@ -33,7 +34,7 @@ export const defaultMetadata: Metadata = {
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
-    url: siteConfig.url,
+    url: absoluteUrl("/"),
     siteName: siteConfig.name,
     title: `${siteConfig.name} | ${siteConfig.tagline}`,
     description: siteConfig.description,
@@ -81,7 +82,7 @@ export function createPageMetadata({
     title,
     description,
     alternates: {
-      canonical: path,
+      canonical: url,
     },
     openGraph: {
       title,

@@ -1,5 +1,4 @@
 ﻿import type { Metadata } from "next";
-import { cookies } from "next/headers";
 
 import { RouteRefreshRecovery } from "@/src/components/providers/RouteRefreshRecovery";
 import { defaultMetadata } from "@/src/constants/metadata";
@@ -22,14 +21,9 @@ const accentScript = `
   } catch {}
 `;
 
-export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const savedAccent = (await cookies()).get("citizendesk-accent")?.value;
-  const accent = ["blue", "emerald", "violet", "rose", "amber"].includes(savedAccent ?? "")
-    ? savedAccent
-    : "blue";
-
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-IN" data-accent={accent} suppressHydrationWarning className="h-full scroll-smooth">
+    <html lang="en-IN" data-accent="blue" suppressHydrationWarning className="h-full scroll-smooth">
       <head>
         <script dangerouslySetInnerHTML={{ __html: accentScript }} />
       </head>

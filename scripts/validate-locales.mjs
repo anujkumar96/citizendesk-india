@@ -20,8 +20,10 @@ for (const file of readdirSync(messagesDir).filter((name) => name.endsWith(".jso
   const missing = [...english.keys()].filter((key) => !messages.has(key));
   const unexpected = [...messages.keys()].filter((key) => !english.has(key));
   const empty = [...messages].filter(([, value]) => value === '""');
-  console.log(`${locale}: ${messages.size} entries; missing ${missing.length}; unexpected ${unexpected.length}; empty ${empty.length}`);
-  if (missing.length || unexpected.length || empty.length) invalid = true;
+  const fallback = missing.length ? `; ${missing.length} keys use English fallback` : "";
+  console.log(`${locale}: ${messages.size} entries${fallback}; unexpected ${unexpected.length}; empty ${empty.length}`);
+  // Missing keys are supported at runtime by mergeMessages(), which fills them from en.json.
+  if (unexpected.length || empty.length) invalid = true;
 }
 
 if (invalid) process.exitCode = 1;

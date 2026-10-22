@@ -1,10 +1,11 @@
-﻿import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/src/components/design/Container";
 import { Section } from "@/src/components/design/Section";
 
-export default function PrivacyPolicyPage() {
-  const t = useTranslations("pages");
+export default async function PrivacyPolicyPage({ params }: PageProps<"/[locale]/privacy-policy">) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages" });
   const sections = t.raw("privacySections") as { title: string; body: string }[];
 
   return (
