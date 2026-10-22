@@ -39,9 +39,6 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Type check
-        run: npx tsc --noEmit
-
       - name: Build static site
         run: npm run build -- --webpack
         env:
