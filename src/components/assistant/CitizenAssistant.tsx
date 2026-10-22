@@ -39,7 +39,6 @@ export function CitizenAssistant() {
     ].join("\n\n");
     let reply = fallbackReply;
     if (process.env.NEXT_PUBLIC_GITHUB_PAGES !== "true") {
-      
       try {
         const response = await fetch("/api/assistant", {
           method: "POST",
