@@ -7,6 +7,7 @@ import { Navbar } from "@/src/components/layout/Navbar";
 import { CitizenAssistant } from "@/src/components/assistant/CitizenAssistant";
 import { ThemeProvider } from "@/src/components/providers/ThemeProvider";
 import { locales, routing } from "@/src/i18n/routing";
+import { InstallPWA } from "@/src/components/pwa/InstallPWA";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -25,8 +26,9 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <ThemeProvider>
-        <div className="flex min-h-svh flex-col">
+       <div className="flex min-h-svh flex-col">
           <Navbar />
+          <InstallPWA />
           <main className="flex-1">{children}</main>
           <Footer />
           <CitizenAssistant />
